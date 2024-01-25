@@ -1,0 +1,69 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+      x-cg-demo-api-key:
+      - random-key
+    method: GET
+    uri: https://api.coingecko.com/api/v3/ping
+  response:
+    body:
+      string: '{"status":{"timestamp":"2024-01-09T07:14:10.135+00:00","error_code":10002,"error_message":"API
+        Key Missing"}}'
+    headers:
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 842ae1bc7d7c189f-SIN
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 09 Jan 2024 07:14:10 GMT
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=XDDqBYKyMuhKMnKEbD1XHN9h7xj83OLfqLBWNEk2Kc0-1704784450-1-AZeV02lskNtXFEfxTMa6f9ErXJRY2ZCO1hwXzuSZWznC2ijxmyWsxizH9+u7hwSLWRQV/plVYnWaAclJMHd6Rh8=;
+        path=/; expires=Tue, 09-Jan-24 07:44:10 GMT; domain=.api.coingecko.com; HttpOnly;
+        Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - e58db698-5680-412e-a29b-db84370da611
+      X-Runtime:
+      - '0.003556'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 401
+      message: Unauthorized
+version: 1

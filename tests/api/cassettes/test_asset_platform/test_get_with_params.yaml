@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/asset_platforms?filter=nft
+  response:
+    body:
+      string: '[{"id":"klay-token","chain_identifier":null,"name":"Klaytn","shortname":"","native_coin_id":"klay-token"},{"id":"polygon-pos","chain_identifier":137,"name":"Polygon
+        POS","shortname":"MATIC","native_coin_id":"matic-network"},{"id":"solana","chain_identifier":null,"name":"Solana","shortname":"Solana","native_coin_id":"solana"},{"id":"arbitrum-one","chain_identifier":42161,"name":"Arbitrum
+        One","shortname":"Arbitrum","native_coin_id":"ethereum"},{"id":"binance-smart-chain","chain_identifier":56,"name":"BNB
+        Smart Chain","shortname":"BSC","native_coin_id":"binancecoin"},{"id":"ronin","chain_identifier":null,"name":"Ronin","shortname":"ron","native_coin_id":"ronin"},{"id":"avalanche","chain_identifier":43114,"name":"Avalanche","shortname":"AVAX","native_coin_id":"avalanche-2"},{"id":"optimistic-ethereum","chain_identifier":10,"name":"Optimism","shortname":"Optimism","native_coin_id":"ethereum"},{"id":"ethereum","chain_identifier":1,"name":"Ethereum","shortname":"Ethereum","native_coin_id":"ethereum"},{"id":"ordinals","chain_identifier":null,"name":"Ordinals","shortname":"Ordinals","native_coin_id":"bitcoin"}]'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845cf13cf90f3f9b-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 09:02:53 GMT
+      ETag:
+      - W/"2b0f92437b8f67b8281a4389056e9d0e"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=W0uzTdkAjXplIUO5BSNyrDX1WT87wLYCp.KoKEJ5inI-1705309373-1-AUdILOi2q50a06YYhTu0tRW1FwiMeZGWvut4ZgnfHEodnA6SVskobZTx+rZQalW586saYrVzXYv+a0edYzEb/WY=;
+        path=/; expires=Mon, 15-Jan-24 09:32:53 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - cea4fe89-144a-4bd3-99a7-52f4469b39a7
+      X-Runtime:
+      - '0.025746'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

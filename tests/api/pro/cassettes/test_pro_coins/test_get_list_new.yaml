@@ -1,0 +1,168 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/coins/list/new
+  response:
+    body:
+      string: "[{\"id\":\"intellix\",\"symbol\":\"itx\",\"name\":\"Intellix\",\"activated_at\":1704791992},{\"id\":\"etgm-ordinals\",\"symbol\":\"etgm\",\"name\":\"ETGM
+        (Ordinals)\",\"activated_at\":1704789828},{\"id\":\"bitci-blok\",\"symbol\":\"blok\",\"name\":\"Bitci
+        BLOK\",\"activated_at\":1704789642},{\"id\":\"coast-cst\",\"symbol\":\"cst\",\"name\":\"Coast
+        CST\",\"activated_at\":1704788580},{\"id\":\"boss-blockchain\",\"symbol\":\"bbc\",\"name\":\"Boss
+        Blockchain\",\"activated_at\":1704788310},{\"id\":\"dragon-ordinals\",\"symbol\":\"drag\",\"name\":\"DRAGON
+        (Ordinals)\",\"activated_at\":1704788195},{\"id\":\"plankton\",\"symbol\":\"plnk\",\"name\":\"Plankton\",\"activated_at\":1704787563},{\"id\":\"artificial-neural-network-ordinals\",\"symbol\":\"ainn\",\"name\":\"Artificial
+        Neural Network (Ordinals)\",\"activated_at\":1704784559},{\"id\":\"bingus-the-cat\",\"symbol\":\"bingus\",\"name\":\"Bingus
+        The Cat\",\"activated_at\":1704783820},{\"id\":\"pups-ordinals\",\"symbol\":\"pups\",\"name\":\"PUPS
+        (Ordinals)\",\"activated_at\":1704782163},{\"id\":\"agnus-ai\",\"symbol\":\"agn\",\"name\":\"Agnus
+        AI\",\"activated_at\":1704780577},{\"id\":\"save-elon-coin\",\"symbol\":\"SEC\",\"name\":\"Save
+        Elon Coin\",\"activated_at\":1704780357},{\"id\":\"smartsettoken\",\"symbol\":\"sst\",\"name\":\"SmartsetToken\",\"activated_at\":1704779820},{\"id\":\"crimson\",\"symbol\":\"crm\",\"name\":\"Crimson\",\"activated_at\":1704779608},{\"id\":\"florence-finance-medici\",\"symbol\":\"ffm\",\"name\":\"Florence
+        Finance Medici\",\"activated_at\":1704779327},{\"id\":\"zorro\",\"symbol\":\"zorro\",\"name\":\"Zorro\",\"activated_at\":1704777749},{\"id\":\"seilu-bridge\",\"symbol\":\"seilu\",\"name\":\"Seilu
+        Bridge\",\"activated_at\":1704774839},{\"id\":\"pulsepot\",\"symbol\":\"plsp\",\"name\":\"PulsePot\",\"activated_at\":1704772391},{\"id\":\"daily-finance\",\"symbol\":\"dly\",\"name\":\"Daily
+        Finance\",\"activated_at\":1704763010},{\"id\":\"rock-2\",\"symbol\":\"rock\",\"name\":\"Rock\",\"activated_at\":1704762843},{\"id\":\"scrolly-the-map\",\"symbol\":\"scrolly\",\"name\":\"Scrolly
+        the map\",\"activated_at\":1704762751},{\"id\":\"gram-silver\",\"symbol\":\"grams\",\"name\":\"Gram
+        Silver\",\"activated_at\":1704727779},{\"id\":\"gram-platinum\",\"symbol\":\"gramp\",\"name\":\"Gram
+        Platinum\",\"activated_at\":1704727506},{\"id\":\"whales-market\",\"symbol\":\"whales\",\"name\":\"Whales
+        Market\",\"activated_at\":1704725892},{\"id\":\"skydogenet\",\"symbol\":\"sky\",\"name\":\"skydogenet\",\"activated_at\":1704725815},{\"id\":\"modclub\",\"symbol\":\"mod\",\"name\":\"Modclub\",\"activated_at\":1704721386},{\"id\":\"internet-doge\",\"symbol\":\"idoge\",\"name\":\"Internet
+        Doge\",\"activated_at\":1704712573},{\"id\":\"dbk\",\"symbol\":\"dbk\",\"name\":\"DBK\",\"activated_at\":1704708949},{\"id\":\"groktether\",\"symbol\":\"groktether\",\"name\":\"GrokTether\",\"activated_at\":1704708252},{\"id\":\"solragon\",\"symbol\":\"srgn\",\"name\":\"SolRagon\",\"activated_at\":1704708160},{\"id\":\"hom\",\"symbol\":\"hom\",\"name\":\"HOM\",\"activated_at\":1704708071},{\"id\":\"meme-ai-coin\",\"symbol\":\"memeai\",\"name\":\"Meme
+        AI Coin\",\"activated_at\":1704706408},{\"id\":\"side-eye-cat\",\"symbol\":\"sec\",\"name\":\"Side
+        Eye Cat\",\"activated_at\":1704703983},{\"id\":\"united-emirates-of-fun\",\"symbol\":\"$uefn\",\"name\":\"United
+        Emirates Of Fun\",\"activated_at\":1704703934},{\"id\":\"bouncing-seals\",\"symbol\":\"seals\",\"name\":\"Bouncing
+        Seals\",\"activated_at\":1704703836},{\"id\":\"benddao-bdin-ordinals\",\"symbol\":\"bdin\",\"name\":\"BendDAO
+        BDIN (Ordinals)\",\"activated_at\":1704702916},{\"id\":\"wawacat\",\"symbol\":\"wawa\",\"name\":\"wawacat\",\"activated_at\":1704701650},{\"id\":\"tombplus\",\"symbol\":\"tomb+\",\"name\":\"Tomb+\",\"activated_at\":1704701416},{\"id\":\"deepsouth-ai\",\"symbol\":\"south\",\"name\":\"DeepSouth
+        AI\",\"activated_at\":1704701257},{\"id\":\"metroxynth\",\"symbol\":\"mxh\",\"name\":\"Metroxynth\",\"activated_at\":1704698266},{\"id\":\"unlucky\",\"symbol\":\"unlucky\",\"name\":\"UNLUCKY\",\"activated_at\":1704698067},{\"id\":\"meridian-mst\",\"symbol\":\"mst\",\"name\":\"Meridian
+        MST\",\"activated_at\":1704697253},{\"id\":\"bongo-cat\",\"symbol\":\"bongo\",\"name\":\"BONGO
+        CAT\",\"activated_at\":1704697057},{\"id\":\"pepeblue\",\"symbol\":\"pepeblue\",\"name\":\"Pepeblue\",\"activated_at\":1704696991},{\"id\":\"aping\",\"symbol\":\"aping\",\"name\":\"aping\",\"activated_at\":1704694481},{\"id\":\"ferscoin\",\"symbol\":\"fr\",\"name\":\"ferscoin\",\"activated_at\":1704681216},{\"id\":\"wrapped-lyx-sigmaswap\",\"symbol\":\"wlyx\",\"name\":\"Wrapped
+        LYX (SigmaSwap)\",\"activated_at\":1704679931},{\"id\":\"track-the-funds-bot\",\"symbol\":\"ttf\",\"name\":\"Track
+        The Funds Bot\",\"activated_at\":1704679748},{\"id\":\"bozo-collective\",\"symbol\":\"bozo\",\"name\":\"Bozo
+        Collective\",\"activated_at\":1704679693},{\"id\":\"sealink-network\",\"symbol\":\"slk\",\"name\":\"Sealink
+        Network\",\"activated_at\":1704679524},{\"id\":\"blacky\",\"symbol\":\"blacky\",\"name\":\"Blacky\",\"activated_at\":1704668778},{\"id\":\"drako\",\"symbol\":\"drako\",\"name\":\"Drako\",\"activated_at\":1704668660},{\"id\":\"walc\",\"symbol\":\"$walc\",\"name\":\"WALC\",\"activated_at\":1704668587},{\"id\":\"0xsnipeproai\",\"symbol\":\"0xspai\",\"name\":\"0xSnipeProAi\",\"activated_at\":1704668478},{\"id\":\"dancing-triangle\",\"symbol\":\"triangle\",\"name\":\"dancing
+        triangle\",\"activated_at\":1704667793},{\"id\":\"brcexchange\",\"symbol\":\"bex\",\"name\":\"BrcExchange\",\"activated_at\":1704650877},{\"id\":\"urmom\",\"symbol\":\"urmom\",\"name\":\"URMOM\",\"activated_at\":1704650729},{\"id\":\"beamcat\",\"symbol\":\"bcat\",\"name\":\"BEAMCAT\",\"activated_at\":1704647760},{\"id\":\"snow-inu\",\"symbol\":\"snow\",\"name\":\"Snow
+        Inu\",\"activated_at\":1704647502},{\"id\":\"socomfy\",\"symbol\":\"comfy\",\"name\":\"SOCOMFY\",\"activated_at\":1704646406},{\"id\":\"clexy\",\"symbol\":\"clexy\",\"name\":\"Clexy\",\"activated_at\":1704621768},{\"id\":\"mcbroken\",\"symbol\":\"mcbroken\",\"name\":\"McBROKEN\",\"activated_at\":1704621112},{\"id\":\"invest-club-global\",\"symbol\":\"icg\",\"name\":\"Invest
+        Club Global\",\"activated_at\":1704621007},{\"id\":\"dogihub-doginals\",\"symbol\":\"$hub\",\"name\":\"Dogihub
+        (Doginals)\",\"activated_at\":1704620606},{\"id\":\"slap-face\",\"symbol\":\"slafac\",\"name\":\"Slap
+        Face\",\"activated_at\":1704618959},{\"id\":\"ftails\",\"symbol\":\"ftails\",\"name\":\"fTails\",\"activated_at\":1704618860},{\"id\":\"yuge-meme\",\"symbol\":\"yuge\",\"name\":\"Yuge
+        Meme\",\"activated_at\":1704618807},{\"id\":\"wap-ordinals\",\"symbol\":\"$wap\",\"name\":\"$wap
+        (Ordinals)\",\"activated_at\":1704615952},{\"id\":\"partyhat-meme\",\"symbol\":\"phat\",\"name\":\"partyhat
+        (Meme)\",\"activated_at\":1704614165},{\"id\":\"anita-max-wynn\",\"symbol\":\"wynn\",\"name\":\"Anita
+        Max Wynn\",\"activated_at\":1704613199},{\"id\":\"defi-radar\",\"symbol\":\"dradar\",\"name\":\"Defi
+        Radar\",\"activated_at\":1704612556},{\"id\":\"food-token-2\",\"symbol\":\"food\",\"name\":\"Food
+        Token\",\"activated_at\":1704612232},{\"id\":\"mevai\",\"symbol\":\"mai\",\"name\":\"MevAI\",\"activated_at\":1704612202},{\"id\":\"fathom-protocol\",\"symbol\":\"fthm\",\"name\":\"Fathom
+        Protocol\",\"activated_at\":1704608355},{\"id\":\"aigc-ordinals\",\"symbol\":\"aigc\",\"name\":\"AIGC
+        (Ordinals)\",\"activated_at\":1704607351},{\"id\":\"satscan-ordinals\",\"symbol\":\"scan\",\"name\":\"SATSCAN
+        (Ordinals)\",\"activated_at\":1704606799},{\"id\":\"txswap\",\"symbol\":\"txt\",\"name\":\"TXSwap\",\"activated_at\":1704606533},{\"id\":\"vuzzmind\",\"symbol\":\"vuzz\",\"name\":\"VuzzMind\",\"activated_at\":1704606293},{\"id\":\"liquid-loans-usdl\",\"symbol\":\"usdl\",\"name\":\"Liquid
+        Loans USDL\",\"activated_at\":1704601018},{\"id\":\"rasper-ai\",\"symbol\":\"rasp\",\"name\":\"Rasper.ai\",\"activated_at\":1704600668},{\"id\":\"zkfair\",\"symbol\":\"zkf\",\"name\":\"ZKFair\",\"activated_at\":1704455149},{\"id\":\"coingrab\",\"symbol\":\"grab\",\"name\":\"CoinGrab\",\"activated_at\":1704453894},{\"id\":\"party-2\",\"symbol\":\"party\",\"name\":\"Party\",\"activated_at\":1704453751},{\"id\":\"baby-elon\",\"symbol\":\"babyelon\",\"name\":\"Baby
+        Elon\",\"activated_at\":1704453402},{\"id\":\"opsec\",\"symbol\":\"opsec\",\"name\":\"OpSec\",\"activated_at\":1704453269},{\"id\":\"terahertz-capital\",\"symbol\":\"thz\",\"name\":\"TeraHertz
+        Capital\",\"activated_at\":1704453176},{\"id\":\"its-as-shrimple-as-that\",\"symbol\":\"shrimple\",\"name\":\"its
+        as shrimple as that\",\"activated_at\":1704453078},{\"id\":\"gursonavax\",\"symbol\":\"gurs\",\"name\":\"GursOnAVAX\",\"activated_at\":1704452876},{\"id\":\"flame-2\",\"symbol\":\"flame\",\"name\":\"Flame\",\"activated_at\":1704452350},{\"id\":\"mikeneko\",\"symbol\":\"mike\",\"name\":\"MiKeNeKo\",\"activated_at\":1704452089},{\"id\":\"mwcc-ordinals\",\"symbol\":\"mwcc\",\"name\":\"MWCC
+        (Ordinals)\",\"activated_at\":1704419003},{\"id\":\"cbdx\",\"symbol\":\"cbdx\",\"name\":\"CBDX
+        (Ordinals)\",\"activated_at\":1704418643},{\"id\":\"yunki\",\"symbol\":\"yunki\",\"name\":\"Yunki\",\"activated_at\":1704393683},{\"id\":\"spyrolana\",\"symbol\":\"spyro\",\"name\":\"Spyrolana\",\"activated_at\":1704393007},{\"id\":\"icpi\",\"symbol\":\"icpi\",\"name\":\"ICPI\",\"activated_at\":1704392374},{\"id\":\"gify-ai\",\"symbol\":\"gify\",\"name\":\"Gify
+        AI\",\"activated_at\":1704392070},{\"id\":\"christmaspump\",\"symbol\":\"chrispump\",\"name\":\"christmaspump\",\"activated_at\":1704391773},{\"id\":\"encrypt\",\"symbol\":\"$encr\",\"name\":\"ENCRYPT\",\"activated_at\":1704391327},{\"id\":\"noka-solana-a\",\"symbol\":\"noka\",\"name\":\"Noka
+        Solana A\",\"activated_at\":1704389831},{\"id\":\"hsac-ordinals\",\"symbol\":\"hsac\",\"name\":\"HSAC
+        (Ordinals)\",\"activated_at\":1704389750},{\"id\":\"saber-2\",\"symbol\":\"saber\",\"name\":\"Saber\",\"activated_at\":1704389564},{\"id\":\"cardinals\",\"symbol\":\"cardi\",\"name\":\"Cardinals
+        (DRC-20)\",\"activated_at\":1704388823},{\"id\":\"the-great-void-token\",\"symbol\":\"void\",\"name\":\"The
+        Great Void Token\",\"activated_at\":1704388586},{\"id\":\"bitbullbot\",\"symbol\":\"bbb\",\"name\":\"BitBullBot\",\"activated_at\":1704387901},{\"id\":\"vega-2\",\"symbol\":\"vega\",\"name\":\"VEGA\",\"activated_at\":1704365535},{\"id\":\"post-tech\",\"symbol\":\"post\",\"name\":\"Post.Tech\",\"activated_at\":1704360010},{\"id\":\"doge-of-grok-ai\",\"symbol\":\"dogegrokai\",\"name\":\"Doge
+        Of Grok AI\",\"activated_at\":1704359326},{\"id\":\"callhub\",\"symbol\":\"chub\",\"name\":\"CallHub\",\"activated_at\":1704359264},{\"id\":\"argocoin\",\"symbol\":\"agc\",\"name\":\"Argocoin\",\"activated_at\":1704343656},{\"id\":\"nagaya\",\"symbol\":\"ngy\",\"name\":\"NAGAYA\",\"activated_at\":1704343649},{\"id\":\"soldragon\",\"symbol\":\"dragon\",\"name\":\"SolDragon\",\"activated_at\":1704343452},{\"id\":\"sindi\",\"symbol\":\"sindi\",\"name\":\"SINDI\",\"activated_at\":1704342509},{\"id\":\"speero\",\"symbol\":\"speero\",\"name\":\"Speero\",\"activated_at\":1704339607},{\"id\":\"audify\",\"symbol\":\"audi\",\"name\":\"Audify\",\"activated_at\":1704339103},{\"id\":\"boxydude\",\"symbol\":\"box\",\"name\":\"BoxyDude\",\"activated_at\":1704339067},{\"id\":\"gowrap\",\"symbol\":\"gwgw\",\"name\":\"GoWrap\",\"activated_at\":1704338800},{\"id\":\"seidow\",\"symbol\":\"seidow\",\"name\":\"Seidow\",\"activated_at\":1704338506},{\"id\":\"starkpepe\",\"symbol\":\"spepe\",\"name\":\"StarkPepe\",\"activated_at\":1704338427},{\"id\":\"wecashcoin\",\"symbol\":\"wch\",\"name\":\"WeCash\",\"activated_at\":1704338339},{\"id\":\"dancing-toothless\",\"symbol\":\"toothless\",\"name\":\"Dancing
+        Toothless\",\"activated_at\":1704338223},{\"id\":\"brc-app\",\"symbol\":\"brct\",\"name\":\"BRC
+        App\",\"activated_at\":1704338087},{\"id\":\"90s-crypto-exchange\",\"symbol\":\"90s\",\"name\":\"90s
+        Crypto Exchange\",\"activated_at\":1704337560},{\"id\":\"etfsol2024\",\"symbol\":\"etf\",\"name\":\"ETFSOL2024\",\"activated_at\":1704334901},{\"id\":\"bingo-3\",\"symbol\":\"bingo\",\"name\":\"Bingo\",\"activated_at\":1704333840},{\"id\":\"ai-pin\",\"symbol\":\"ai\",\"name\":\"AI
+        PIN\",\"activated_at\":1704306337},{\"id\":\"boo-2\",\"symbol\":\"$boo\",\"name\":\"BOO\",\"activated_at\":1704306087},{\"id\":\"ronweasleytrumptoadn64inu\",\"symbol\":\"bnb\",\"name\":\"RonWeasleyTrumpToadN64Inu\",\"activated_at\":1704305948},{\"id\":\"john-pork\",\"symbol\":\"pork\",\"name\":\"john
+        pork\",\"activated_at\":1704301500},{\"id\":\"ic-x\",\"symbol\":\"icx\",\"name\":\"IC-X\",\"activated_at\":1704300561},{\"id\":\"billicat\",\"symbol\":\"bcat\",\"name\":\"BilliCat\",\"activated_at\":1704299306},{\"id\":\"sobit-bridge\",\"symbol\":\"sobb\",\"name\":\"SoBit
+        Bridge\",\"activated_at\":1704298953},{\"id\":\"hedge-on-sol\",\"symbol\":\"hedge\",\"name\":\"HEDGE
+        on Sol\",\"activated_at\":1704298660},{\"id\":\"flying-avocado-cat\",\"symbol\":\"fac\",\"name\":\"Flying
+        Avocado Cat\",\"activated_at\":1704298392},{\"id\":\"apegpt\",\"symbol\":\"apegpt\",\"name\":\"ApeGPT\",\"activated_at\":1704298132},{\"id\":\"bawls-onu\",\"symbol\":\"$bawls\",\"name\":\"Bawls
+        onu\",\"activated_at\":1704296900},{\"id\":\"solama\",\"symbol\":\"solama\",\"name\":\"Solama\",\"activated_at\":1704278903},{\"id\":\"soletheon\",\"symbol\":\"solen\",\"name\":\"Soletheon\",\"activated_at\":1704278841},{\"id\":\"dogfinity\",\"symbol\":\"dogmi\",\"name\":\"DOGMI\",\"activated_at\":1704278106},{\"id\":\"masters-of-the-memes\",\"symbol\":\"mom\",\"name\":\"Masters
+        Of The Memes\",\"activated_at\":1704277988},{\"id\":\"seiga\",\"symbol\":\"seiga\",\"name\":\"Seiga\",\"activated_at\":1704277558},{\"id\":\"shackleford\",\"symbol\":\"shack\",\"name\":\"Shackleford\",\"activated_at\":1704277278},{\"id\":\"sispop\",\"symbol\":\"sispop\",\"name\":\"SISPOP\",\"activated_at\":1704277074},{\"id\":\"degen-fighting-championship\",\"symbol\":\"dfc\",\"name\":\"Degen
+        Fighting Championship\",\"activated_at\":1704276682},{\"id\":\"zbyte\",\"symbol\":\"dplat\",\"name\":\"zbyte\",\"activated_at\":1704276625},{\"id\":\"nyxia-ai\",\"symbol\":\"nyxc\",\"name\":\"Nyxia
+        AI\",\"activated_at\":1704276552},{\"id\":\"dogwifhat-bsc\",\"symbol\":\"wif\",\"name\":\"Dogwifhat
+        BSC\",\"activated_at\":1704276108},{\"id\":\"dogwifcrocs\",\"symbol\":\"dwc\",\"name\":\"DOGwifCROCS\",\"activated_at\":1704275867},{\"id\":\"baby-arof\",\"symbol\":\"baby
+        arof\",\"name\":\"BABY AROF\",\"activated_at\":1704275694},{\"id\":\"waweswaps-global-token\",\"symbol\":\"gbl\",\"name\":\"WaweSwaps
+        Global Token\",\"activated_at\":1704275449},{\"id\":\"chainfactory\",\"symbol\":\"factory\",\"name\":\"ChainFactory\",\"activated_at\":1704275412},{\"id\":\"cook-3\",\"symbol\":\"cook\",\"name\":\"Cook\",\"activated_at\":1704274920},{\"id\":\"fayda-games\",\"symbol\":\"fayd\",\"name\":\"Fayda
+        Games\",\"activated_at\":1704274558},{\"id\":\"solanaape\",\"symbol\":\"sape\",\"name\":\"SolanaApe\",\"activated_at\":1704274490},{\"id\":\"coda\",\"symbol\":\"coda\",\"name\":\"CODA\",\"activated_at\":1704274302},{\"id\":\"a-gently-used-nokia-3310\",\"symbol\":\"usedphone\",\"name\":\"A
+        Gently Used Nokia 3310\",\"activated_at\":1704273707},{\"id\":\"frgx-finance\",\"symbol\":\"frgx\",\"name\":\"FRGX
+        Finance\",\"activated_at\":1704273653},{\"id\":\"seilormoon\",\"symbol\":\"seilor\",\"name\":\"Seilormoon\",\"activated_at\":1704273250},{\"id\":\"gptplus\",\"symbol\":\"gptplus\",\"name\":\"GPTPlus\",\"activated_at\":1704272399},{\"id\":\"purple-ai\",\"symbol\":\"pai\",\"name\":\"Purple
+        AI\",\"activated_at\":1704272334},{\"id\":\"acmfinance\",\"symbol\":\"acm\",\"name\":\"acmFinance\",\"activated_at\":1704272190},{\"id\":\"kiseki\",\"symbol\":\"kitup\",\"name\":\"Kiseki\",\"activated_at\":1704268763},{\"id\":\"flonk\",\"symbol\":\"flonk\",\"name\":\"Flonk\",\"activated_at\":1704267042},{\"id\":\"goon\",\"symbol\":\"goon\",\"name\":\"GOON\",\"activated_at\":1704260991},{\"id\":\"woke-frens\",\"symbol\":\"woke\",\"name\":\"Woke
+        Frens\",\"activated_at\":1704260033},{\"id\":\"doge-grok\",\"symbol\":\"dogegrok\",\"name\":\"Doge
+        Grok\",\"activated_at\":1704258391},{\"id\":\"three-hundred-ai\",\"symbol\":\"thnd\",\"name\":\"Three
+        Hundred AI\",\"activated_at\":1704257592},{\"id\":\"blobcoin\",\"symbol\":\"blob\",\"name\":\"BLOBCOIN\",\"activated_at\":1704257064},{\"id\":\"mad\",\"symbol\":\"mad\",\"name\":\"MAD\",\"activated_at\":1704221850},{\"id\":\"crypto-chicks\",\"symbol\":\"chicks\",\"name\":\"CRYPTO
+        CHICKS\",\"activated_at\":1704221641},{\"id\":\"ape-2\",\"symbol\":\"ape\",\"name\":\"APE\",\"activated_at\":1704221572},{\"id\":\"yelo-cat\",\"symbol\":\"yelo\",\"name\":\"Yelo
+        Cat\",\"activated_at\":1704221357},{\"id\":\"jackbot\",\"symbol\":\"jbot\",\"name\":\"JACKBOT\",\"activated_at\":1704219982},{\"id\":\"leopold\",\"symbol\":\"leo\",\"name\":\"Leopold\",\"activated_at\":1704219704},{\"id\":\"megapont\",\"symbol\":\"mega\",\"name\":\"Megapont\",\"activated_at\":1704219430},{\"id\":\"dogebonk-on-sol\",\"symbol\":\"dobo\",\"name\":\"dogebonk
+        on sol\",\"activated_at\":1704219175},{\"id\":\"homeunity\",\"symbol\":\"hrpt\",\"name\":\"Homeunity\",\"activated_at\":1704219044},{\"id\":\"neopepe\",\"symbol\":\"neop\",\"name\":\"NeoPepe\",\"activated_at\":1704217224},{\"id\":\"caviarnine-lsu-pool-lp\",\"symbol\":\"LSULP\",\"name\":\"CaviarNine
+        LSU Pool LP\",\"activated_at\":1704216861},{\"id\":\"grok-bank\",\"symbol\":\"grokbank\",\"name\":\"Grok
+        Bank\",\"activated_at\":1704216745},{\"id\":\"2024\",\"symbol\":\"2024\",\"name\":\"2024\",\"activated_at\":1704215075},{\"id\":\"fishy\",\"symbol\":\"$fishy\",\"name\":\"$FISHY\",\"activated_at\":1704214948},{\"id\":\"keyboard-cat\",\"symbol\":\"keycat\",\"name\":\"Keyboard
+        Cat\",\"activated_at\":1704214567},{\"id\":\"rush-2\",\"symbol\":\"rush\",\"name\":\"RUSH\",\"activated_at\":1704213655},{\"id\":\"mante\",\"symbol\":\"mante\",\"name\":\"Mante\",\"activated_at\":1704213541},{\"id\":\"metisbot\",\"symbol\":\"mbot\",\"name\":\"MetisBot\",\"activated_at\":1704213272},{\"id\":\"hypra\",\"symbol\":\"hyp\",\"name\":\"HYPRA\",\"activated_at\":1704212808},{\"id\":\"long-2\",\"symbol\":\"long\",\"name\":\"Long
+        \u9F99\",\"activated_at\":1704210513},{\"id\":\"no-decimal\",\"symbol\":\"scarce\",\"name\":\"No
+        Decimal\",\"activated_at\":1704208483},{\"id\":\"wrapped-btc-caviarnine\",\"symbol\":\"XWBTC\",\"name\":\"Wrapped
+        BTC (Caviarnine)\",\"activated_at\":1704204813},{\"id\":\"kuma\",\"symbol\":\"kuma\",\"name\":\"KUMA\",\"activated_at\":1704191256},{\"id\":\"nemgame\",\"symbol\":\"nem\",\"name\":\"NemGame\",\"activated_at\":1704190564},{\"id\":\"real-tok\",\"symbol\":\"rlto\",\"name\":\"REAL-TOK\",\"activated_at\":1704190033},{\"id\":\"titanborn\",\"symbol\":\"titans\",\"name\":\"TitanBorn\",\"activated_at\":1704182945},{\"id\":\"lessfngas\",\"symbol\":\"lfg\",\"name\":\"LessFnGas\",\"activated_at\":1704180212},{\"id\":\"cswap\",\"symbol\":\"cswap\",\"name\":\"CSWAP\",\"activated_at\":1704179021},{\"id\":\"kitty-ai\",\"symbol\":\"kitty\",\"name\":\"Kitty
+        AI\",\"activated_at\":1704178760},{\"id\":\"drago\",\"symbol\":\"drago\",\"name\":\"Drago\",\"activated_at\":1704178443},{\"id\":\"alienform\",\"symbol\":\"a4m\",\"name\":\"AlienForm\",\"activated_at\":1704175858},{\"id\":\"gram-gold\",\"symbol\":\"gramg\",\"name\":\"Gram
+        Gold\",\"activated_at\":1704175642},{\"id\":\"any-inu\",\"symbol\":\"ai\",\"name\":\"Any
+        Inu\",\"activated_at\":1704174270}]"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 842b9d5bfe053f58-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=30
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 09 Jan 2024 09:22:16 GMT
+      ETag:
+      - W/"ac6dcc284639856c95dea423ea461973"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=wNYwL.NX7iZdvZU7LQCcoxt.7YxgF97cxbIVC2SRg.0-1704792136-1-AeaOL3iVHwhX4wu3F41+IeZ2SXk8WopFLYsWRd8Fz3ubBLJ8rruWWWEqorfUh9+jyMRr1hP8UUpDWjSaYGpIJK0=;
+        path=/; expires=Tue, 09-Jan-24 09:52:16 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 225baca0-2d56-400b-966b-8576bf22a25e
+      X-Runtime:
+      - '0.587650'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

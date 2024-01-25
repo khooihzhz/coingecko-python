@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/derivatives/exchanges/bitmex
+  response:
+    body:
+      string: '{"name":"BitMEX (Derivative)","open_interest_btc":8398.84,"trade_volume_24h_btc":"16773.69","number_of_perpetual_pairs":105,"number_of_futures_pairs":34,"image":"https://assets.coingecko.com/markets/images/378/small/BitMEX.png?1591671734","year_established":null,"country":"Seychelles","description":"","url":"https://www.bitmex.com/"}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Age:
+      - '62'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - HIT
+      CF-RAY:
+      - 842562e6dcfa4943-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=180
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 08 Jan 2024 15:13:46 GMT
+      ETag:
+      - W/"1b35116348a26033672cfe53fcb413bc"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=1fS.dXZTfnVO3PgqxaPkloF7zhxtqm.4mEi1DkZujFI-1704726826-1-AStvyezEUi/rg8xeYpx0AjO5DXvym+b6HnKtkRdliTtVajkV+b+n4oK6G3K0OwCxAbTUb01G9DfwZ+XExErM7jM=;
+        path=/; expires=Mon, 08-Jan-24 15:43:46 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - b5b41993-613d-44a3-b5ea-67c7417e1a63
+      X-Runtime:
+      - '0.029160'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

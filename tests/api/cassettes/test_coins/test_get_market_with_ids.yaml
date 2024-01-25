@@ -1,0 +1,156 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum&order=market_cap_desc&per_page=1&page=1&sparkline=False&locale=en
+  response:
+    body:
+      string: '[{"id":"bitcoin","symbol":"btc","name":"Bitcoin","image":"https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1696501400","current_price":42652,"market_cap":837025489900,"market_cap_rank":1,"fully_diluted_valuation":896849631000,"total_volume":20679539886,"high_24h":43088,"low_24h":41747,"price_change_24h":-339.10884563378204,"price_change_percentage_24h":-0.78878,"market_cap_change_24h":-4606129746.670288,"market_cap_change_percentage_24h":-0.54729,"circulating_supply":19599200.0,"total_supply":21000000.0,"max_supply":21000000.0,"ath":69045,"ath_change_percentage":-38.16427,"ath_date":"2021-11-10T14:24:11.849Z","atl":67.81,"atl_change_percentage":62862.63829,"atl_date":"2013-07-06T00:00:00.000Z","roi":null,"last_updated":"2024-01-15T08:54:30.919Z"}]'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845ce50deb1e6bbd-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=30
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 08:54:34 GMT
+      ETag:
+      - W/"d6b0372002d89080bb5d9c8f224c1e98"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=.hKN1tNUIRCX9_eB7pUy5L7RXNz4jjBNGdhFOGMzI6g-1705308874-1-ASi3fNvFAVjAlzmSHr4e0sUa4hwv5Th8FwSmihp91gfebjsRNrDS9hzabQt3dxQQSs1CbpjaXV1tWRqBLAe0m7Y=;
+        path=/; expires=Mon, 15-Jan-24 09:24:34 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Source:
+      - database
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 93f80fd4-1c39-4ffa-a08d-a8d3c72cc7be
+      X-Runtime:
+      - '0.027422'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Cookie:
+      - __cf_bm=.hKN1tNUIRCX9_eB7pUy5L7RXNz4jjBNGdhFOGMzI6g-1705308874-1-ASi3fNvFAVjAlzmSHr4e0sUa4hwv5Th8FwSmihp91gfebjsRNrDS9hzabQt3dxQQSs1CbpjaXV1tWRqBLAe0m7Y=
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum&order=market_cap_desc&per_page=1&page=2&sparkline=False&locale=en
+  response:
+    body:
+      string: '[{"id":"ethereum","symbol":"eth","name":"Ethereum","image":"https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628","current_price":2512.06,"market_cap":302475645108,"market_cap_rank":2,"fully_diluted_valuation":302475645108,"total_volume":17853727431,"high_24h":2557.23,"low_24h":2472.13,"price_change_24h":-39.935914304343896,"price_change_percentage_24h":-1.56489,"market_cap_change_24h":-4065626990.8494873,"market_cap_change_percentage_24h":-1.32629,"circulating_supply":120180819.149638,"total_supply":120180819.149638,"max_supply":null,"ath":4878.26,"ath_change_percentage":-48.45338,"ath_date":"2021-11-10T14:24:19.604Z","atl":0.432979,"atl_change_percentage":580662.40328,"atl_date":"2015-10-20T00:00:00.000Z","roi":{"times":77.75902973396462,"currency":"btc","percentage":7775.902973396463},"last_updated":"2024-01-15T08:54:34.124Z"}]'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845ce5159dbf91c6-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=30
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 08:54:35 GMT
+      ETag:
+      - W/"f671044e8d233adf96173374e4ae6c6f"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Source:
+      - database
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 6746a207-8f14-413f-a4b9-b10c6c0e2a33
+      X-Runtime:
+      - '0.022850'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

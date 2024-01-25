@@ -1,0 +1,116 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/search?query=bitcoin
+  response:
+    body:
+      string: '{"coins":[{"id":"bitcoin","name":"Bitcoin","api_symbol":"bitcoin","symbol":"BTC","market_cap_rank":1,"thumb":"https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png","large":"https://assets.coingecko.com/coins/images/1/large/bitcoin.png"},{"id":"wrapped-bitcoin","name":"Wrapped
+        Bitcoin","api_symbol":"wrapped-bitcoin","symbol":"WBTC","market_cap_rank":17,"thumb":"https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png","large":"https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png"},{"id":"bitcoin-cash","name":"Bitcoin
+        Cash","api_symbol":"bitcoin-cash","symbol":"BCH","market_cap_rank":22,"thumb":"https://assets.coingecko.com/coins/images/780/thumb/bitcoin-cash-circle.png","large":"https://assets.coingecko.com/coins/images/780/large/bitcoin-cash-circle.png"},{"id":"bitcoin-cash-sv","name":"Bitcoin
+        SV","api_symbol":"bitcoin-cash-sv","symbol":"BSV","market_cap_rank":50,"thumb":"https://assets.coingecko.com/coins/images/6799/thumb/BSV.png","large":"https://assets.coingecko.com/coins/images/6799/large/BSV.png"},{"id":"bitcoin-gold","name":"Bitcoin
+        Gold","api_symbol":"bitcoin-gold","symbol":"BTG","market_cap_rank":134,"thumb":"https://assets.coingecko.com/coins/images/1043/thumb/bitcoin-gold-logo.png","large":"https://assets.coingecko.com/coins/images/1043/large/bitcoin-gold-logo.png"},{"id":"bitcoin-avalanche-bridged-btc-b","name":"Bitcoin
+        Avalanche Bridged (BTC.b)","api_symbol":"bitcoin-avalanche-bridged-btc-b","symbol":"BTC.B","market_cap_rank":273,"thumb":"https://assets.coingecko.com/coins/images/26115/thumb/btcb.png","large":"https://assets.coingecko.com/coins/images/26115/large/btcb.png"},{"id":"harrypotterobamasonic10in","name":"HarryPotterObamaSonic10Inu
+        (ETH)","api_symbol":"harrypotterobamasonic10in","symbol":"BITCOIN","market_cap_rank":473,"thumb":"https://assets.coingecko.com/coins/images/30323/thumb/hpos10i_logo_casino_night-dexview.png","large":"https://assets.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png"},{"id":"bitcoin-diamond","name":"Bitcoin
+        Diamond","api_symbol":"bitcoin-diamond","symbol":"BCD","market_cap_rank":966,"thumb":"https://assets.coingecko.com/coins/images/1254/thumb/bitcoin-diamond.png","large":"https://assets.coingecko.com/coins/images/1254/large/bitcoin-diamond.png"},{"id":"bitcoin-pro","name":"Bitcoin
+        Pro","api_symbol":"bitcoin-pro","symbol":"BTCP","market_cap_rank":1274,"thumb":"https://assets.coingecko.com/coins/images/3545/thumb/DSiD9ZhWsAE_8cS.png","large":"https://assets.coingecko.com/coins/images/3545/large/DSiD9ZhWsAE_8cS.png"},{"id":"bitcoin-2","name":"Bitcoin
+        2","api_symbol":"bitcoin-2","symbol":"BTC2","market_cap_rank":1305,"thumb":"https://assets.coingecko.com/coins/images/5925/thumb/bitcoin2_logo256.png","large":"https://assets.coingecko.com/coins/images/5925/large/bitcoin2_logo256.png"},{"id":"bitcoinz","name":"BitcoinZ","api_symbol":"bitcoinz","symbol":"BTCZ","market_cap_rank":2215,"thumb":"https://assets.coingecko.com/coins/images/1004/thumb/BTCZ_LOGO-1.png","large":"https://assets.coingecko.com/coins/images/1004/large/BTCZ_LOGO-1.png"},{"id":"oxbitcoin","name":"0xBitcoin","api_symbol":"oxbitcoin","symbol":"0XBTC","market_cap_rank":2401,"thumb":"https://assets.coingecko.com/coins/images/4454/thumb/0xbtc.png","large":"https://assets.coingecko.com/coins/images/4454/large/0xbtc.png"},{"id":"bitcoin-scrypt","name":"Bitcoin
+        Scrypt","api_symbol":"bitcoin-scrypt","symbol":"BTCS","market_cap_rank":2532,"thumb":"https://assets.coingecko.com/coins/images/296/thumb/bitcoin-scrypt.png","large":"https://assets.coingecko.com/coins/images/296/large/bitcoin-scrypt.png"},{"id":"bitcoinpos","name":"BitcoinPoS","api_symbol":"bitcoinpos","symbol":"BTCS","market_cap_rank":2950,"thumb":"https://assets.coingecko.com/coins/images/12978/thumb/BTCS_%281%29.png","large":"https://assets.coingecko.com/coins/images/12978/large/BTCS_%281%29.png"},{"id":"bitcoin-plus","name":"Bitcoin
+        Plus","api_symbol":"bitcoin-plus","symbol":"XBC","market_cap_rank":2975,"thumb":"https://assets.coingecko.com/coins/images/469/thumb/bitcoin_plus.png","large":"https://assets.coingecko.com/coins/images/469/large/bitcoin_plus.png"},{"id":"bitcoin-subsidium","name":"Bitcoin
+        Subsidium","api_symbol":"bitcoin-subsidium","symbol":"XBTX","market_cap_rank":3952,"thumb":"https://assets.coingecko.com/coins/images/9539/thumb/coin.jpg","large":"https://assets.coingecko.com/coins/images/9539/large/coin.jpg"},{"id":"bloxies-coin","name":"BitcoinX","api_symbol":"bloxies-coin","symbol":"BXC","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/31400/thumb/BXC.jpg","large":"https://assets.coingecko.com/coins/images/31400/large/BXC.jpg"},{"id":"bitcoinx","name":"BitcoinX","api_symbol":"bitcoinx","symbol":"BCX","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/1351/thumb/bitcoinx.png","large":"https://assets.coingecko.com/coins/images/1351/large/bitcoinx.png"},{"id":"bitcoinv","name":"BitcoinV","api_symbol":"bitcoinv","symbol":"BTCV","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/8030/thumb/btc.png","large":"https://assets.coingecko.com/coins/images/8030/large/btc.png"},{"id":"bitcoin20","name":"Bitcoin20","api_symbol":"bitcoin20","symbol":"BTC20","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/31284/thumb/BTC20_logo_%281%29.png","large":"https://assets.coingecko.com/coins/images/31284/large/BTC20_logo_%281%29.png"},{"id":"bitcoinvb","name":"BitcoinVB","api_symbol":"bitcoinvb","symbol":"BTCVB","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/29436/thumb/bitcoinvb.png","large":"https://assets.coingecko.com/coins/images/29436/large/bitcoinvb.png"},{"id":"bitcoinbam","name":"BitcoinBam","api_symbol":"bitcoinbam","symbol":"BTCBAM","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/12854/thumb/logo.png","large":"https://assets.coingecko.com/coins/images/12854/large/logo.png"},{"id":"bitcoin-ai","name":"Bitcoin
+        AI","api_symbol":"bitcoin-ai","symbol":"BITCOINAI","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/32467/thumb/BITCOINAI.jpg","large":"https://assets.coingecko.com/coins/images/32467/large/BITCOINAI.jpg"},{"id":"bitcoin-br","name":"Bitcoin
+        BR","api_symbol":"bitcoin-br","symbol":"BTCBR","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/21205/thumb/btcbr.png","large":"https://assets.coingecko.com/coins/images/21205/large/btcbr.png"},{"id":"xenbitcoin","name":"XenBitcoin","api_symbol":"xenbitcoin","symbol":"XBTC","market_cap_rank":null,"thumb":"https://assets.coingecko.com/coins/images/30608/thumb/XENBITCOIN200x200.jpg","large":"https://assets.coingecko.com/coins/images/30608/large/XENBITCOIN200x200.jpg"}],"exchanges":[{"id":"bitcointry_exchange","name":"Bitcointry
+        Exchange","market_type":"spot","thumb":"https://assets.coingecko.com/markets/images/1231/thumb/Bitcointry.jpg","large":"https://assets.coingecko.com/markets/images/1231/large/Bitcointry.jpg"},{"id":"mercado_bitcoin","name":"Mercado
+        Bitcoin","market_type":"spot","thumb":"https://assets.coingecko.com/markets/images/34/thumb/logo_MB_hexagono.png","large":"https://assets.coingecko.com/markets/images/34/large/logo_MB_hexagono.png"},{"id":"klever_exchange","name":"Bitcoin.me","market_type":"spot","thumb":"https://assets.coingecko.com/markets/images/984/thumb/BitcoinMe%283%29.png","large":"https://assets.coingecko.com/markets/images/984/large/BitcoinMe%283%29.png"}],"icos":[],"categories":[{"id":245,"name":"Bitcoin
+        Fork"}],"nfts":[{"id":"cursed-bitcoin-punks","name":"Cursed Bitcoin Punks","symbol":"CURSEDBITCOINPUNKS","thumb":"https://assets.coingecko.com/nft_contracts/images/3311/thumb/cursed-bitcoin-punks.png"},{"id":"bitcoin-bear-cubs","name":"Bitcoin
+        Bear Cubs","symbol":"BBC","thumb":"https://assets.coingecko.com/nft_contracts/images/3280/thumb/bitcoin-bear-cubs.png"},{"id":"bitcoin-ape-yacht-gang","name":"Bitcoin
+        Ape Yacht Gang","symbol":"BAYG","thumb":"https://assets.coingecko.com/nft_contracts/images/3745/thumb/BAYG.png"},{"id":"bitcoin-whales","name":"Bitcoin
+        Whales","symbol":"BITCOINWHALES","thumb":"https://assets.coingecko.com/nft_contracts/images/3269/thumb/bitcoin-whales.png"},{"id":"bitcoin-bandits","name":"Bitcoin
+        Bandits","symbol":"BITCOIN-BANDITS","thumb":"https://assets.coingecko.com/nft_contracts/images/3266/thumb/bitcoin-bandits.png"},{"id":"bitcoin-skellies","name":"Bitcoin
+        Skellies","symbol":"BITCOIN_SKELLIES","thumb":"missing_thumb.png"},{"id":"bitcoin-puppets","name":"Bitcoin
+        Puppets","symbol":"BITCOIN-PUPPETS","thumb":"https://assets.coingecko.com/nft_contracts/images/3873/thumb/bitcoin-puppets.png"},{"id":"bitcoin-rocks","name":"Bitcoin
+        Rocks","symbol":"BITCOINROCKS","thumb":"https://assets.coingecko.com/nft_contracts/images/3713/thumb/bitcoin-rocks.jpg"},{"id":"bitcoin-burials","name":"Bitcoin
+        Burials","symbol":"BITCOINBURIALS","thumb":"https://assets.coingecko.com/nft_contracts/images/3863/thumb/BURY.jpg"},{"id":"bitcoin-wizards","name":"Bitcoin
+        Wizards","symbol":"BITCOIN-WIZARDS","thumb":"https://assets.coingecko.com/nft_contracts/images/3683/thumb/wizards.png"},{"id":"bitcoin-crypto-dickbutts","name":"Bitcoin
+        Crypto DickButts","symbol":"BITCOIN-CRYPTODICKBUTTS","thumb":"https://assets.coingecko.com/nft_contracts/images/3656/thumb/bitcoin-crypto-dickbutts.png"},{"id":"bitcoin-punks","name":"Bitcoin
+        Punks","symbol":"BITCOIN-PUNKS","thumb":"https://assets.coingecko.com/nft_contracts/images/3259/thumb/bitcoin-punks.png"},{"id":"bitcoin-frogs","name":"Bitcoin
+        Frogs","symbol":"BITCOIN-FROGS","thumb":"https://assets.coingecko.com/nft_contracts/images/3262/thumb/bitcoin-frogs.png"},{"id":"right-place-right-time-bitcoin-volatility-art-by-matt-kane","name":"Right
+        Place \u0026 Right Time - Bitcoin Volatility Art","symbol":"VLY","thumb":"https://assets.coingecko.com/nft_contracts/images/3530/thumb/right-place-right-time-bitcoin-volatility-art-by-matt-kane.png"},{"id":"bitcoin-pandas","name":"Bitcoin
+        Pandas","symbol":"BITCOIN-PANDAS","thumb":"https://assets.coingecko.com/nft_contracts/images/3365/thumb/bitcoin-pandas.jpg"},{"id":"bitcoin-pigs","name":"Bitcoin
+        Pigs","symbol":"BITCOINPIGS","thumb":"https://assets.coingecko.com/nft_contracts/images/3355/thumb/bitcoin-pigs.jpg"},{"id":"bitcoin-knight-s2","name":"Bitcoin
+        Knight S2","symbol":"BITCOIN-KNIGHT-S2","thumb":"https://assets.coingecko.com/nft_contracts/images/3362/thumb/bitcoin-knight-s2.png"},{"id":"bitcoin-mechanics","name":"Bitcoin
+        Mechanics","symbol":"BTC_MECHANICS","thumb":"https://assets.coingecko.com/nft_contracts/images/3306/thumb/bitcoin-mechanics.png"},{"id":"bitcoin-rugs","name":"Bitcoin
+        Rugs","symbol":"BITCOINRUGS","thumb":"https://assets.coingecko.com/nft_contracts/images/3313/thumb/bitcoin-rugs.png"},{"id":"bitcoin-buds","name":"Bitcoin
+        Buds ","symbol":"BITCOIN-BUDS","thumb":"https://assets.coingecko.com/nft_contracts/images/3285/thumb/bitcoin-buds.jpg"},{"id":"bitcoin-eyes","name":"Bitcoin
+        eyes","symbol":"BITCOIN-EYES","thumb":"https://assets.coingecko.com/nft_contracts/images/3325/thumb/bitcoin-eyes.jpg"},{"id":"bitcoinorb","name":"BITCOINORB","symbol":"BTCORB","thumb":"https://assets.coingecko.com/nft_contracts/images/2944/thumb/bitcoinorb.png"},{"id":"bitcoinbearclub","name":"Bitcoin
+        Bear Club","symbol":"BBC","thumb":"https://assets.coingecko.com/nft_contracts/images/1284/thumb/unnamed.gif"}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845cd95929493f8e-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=600
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 08:46:36 GMT
+      ETag:
+      - W/"ad23677f536fad39ce99096b02b6815b"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=BLlNoLgGXa9kWshqYyzSQgd1DRAAnE3wdlhQPitZbS0-1705308396-1-AVyvaHq0Nh94zDXRUT5iFkkfABdx5AOGIZgfLwZqMNPXAEkMphjNhKbonLp53B96LtgMTDSOifmtH+iRZJLgD6M=;
+        path=/; expires=Mon, 15-Jan-24 09:16:36 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 6d1574c2-8ec9-468c-b70c-7da37eb2f3d3
+      X-Runtime:
+      - '0.133689'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

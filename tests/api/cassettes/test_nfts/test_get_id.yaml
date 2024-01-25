@@ -1,0 +1,156 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/nfts/pudgy-penguins
+  response:
+    body:
+      string: '{"id":"pudgy-penguins","contract_address":"0xBd3531dA5CF5857e7CfAA92426877b022e612cf8","asset_platform_id":"ethereum","name":"Pudgy
+        Penguins","symbol":"PPG","image":{"small":"https://assets.coingecko.com/nft_contracts/images/38/small/pudgy-penguins.png?1705041942"},"description":"\u003ch3
+        dir=\"ltr\"\u003eWhat Is the Pudgy Penguins NFT Collection?\u003c/h3\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003ePudgy Penguins is a collection of 8,888 unique NFTs featuring
+        cute cartoon penguins, which are generated from a collection of 150 different
+        hand-drawn traits. The motto behind the NFT collection is \u0026ldquo;spreading
+        good vibes across the meta.\u0026rdquo;\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eLaunched on 22 July 2021, the Pudgy Penguin collection sold
+        out within \u003ca href=\"https://twitter.com/pudgypenguins/status/1420430560405643273?lang=en\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003e19 minutes\u003c/a\u003e
+        and had an original mint price of 0.3 ETH. Just a week later, the floor price
+        of the collection had already increased to 2.4 ETH. On the 13 of August 2022,
+        the rarest Pudgy (#6873) was sold for 400 ETH.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003ch3
+        dir=\"ltr\"\u003eWho Is the Team Behind Pudgy Penguins?\u003c/h3\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eThe Pudgy Penguins were originally founded by a team of 4
+        college students \u0026ndash;\u0026nbsp; Mrtubby, Mickyj, Jonah, and \u003ca
+        href=\"https://twitter.com/ColeThereum\" rel=\"nofollow noopener\" target=\"_blank\"\u003eCole\u003c/a\u003e.
+        However, the team allegedly was \u003ca href=\"https://www.coindesk.com/business/2022/01/07/pudgy-penguins-nft-project-ousts-founders-as-mood-turns-icy/\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003enot able to follow their
+        initial promises\u003c/a\u003e to the community, such as launching a children\u0026#39;s
+        book and a \u003ca href=\"https://www.coingecko.com/learn/what-is-metaverse-crypto-blockchain-nft-game\"
+        target=\"_blank\"\u003emetaverse\u003c/a\u003e.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eIn April 2022, the Pudgy Penguin NFT collection was acquired
+        by Luca Netz (Luca Schnetzle) for $2.5 million. \u003ca href=\"https://twitter.com/LucaNetz\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003eLuca Netz\u003c/a\u003e is
+        a well-known Los Angeles entrepreneur, and along with his team, have since
+        worked hard to rebrand the collection.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eCurrently, the Pudgy Penguin \u003ca href=\"https://pudgypenguins.com/about-us\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003eteam\u003c/a\u003e consists
+        of \u003ca href=\"https://twitter.com/0xLoMel\" rel=\"nofollow noopener\"
+        target=\"_blank\"\u003eLorenzo Melendez\u003c/a\u003e (CTO), Nicholas Ravid
+        (CMO), \u003ca href=\"https://twitter.com/chefgoyardi\" rel=\"nofollow noopener\"
+        target=\"_blank\"\u003ePeter Lobanov\u003c/a\u003e (CCO), \u003ca href=\"https://twitter.com/empathyandip\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003eJennifer Mcglone\u003c/a\u003e
+        (CLO), and \u003ca href=\"https://twitter.com/drkaizu\" rel=\"nofollow noopener\"
+        target=\"_blank\"\u003eDr. Kaizu\u003c/a\u003e (Head Of Operations).\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003ch3
+        dir=\"ltr\"\u003eWhat Is the Utility of the Pudgy Penguins Collection?\u003c/h3\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eHolders of Pudgy Penguins are known as \u0026ldquo;Pengus\u0026rdquo;
+        or \u0026ldquo;The Huddle,\u0026rdquo; and they are given access to a number
+        of exclusive benefits such as exclusive events and experiences.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003ePudgy Penguin holders get exclusive access to exclusive events,
+        such as meetups, parties, and concerts. These meetups, which are usually held
+        in major cities around the world, allow holders to interact with other holders,
+        building a strong supportive community.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003ePudgy holders are also able to license and use their penguins
+        for marketing purposes.\u003c/p\u003e\r\n\r\n\u003ch3 dir=\"ltr\"\u003eThe
+        Pudgy Penguins Ecosystem\u003c/h3\u003e\r\n\r\n\u003cp dir=\"ltr\"\u003eOther
+        than the Pudgy Penguin NFT collection, the team also produces official expansions
+        to give away to Pudgy Holders.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp dir=\"ltr\"\u003eOne
+        such expansion is the \u003ca href=\"https://www.coingecko.com/en/nft/lilpudgys\"
+        target=\"_blank\"\u003eLil Pudgy NFT collection \u003c/a\u003ewhich was introduced
+        in December 2021. The Lil Pudgy is a collection of 22,222 NFTs, of which 8,888
+        were given complimentary to Pudgy Penguin holders, and the remaining 13,334
+        were sold in a public sale. According to the website, the Lil Pudgys collection
+        is of northern descent and are allies in the fight against the evil bears
+        of negativity.\u003c/p\u003e\r\n\r\n\u003cp dir=\"ltr\"\u003eIn January 2023,
+        the Lil Pudgy NFT collection announced a partnership with \u003ca href=\"https://www.coingecko.com/learn/what-is-layerzero-interoperability\"
+        target=\"_blank\"\u003eLayerZero\u003c/a\u003e, which enabled cross-chain
+        functionality, allowing Lil Pudgy NFTs to travel across different chains such
+        as Polygon, the BNB Smart Chain, and Arbitrum.\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003ePudgy holders were also able to claim the \u003ca href=\"https://www.coingecko.com/en/nft/pudgyrods\"
+        target=\"_blank\"\u003ePudgy Rod NFT collection\u003c/a\u003e for free. The
+        Pudgy Rod NFT collection is meant to be a companion collection of fishing
+        rods that the Pudgys would use. However, during the reveal of the NFTs, the
+        community was disappointed, and the founders faced negative backlash.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eOn 18 May 2023, the team announced the release of physical
+        Pudgy Penguin merchandise, which was based on the Pudgy Penguins IP.\u003c/p\u003e\r\n\r\n\u003ch3
+        dir=\"ltr\"\u003eSocial Media Presence\u0026nbsp;\u003c/h3\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eThe Pudgy Penguin collection also has an impressive social
+        media presence apart from the typical NFT collector audience. On \u003ca href=\"https://www.instagram.com/pudgypenguins/?hl=en\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003eInstagram\u003c/a\u003e,
+        the Pudgy Penguin collection posts a series of cute short videos and encouraging
+        posts, which has garnered the project a massive following of 696K followers.\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp
+        dir=\"ltr\"\u003eThe same can be said of its \u003ca href=\"https://www.tiktok.com/@pudgypenguins?lang=en\"
+        rel=\"nofollow noopener\" target=\"_blank\"\u003eTiktok\u003c/a\u003e account,
+        which has garnered 1.7 million likes and 67K followers, from its short-form
+        video content. While these videos and posts are not necessarily related to
+        the NFT sphere, they give the Pudgy Penguins a personality, increasing the
+        visibility of the project.\u003cbr /\u003e\r\n\u0026nbsp;\u003c/p\u003e\r\n","native_currency":"ethereum","native_currency_symbol":"ETH","floor_price":{"native_currency":11.88,"usd":29894},"market_cap":{"native_currency":105589,"usd":265694680},"volume_24h":{"native_currency":553.09,"usd":1391750},"floor_price_in_usd_24h_percentage_change":5.46614,"floor_price_24h_percentage_change":{"usd":5.46613982296785,"native_currency":7.123534715960325},"market_cap_24h_percentage_change":{"usd":5.466139822968021,"native_currency":7.123534715960325},"volume_24h_percentage_change":{"usd":16.59302364789497,"native_currency":21.07400528075923},"number_of_unique_addresses":4472.0,"number_of_unique_addresses_24h_percentage_change":0.0,"volume_in_usd_24h_percentage_change":16.59302,"total_supply":8888.0,"one_day_sales":47.0,"one_day_sales_24h_percentage_change":11.9047619047619,"one_day_average_sale_price":11.767955127659574,"one_day_average_sale_price_24h_percentage_change":8.19379195301888,"links":{"homepage":"https://www.pudgypenguins.com/","twitter":"https://twitter.com/pudgy_penguins","discord":"https://discord.gg/pudgypenguins"},"floor_price_7d_percentage_change":{"usd":23.26194260178816,"native_currency":8.76132930513595},"floor_price_14d_percentage_change":{"usd":21.74491323959015,"native_currency":10.573343261355173},"floor_price_30d_percentage_change":{"usd":29.689542401324438,"native_currency":14.612115340534318},"floor_price_60d_percentage_change":{"usd":172.54396074466132,"native_currency":123.88031668600283},"floor_price_1y_percentage_change":{"usd":241.2008296910619,"native_currency":110.82894106372783},"explorers":[{"name":"Etherscan","link":"https://etherscan.io/token/0xBd3531dA5CF5857e7CfAA92426877b022e612cf8"},{"name":"Ethplorer","link":"https://ethplorer.io/address/0xBd3531dA5CF5857e7CfAA92426877b022e612cf8"}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845ceda6dec24085-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=30
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 09:00:26 GMT
+      ETag:
+      - W/"8a935dc78cc972b20deb1713e8efc609"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=34X_BNMC38y6GnYvnyKC6uuxdqB_ISUlfMcx6w26cjM-1705309226-1-AT/2+atAlavopfZ3WNW2NwaGi3G9x2bIejPwuMJosbnYHsTROsr28gd+ftL68TUy1AOmvYdKWD3tOdHqIEbvwwY=;
+        path=/; expires=Mon, 15-Jan-24 09:30:26 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 6cccd80f-c68b-40ae-84de-e7280a37e20d
+      X-Runtime:
+      - '0.023446'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

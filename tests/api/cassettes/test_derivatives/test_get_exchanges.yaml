@@ -1,0 +1,279 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/derivatives/exchanges
+  response:
+    body:
+      string: "[{\"name\":\"Binance (Futures)\",\"id\":\"binance_futures\",\"open_interest_btc\":227820.9,\"trade_volume_24h_btc\":\"1233733.15\",\"number_of_perpetual_pairs\":302,\"number_of_futures_pairs\":44,\"image\":\"https://assets.coingecko.com/markets/images/466/small/binance_futures.jpg?1568609512\",\"year_established\":2019,\"country\":null,\"description\":\"\",\"url\":\"https://www.binance.com/\"},{\"name\":\"Bybit
+        (Futures)\",\"id\":\"bybit\",\"open_interest_btc\":151574.59,\"trade_volume_24h_btc\":\"353080.73\",\"number_of_perpetual_pairs\":326,\"number_of_futures_pairs\":88,\"image\":\"https://assets.coingecko.com/markets/images/460/small/photo_2021-08-12_18-27-50.jpg?1628764200\",\"year_established\":2018,\"country\":null,\"description\":\"Bybit
+        is a cryptocurrency exchange that offers a professional platform featuring
+        an ultra-fast matching engine, excellent customer service and multilingual
+        community support for crypto traders of all levels. Established in March 2018,
+        Bybit currently serves more than 10 million users and institutions offering
+        access to over 100 assets and contracts across Spot, Futures and Options,
+        launchpad projects, earn products, an NFT Marketplace and more. Bybit is a
+        proud partner of Formula One racing team, Oracle Red Bull Racing, esports
+        teams NAVI, Astralis, Alliance, Virtus.pro, Made in Brazil (MIBR), City Esports,
+        and Oracle Red Bull Racing Esports, and association football (soccer) teams
+        Borussia Dortmund and Avispa Fukuoka.\",\"url\":\"https://www.bybit.com\"},{\"name\":\"Deepcoin
+        (Derivatives)\",\"id\":\"deepcoin_derivatives\",\"open_interest_btc\":144634.71,\"trade_volume_24h_btc\":\"128855.26\",\"number_of_perpetual_pairs\":107,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/948/small/deepcoin.jpeg?1689269680\",\"year_established\":2018,\"country\":\"Singapore\",\"description\":\"\",\"url\":\"https://www.deepcoin.com/\"},{\"name\":\"OKX
+        (Futures)\",\"id\":\"okex_swap\",\"open_interest_btc\":81371.16,\"trade_volume_24h_btc\":\"482840.23\",\"number_of_perpetual_pairs\":196,\"number_of_futures_pairs\":426,\"image\":\"https://assets.coingecko.com/markets/images/379/small/WeChat_Image_20220117220452.png?1642471221\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://www.okx.com/trade-futures\"},{\"name\":\"Bitget
+        Futures\",\"id\":\"bitget_futures\",\"open_interest_btc\":60384.02,\"trade_volume_24h_btc\":\"253368.43\",\"number_of_perpetual_pairs\":236,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/591/small/2023-07-25_21.47.43.jpg?1690293544\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://www.bitget.com/en/\"},{\"name\":\"BingX
+        (Futures)\",\"id\":\"bingx_futures\",\"open_interest_btc\":49973.61,\"trade_volume_24h_btc\":\"243875.32\",\"number_of_perpetual_pairs\":223,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/917/small/ezgif.com-gif-maker.jpg?1658483171\",\"year_established\":null,\"country\":null,\"description\":\"Founded
+        in 2018, BingX is a crypto social trading exchange that offers spot, derivatives
+        and copy trading services to more than 100 countries worldwide.\\r\\n\\r\\nBingX
+        prides itself as the people's exchange by unlocking the fast-growing cryptocurrency
+        market for everyone, connecting users with experts traders and a platform
+        to invest in a simple, engaging and transparent way.\",\"url\":\"https://bingx.com/\"},{\"name\":\"BitVenus
+        Futures\",\"id\":\"bitvenus\",\"open_interest_btc\":49599.69,\"trade_volume_24h_btc\":\"179961.75\",\"number_of_perpetual_pairs\":89,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1249/small/BitVenus.png?1692769178\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"Founded in May 2018, our exchange offers
+        reliable and efficient 24x7 spot and derivatives trading services. Our commitment
+        to continual innovation has allowed us to launch state-of-the-art features,
+        such as a copy trading function, which facilitates both novice and seasoned
+        traders. This persistent focus on enhancement, fueled by a team of seasoned
+        industry professionals, ensures that our product offerings remain top-tier,
+        competitive, and user-friendly. We highly prioritize customer service, boasting
+        a dedicated team ready to provide high-quality support whenever needed. Our
+        dedicated compliance team works meticulously to ensure our trading environment
+        is secure, adhering strictly to all regulatory requirements. All these efforts
+        come together to create a trading platform that offers security, support,
+        and innovative features that make trading both easy and rewarding.\",\"url\":\"https://www.bitvenus.com/\"},{\"name\":\"Deribit\",\"id\":\"deribit\",\"open_interest_btc\":39629.21,\"trade_volume_24h_btc\":\"23954.2\",\"number_of_perpetual_pairs\":18,\"number_of_futures_pairs\":68,\"image\":\"https://assets.coingecko.com/markets/images/402/small/deribit_logo_on_light_bg.png?1557215233\",\"year_established\":2014,\"country\":\"Netherlands\",\"description\":\"\",\"url\":\"https://www.deribit.com\"},{\"name\":\"KuCoin
+        Futures\",\"id\":\"kumex\",\"open_interest_btc\":36979.62,\"trade_volume_24h_btc\":\"50091.72\",\"number_of_perpetual_pairs\":266,\"number_of_futures_pairs\":3,\"image\":\"https://assets.coingecko.com/markets/images/471/small/kucoin.png?1640588148\",\"year_established\":2019,\"country\":null,\"description\":\"\",\"url\":\"https://futures.kucoin.com/trade\"},{\"name\":\"Blofin\",\"id\":\"blofin\",\"open_interest_btc\":32614.23,\"trade_volume_24h_btc\":\"266387.58\",\"number_of_perpetual_pairs\":286,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1282/small/blofinlogo.jpg?1695218770\",\"year_established\":2021,\"country\":\"Marshall
+        Islands\",\"description\":\"In 2023, Blofin stands as a rising platform for
+        crypto futures trading, holding a top-40 rank among peers. Known as one of
+        the fastest-growing and most reliable crypto trading platforms globally, Blofin
+        offers a robust suite of pragmatic security measures, AI-powered algorithms,
+        infrastructure, and analytical tools. The Blofin team comprises serial entrepreneurs,
+        executives from traditional finance, professional traders, risk control experts,
+        and more. With over 100 USDT-M perpetual contracts available, Blofin is shaping
+        the future of crypto trading.\",\"url\":\"https://blofin.com\"},{\"name\":\"Bitmart
+        Futures\",\"id\":\"bitmart_futures\",\"open_interest_btc\":29633.35,\"trade_volume_24h_btc\":\"170836.02\",\"number_of_perpetual_pairs\":160,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/529/small/ezgif.com-gif-maker.jpg?1660121655\",\"year_established\":1996,\"country\":null,\"description\":\"\",\"url\":\"https://futures.bitmart.com/\"},{\"name\":\"Prime
+        XBT\",\"id\":\"prime_xbt\",\"open_interest_btc\":29628.58,\"trade_volume_24h_btc\":\"5301.59\",\"number_of_perpetual_pairs\":38,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/481/small/156a13457e1b779d5d8cddc58e06db21.png?1570470959\",\"year_established\":null,\"country\":\"Seychelles\",\"description\":\"PrimeXBT
+        is a technologically advanced Bitcoin-based trading platform suitable for
+        both beginners and professional traders. PrimeXBT allows its users to actively
+        trade most popular cryptocurrencies such as Bitcoin, Ethereum, Ripple, and
+        more with 100x leverage, profit from market rallies and declines, or hedge
+        existing holdings. The company provides access to real-time market data and
+        a wide range of trading tools, enabling a safe and efficient trading environment
+        for everyone.\",\"url\":\"https://primexbt.com\"},{\"name\":\"Toobit Futures\",\"id\":\"toobit_derivatives\",\"open_interest_btc\":29026.41,\"trade_volume_24h_btc\":\"89658.77\",\"number_of_perpetual_pairs\":83,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1152/small/Toobit_logo400X400_%281%29.png?1686549545\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://www.toobit.com/en-US/\"},{\"name\":\"Gate.io
+        (Futures)\",\"id\":\"gate_futures\",\"open_interest_btc\":28392.76,\"trade_volume_24h_btc\":\"45412.34\",\"number_of_perpetual_pairs\":354,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/403/small/gate_io_logo.jpg?1654182143\",\"year_established\":null,\"country\":\"Hong
+        Kong\",\"description\":\"Gate was established in 2013, and it is the top 10
+        exchanges in the world in terms of authentic trading volume. It is also the
+        first choice of over 8 million registered customers, covering 130+ countries
+        worldwide, as we are providing the most comprehensive digital asset solutions.\",\"url\":\"https://www.gate.io/futures_trade/BTC_USD\"},{\"name\":\"XT.COM
+        (Derivatives)\",\"id\":\"xt_derivatives\",\"open_interest_btc\":26703.23,\"trade_volume_24h_btc\":\"270221.51\",\"number_of_perpetual_pairs\":366,\"number_of_futures_pairs\":40,\"image\":\"https://assets.coingecko.com/markets/images/1034/small/xt.png?1674099390\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://www.xt.com\"},{\"name\":\"Phemex
+        (Futures)\",\"id\":\"phemex_futures\",\"open_interest_btc\":25090.6,\"trade_volume_24h_btc\":\"33579.56\",\"number_of_perpetual_pairs\":245,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/519/small/phemex_logo.png?1701959620\",\"year_established\":2019,\"country\":\"British
+        Virgin Islands\",\"description\":\"Phemex is a global cryptocurrency derivatives
+        exchange offering perpetual contracts trading for bitcoin, ethereum, and more.
+        It allows up to 100x leverage and settlements are in BTC and USD.\",\"url\":\"https://www.phemex.com\"},{\"name\":\"MEXC
+        (Futures)\",\"id\":\"mxc_futures\",\"open_interest_btc\":24200.86,\"trade_volume_24h_btc\":\"101717.48\",\"number_of_perpetual_pairs\":399,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/551/small/IMG_2574.jpg?1676017792\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://www.mexc.com/\"},{\"name\":\"CoinTR
+        Pro (Derivatives)\",\"id\":\"cointr_derivatives\",\"open_interest_btc\":20812.95,\"trade_volume_24h_btc\":\"319025.17\",\"number_of_perpetual_pairs\":64,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1098/small/cointr.jpg?1681281355\",\"year_established\":2022,\"country\":\"Turkey\",\"description\":\"\",\"url\":\"https://www.cointr.com/en-us\"},{\"name\":\"BTSE
+        (Futures)\",\"id\":\"btse_futures\",\"open_interest_btc\":18144.96,\"trade_volume_24h_btc\":\"32987.64\",\"number_of_perpetual_pairs\":145,\"number_of_futures_pairs\":8,\"image\":\"https://assets.coingecko.com/markets/images/465/small/BTSE.jpg?1569554722\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"BTSE is your Bitcoin futures exchange to
+        trade with confidence and ease.\\r\\n\\r\\nBTSE\u2018s mission is to make
+        institutional-grade security and stability available to every crypto trader.\\r\\n\\r\\nBTSE\u2019s
+        platform is built to facilitate reliable 24/7 trading. It uses an extremely
+        powerful matching engine that eliminates the risk of system overloads, as
+        well as horizontal scaling which enables BTSE to do hot upgrades with zero
+        downtime. BTSE\u2019s insurance fund, strict security protocols, and self-hosted
+        servers allow for the highest level of security for our traders.\",\"url\":\"https://www.btse.com/en/futures/\"},{\"name\":\"CoinCatch
+        Derivatives\",\"id\":\"coincatch_derivatives\",\"open_interest_btc\":18002.55,\"trade_volume_24h_btc\":\"30009.36\",\"number_of_perpetual_pairs\":155,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1234/small/coincatch.jpeg?1692251342\",\"year_established\":2022,\"country\":\"British
+        Virgin Islands\",\"description\":\"CoinCatch is a cryptocurrency exchange
+        with a mission to be built with KOLs for traders. The platform is user-friendly
+        and feature-rich, with a focus on security and reliability. It offers spot
+        and derivative trading services for most major coins in the market, and operates
+        a customer support center around the clock to address any concerns, providing
+        the best trading experience possible. For more information, visit https://www.coincatch.com/en/.\",\"url\":\"https://www.coincatch.com/en\"},{\"name\":\"WhiteBIT
+        Futures\",\"id\":\"whitebit_futures\",\"open_interest_btc\":11913.18,\"trade_volume_24h_btc\":\"16345.2\",\"number_of_perpetual_pairs\":34,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1074/small/800_800.jpg?1688004647\",\"year_established\":null,\"country\":null,\"description\":\"WhiteBIT
+        Futures is a derivative cryptocurrency exchange established in Saint Vincent
+        and the Grenadines\\r\\n\",\"url\":\"https://whitebit.com/futures\"},{\"name\":\"Bitunix
+        Futures\",\"id\":\"bitunix_futures\",\"open_interest_btc\":10628.26,\"trade_volume_24h_btc\":\"315853.53\",\"number_of_perpetual_pairs\":49,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1312/small/APP_icon_1024.png?1697266841\",\"year_established\":2021,\"country\":\"United
+        Arab Emirates\",\"description\":\"Bitunix is a crypto derivative exchange,
+        founded in November 2021 by a team with extensive backgrounds in traditional
+        finance and blockchain in Hong Kong. Since then, Bitunix has established offices
+        in various locations, including Singapore, Japan and Dubai. Bitunix has also
+        applied for compliance licenses in the United States.  Bitunix is committed
+        to creating convenient, secure, intelligent and social financial tools, as
+        it adopts bank-grade risk control and maintains reserves in excess of 1:1
+        with user assets at all times through custodians.  Bitunix offers crypto spot
+        trading and perpetual futures trading. Currently, Bitunix offers over 120
+        trading pairs allowing users to trade BTC, ETH, DOGE, SHIB, ARB and more for
+        users to trade with USDT. In addition to the web platform, Bitunix also has
+        mobile apps for both iOS and Android devices, allowing users to trade anytime,
+        anywhere.\",\"url\":\"https://bitunix.com\"},{\"name\":\"BitMEX (Derivative)\",\"id\":\"bitmex\",\"open_interest_btc\":8398.84,\"trade_volume_24h_btc\":\"16773.69\",\"number_of_perpetual_pairs\":105,\"number_of_futures_pairs\":34,\"image\":\"https://assets.coingecko.com/markets/images/378/small/BitMEX.png?1591671734\",\"year_established\":null,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.bitmex.com/\"},{\"name\":\"Bitfinex
+        (Futures)\",\"id\":\"bitfinex_futures\",\"open_interest_btc\":7991.92,\"trade_volume_24h_btc\":\"3834.05\",\"number_of_perpetual_pairs\":91,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/486/small/BItfinex.png?1615895876\",\"year_established\":2019,\"country\":\"British
+        Virgin Islands\",\"description\":\"\",\"url\":\"https://www.bitfinex.com/\"},{\"name\":\"dYdX
+        Perpetual\",\"id\":\"dydx_perpetual\",\"open_interest_btc\":7568.66,\"trade_volume_24h_btc\":\"22169.77\",\"number_of_perpetual_pairs\":38,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/646/small/dydx-exchange.jpeg?1617852136\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://dydx.exchange\"},{\"name\":\"Kraken
+        (Futures)\",\"id\":\"kraken_futures\",\"open_interest_btc\":5032.78,\"trade_volume_24h_btc\":\"7584.76\",\"number_of_perpetual_pairs\":129,\"number_of_futures_pairs\":72,\"image\":\"https://assets.coingecko.com/markets/images/426/small/NX0D_EiD_400x400.jpg?1560770269\",\"year_established\":2019,\"country\":\"United
+        States\",\"description\":\"Kraken Futures was previously known as Crypto Facilities.
+        Crypto Facilities Ltd is an FCA authorised cryptocurrency derivatives platform
+        based in London. Crypto Facilities became a part of the Kraken group of companies
+        and rebranded to Kraken Futures in February 2019. They offer up to 50x leverage
+        on 5 trading pairs. The most popular trading pair is the XBTUSD pair. \",\"url\":\"https://r.kraken.com/c/2223866/687155/10583\"},{\"name\":\"HTX
+        Futures\",\"id\":\"huobi_dm\",\"open_interest_btc\":4302.75,\"trade_volume_24h_btc\":\"37758.31\",\"number_of_perpetual_pairs\":138,\"number_of_futures_pairs\":8,\"image\":\"https://assets.coingecko.com/markets/images/433/small/huobifutures.png?1589963675\",\"year_established\":null,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.hbdm.com/en-us/\"},{\"name\":\"BitMake
+        Futures\",\"id\":\"bitmake_futures\",\"open_interest_btc\":3997.8,\"trade_volume_24h_btc\":\"47146.98\",\"number_of_perpetual_pairs\":12,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1276/small/photo_2023-02-21_11-22-19.jpg?1694506932\",\"year_established\":2020,\"country\":\"United
+        Arab Emirates\",\"description\":\"BitMake is an exchange with the most professional
+        Unified Trading Account(UTA) that supports ultra silky-smooth crypto trading.\",\"url\":\"https://www.bitmake.com\"},{\"name\":\"Bitforex
+        (Futures)\",\"id\":\"bitforex_futures\",\"open_interest_btc\":3355.57,\"trade_volume_24h_btc\":\"32152.39\",\"number_of_perpetual_pairs\":13,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/454/small/BitForex-Logo.png?1573808221\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.bitforex.com/en/perpetual/btc_usd\"},{\"name\":\"Aevo\",\"id\":\"aevo\",\"open_interest_btc\":3066.89,\"trade_volume_24h_btc\":\"2793.04\",\"number_of_perpetual_pairs\":52,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1255/small/aevo.png?1693793405\",\"year_established\":2022,\"country\":\"Singapore\",\"description\":\"\",\"url\":\"https://app.aevo.xyz\"},{\"name\":\"Crypto.com
+        Exchange (Futures)\",\"id\":\"crypto_com_futures\",\"open_interest_btc\":2382.68,\"trade_volume_24h_btc\":\"42192.41\",\"number_of_perpetual_pairs\":143,\"number_of_futures_pairs\":20,\"image\":\"https://assets.coingecko.com/markets/images/669/small/h2oMjPp6_400x400.jpg?1669699728\",\"year_established\":2021,\"country\":null,\"description\":\"\",\"url\":\"https://crypto.com/exchange/perpetual/\"},{\"name\":\"Hyperliquid\",\"id\":\"hyperliquid\",\"open_interest_btc\":1638.92,\"trade_volume_24h_btc\":\"10184.91\",\"number_of_perpetual_pairs\":102,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1208/small/Hyperliquid_logo.png?1691049768\",\"year_established\":2023,\"country\":\"Panama\",\"description\":\"Hyperliquid
+        is a decentralized perpetual futures order book exchange on its own L1. \",\"url\":\"https://hyperliquid.xyz/\"},{\"name\":\"RabbitX\",\"id\":\"rabbitx\",\"open_interest_btc\":1351.99,\"trade_volume_24h_btc\":\"10177.48\",\"number_of_perpetual_pairs\":31,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1284/small/rabbitx.jpeg?1695362421\",\"year_established\":2023,\"country\":\"Singapore\",\"description\":\"A
+        perpetuals DEX that uses Starknet. Our model is very similar to dYdX's (offchain
+        orderbook liquidity)\",\"url\":\"https://rabbitx.io/\"},{\"name\":\"ApeX Pro\",\"id\":\"apex_pro\",\"open_interest_btc\":1217.89,\"trade_volume_24h_btc\":\"3813.52\",\"number_of_perpetual_pairs\":32,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1010/small/apex_pro.png?1670999139\",\"year_established\":2022,\"country\":\"Singapore\",\"description\":\"Apex
+        Pro is a decentralized cryptocurrency exchange established in 2022.\\r\\n\\r\\nApeX
+        Protocol's newest product offering, ApeX Pro is a permissionless and non-custodial
+        DEX, powered by StarkWare's Layer 2 scalability engine StarkEx. It operates
+        on an orderbook model and delivers cross-margined perpetual contracts to its
+        community under a new framework. It is primed to deliver limitless access
+        to the perpetual swaps market, as it remains committed to the promises of
+        not just speed and efficiency, but also security with transparency on traders'
+        preferred derivatives trading assets.\\r\\n\\r\\nApeX Protocol is a multichain
+        decentralized derivatives protocol, designed to address flaws in existing
+        decentralized exchanges (DEXs) such as high gas fees and poor order execution,
+        and is dedicated to realizing the Web 3.0 vision \u2014 shaping a free and
+        open ecosystem for all users to grow their wealth in a safe and trusted environment.\\r\\nThe
+        protocol is incubated and supported by Davion Labs (a crypto impact incubator
+        founded by Bybit) and backed by prominent global investors such as Dragonfly
+        Capital, Jump Trading, Kronos, M77 Ventures, Mirana Ventures, Tiger Global,
+        Cobo, and CyberX.\",\"url\":\"https://apex.exchange/\"},{\"name\":\"GMX Derivatives
+        (Arbitrum)\",\"id\":\"gmx_arbitrum\",\"open_interest_btc\":1128.95,\"trade_volume_24h_btc\":\"862.37\",\"number_of_perpetual_pairs\":4,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1100/small/gmx.jpeg?1679893825\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://gmx.io\"},{\"name\":\"Drift
+        Protocol\",\"id\":\"drift_protocol\",\"open_interest_btc\":962.65,\"trade_volume_24h_btc\":\"1132.41\",\"number_of_perpetual_pairs\":23,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/799/small/drift_twitter_logo.png?1679885766\",\"year_established\":null,\"country\":null,\"description\":\"Drift
+        brings on-chain, cross-margined perpetual futures to Solana. Making futures
+        DEXs the best way to trade.\",\"url\":\"https://www.drift.trade/\"},{\"name\":\"WOO
+        X (Futures)\",\"id\":\"woo_network_futures\",\"open_interest_btc\":761.34,\"trade_volume_24h_btc\":\"7655.92\",\"number_of_perpetual_pairs\":154,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/874/small/KcTZZnui_400x400.jpeg?1653546759\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://x.woo.org/en/trade\"},{\"name\":\"CoinEx
+        (Futures)\",\"id\":\"coinex_futures\",\"open_interest_btc\":715.44,\"trade_volume_24h_btc\":\"6042.13\",\"number_of_perpetual_pairs\":148,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/820/small/coinex.jpeg?1646295402\",\"year_established\":2019,\"country\":null,\"description\":\"\",\"url\":\"https://www.coinex.com/perpetual\"},{\"name\":\"MUFEX\",\"id\":\"mufex\",\"open_interest_btc\":714.62,\"trade_volume_24h_btc\":\"45277.3\",\"number_of_perpetual_pairs\":22,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1269/small/Dark.jpg?1694159443\",\"year_established\":2023,\"country\":\"Seychelles\",\"description\":\"Founded
+        in 2023, MUFEX is a Decentralized Perpetual Exchange built for all traders
+        anywhere. MUFEX is a perpetual futures DEX that delivers a superior user experience
+        and unparalleled trust compared to traditional CEXs. The team, comprised of
+        over 20 crypto exchange experts, has built a top-three CEX from scratch and
+        operated other regulated exchanges in various countries in the past 4 years.
+        The team chose to move on building a DEX in the absence of global regulatory
+        standards and losing trust in CEX. Unlike other DEXs, all professional trading
+        features and tools can still be found in MUFEX, with seamless account creation
+        and login experiences. The order book and protected liquidity pool designs
+        allow for improved trading depth and better liquidity pool returns. MUFEX
+        provides an industry-leading affiliate system and user rewards center, setting
+        a new standard in decentralised trading.\",\"url\":\"https://www.mufex.finance\"},{\"name\":\"Vertex
+        Protocol (Derivatives)\",\"id\":\"vertex_protocol_derivatives\",\"open_interest_btc\":648.94,\"trade_volume_24h_btc\":\"4383.27\",\"number_of_perpetual_pairs\":33,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1289/small/vertex.jpeg?1695712371\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"\"},{\"name\":\"OPNX
+        Derivatives\",\"id\":\"opnx_derivatives\",\"open_interest_btc\":518.94,\"trade_volume_24h_btc\":\"76.68\",\"number_of_perpetual_pairs\":44,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1115/small/opnx.jpeg?1680755547\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://opnx.com/\"},{\"name\":\"GMX
+        Derivatives (Avalanche)\",\"id\":\"gmx_avalanche\",\"open_interest_btc\":475.39,\"trade_volume_24h_btc\":\"114.76\",\"number_of_perpetual_pairs\":4,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1101/small/gmx.jpeg?1679893893\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://gmx.io\"},{\"name\":\"Delta
+        Exchange (Futures)\",\"id\":\"delta_futures\",\"open_interest_btc\":418.01,\"trade_volume_24h_btc\":\"1754.23\",\"number_of_perpetual_pairs\":64,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/480/small/Z31YpPwu_400x400.jpg?1570167324\",\"year_established\":2018,\"country\":\"Saint
+        Vincent and the Grenadines\",\"description\":\"Delta Exchange is an crypto
+        derivative exchange with focus on altcoins. Delta exchange offers futures
+        and swaps on BTC and 13 leading altcoins such as BNB, LEO, LINK and ATOM with
+        up to 100x leverage.\\r\\n\\r\\n\\r\\nImportant Features:\\r\\n\\r\\n(a) Innovative
+        financial products such has stablecoin (USDC) settled derivatives\\r\\n\\r\\n(b)
+        Tight spreads and deep order books in all market conditions\\r\\n\\r\\n(c)
+        Enterprise-grade security\\r\\n\\r\\n\\r\\n\\r\\nDelta exchange offers a neat
+        UI and easy to use trading terminal suitable for both institutional and individual
+        traders. Quantitative and high-frequency traders benefit from reliable, well
+        designed and documented APIs (REST and socket). \\r\\n\\r\\n\\r\\nThe founding
+        team brings experience from Wall Street firms like Citi \\u0026 UBS and have
+        previously built companies backed by marquee VCs such as Sequoia.\",\"url\":\"https://www.delta.exchange/app/futures/markets\"},{\"name\":\"Stormgain
+        Futures\",\"id\":\"stormgain_futures\",\"open_interest_btc\":411.3,\"trade_volume_24h_btc\":\"2431.51\",\"number_of_perpetual_pairs\":65,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/610/small/CpDGk9Hn_400x400.png?1607689678\",\"year_established\":null,\"country\":null,\"description\":\"StormGain
+        is a crypto trading platform for everyone. It\u2019s a convenient solution
+        for those who want to profit from either the growth or decline of the cryptocurrency
+        market and from long-term investments in crypto assets.\\r\\nAvailable on
+        any device, StormGain allows you to start trading the most popular and most
+        capitalised coins with a multiplier of up to 200x, or you can just buy and
+        hodl crypto.\",\"url\":\"https://stormgain.com/?utm_id=1DSE\\u0026utm_source=coingecko_storm\\u0026utm_medium=media\\u0026utm_campaign=listing\\u0026utm_country=en\"},{\"name\":\"OrangeX
+        Futures\",\"id\":\"orangex_futures\",\"open_interest_btc\":295.95,\"trade_volume_24h_btc\":\"62895.38\",\"number_of_perpetual_pairs\":183,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1355/small/orange.jpeg?1700187545\",\"year_established\":2021,\"country\":\"Seychelles\",\"description\":\"Established
+        in 2021, OrangeX provides its users with services including derivatives trading,
+        spot trading, one-click copy trading and a fiat gateway to purchase cryptocurrencies.
+        OrangeX continues to connect users with professional services and the platform
+        in a safe and innovative way. So far, we serves over 1 million active users
+        worldwide.\",\"url\":\"https://www.orangex.com/\"},{\"name\":\"Helix (Futures)\",\"id\":\"injective_futures\",\"open_interest_btc\":222.69,\"trade_volume_24h_btc\":\"744.11\",\"number_of_perpetual_pairs\":15,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/776/small/Primary_Symbol.png?1662087313\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://helixapp.com/\"},{\"name\":\"HitBTC
+        (Derivatives)\",\"id\":\"hitbtc_derivatives\",\"open_interest_btc\":222.33,\"trade_volume_24h_btc\":\"636.74\",\"number_of_perpetual_pairs\":29,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/979/small/hitbtc.jpeg?1665036121\",\"year_established\":2013,\"country\":null,\"description\":\"\",\"url\":\"https://hitbtc.com/\"},{\"name\":\"AscendEX
+        \ (BitMax) (Futures)\",\"id\":\"bitmax_futures\",\"open_interest_btc\":197.96,\"trade_volume_24h_btc\":\"184215.07\",\"number_of_perpetual_pairs\":59,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/524/small/%E5%8E%9F%E8%89%B2.png?1650557467\",\"year_established\":2020,\"country\":null,\"description\":\"AscendEX
+        (formerly BitMax) is a leading global digital asset financial platform founded
+        by a group of Wall Street quantitative trading veterans in 2018, building
+        on core value of \u201CEfficiency, Resilience and Transparency.\u201D \\r\\n
+        \\r\\nDriven by its continuous innovative product development and early-mover
+        advantage in strategic alignment with the leading projects from DeFi ecosystem,
+        AscendEX offers trading services across over 200 trading pairs across cash,
+        margin, and futures products, in particular margin trading of over 50 tokens
+        in cross-asset collateral mode and futures trading in both cross-asset and
+        isolated margin modes.\",\"url\":\"https://ascendex.com/en/futures-perpetualcontract-trading/btc-perp\"},{\"name\":\"Coinbase
+        International Exchange (Derivatives)\",\"id\":\"coinbase_international_derivatives\",\"open_interest_btc\":159.75,\"trade_volume_24h_btc\":\"4017.26\",\"number_of_perpetual_pairs\":15,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/1259/small/coinbase.png?1693205289\",\"year_established\":2023,\"country\":null,\"description\":\"\",\"url\":\"https://international.coinbase.com/\"},{\"name\":\"Perpetual
+        Protocol\",\"id\":\"perpetual_protocol\",\"open_interest_btc\":115.73,\"trade_volume_24h_btc\":\"412.57\",\"number_of_perpetual_pairs\":22,\"number_of_futures_pairs\":0,\"image\":\"https://assets.coingecko.com/markets/images/628/small/60d18ad85d03bd258e9fe254_mark_only_01.png?1628674691\",\"year_established\":null,\"country\":null,\"description\":\"Perpetual
+        Protocol v2 is a derivative exchange that offers up to 10x leverage with concentrated
+        liquidity.\",\"url\":\"https://app.perp.com?code=coingecko\"}]"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Age:
+      - '24'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - HIT
+      CF-RAY:
+      - 84255ebc9d719faf-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=180
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 08 Jan 2024 15:10:55 GMT
+      ETag:
+      - W/"8d9a25ab90a040ad0219f2d306183bc8"
+      Link:
+      - <https://pro-api.coingecko.com/api/v3/derivatives/exchanges?page=2>; rel="last",
+        <https://pro-api.coingecko.com/api/v3/derivatives/exchanges?page=2>; rel="next"
+      Per-Page:
+      - '50'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=M_gokF4DGcCjqG0Pcu7P6ZowrJjRG9NktEraeZYDk1Q-1704726655-1-AZmQ/b09E54s/3hOu+tDBdbahWRSLIVxZlPku0ssw/pWj6jijxUegZrHj4KDfgSmmo3JYXG9G9VZTK7KxeEdlfM=;
+        path=/; expires=Mon, 08-Jan-24 15:40:55 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Total:
+      - '94'
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 8b322319-0b0c-4565-9e26-e465f38623fe
+      X-Runtime:
+      - '0.273601'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

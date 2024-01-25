@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/companies/public_treasury/ethereum
+  response:
+    body:
+      string: '{"total_holdings":31146.0,"total_value_usd":70586807.33405979,"market_cap_dominance":0.03,"companies":[{"name":"Meitu
+        Inc","symbol":"HKG:1357","country":"HK","total_holdings":31000,"total_entry_value_usd":50500000,"total_current_value_usd":70255924,"percentage_of_total_supply":0.026},{"name":"Mogo
+        Inc.","symbol":"NASDAQ:MOGO","country":"CA","total_holdings":146,"total_entry_value_usd":405880,"total_current_value_usd":330882,"percentage_of_total_supply":0.0}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84253a0faa1a1900-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 08 Jan 2024 14:45:53 GMT
+      ETag:
+      - W/"1b60c32c0de0c5f0ed26f3d664afe91d"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=5l2Sd1CpmtnNPu4stvC.vaBYDilRr4Td2Y7TUDRrGA0-1704725153-1-ATZ5fyWG/tHY1Vx2wIN1vaHZbuZwBnoOaqjU7phhCue8t5yt8+nLvYO/kXM7gfGWetO/R2roUta4Z/Hkh0NGrIE=;
+        path=/; expires=Mon, 08-Jan-24 15:15:53 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 911dbc39-ca33-4305-bbde-399408cd86d1
+      X-Runtime:
+      - '0.036763'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

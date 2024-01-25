@@ -1,0 +1,411 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/exchanges/list
+  response:
+    body:
+      string: "[{\"id\":\"10kswap-starknet-alpha\",\"name\":\"10KSwap\"},{\"id\":\"1bch\",\"name\":\"1BCH\"},{\"id\":\"3xcalibur\",\"name\":\"3xcalibur\"},{\"id\":\"9inch\",\"name\":\"9inch\"},{\"id\":\"aave\",\"name\":\"Aave\"},{\"id\":\"abcc\",\"name\":\"ABCC\"},{\"id\":\"acala_swap\",\"name\":\"Acala
+        Swap\"},{\"id\":\"acdx\",\"name\":\"ACDX\"},{\"id\":\"ace\",\"name\":\"Ace\"},{\"id\":\"acsi_finance\",\"name\":\"Acsi
+        Finance\"},{\"id\":\"aerodrome-base\",\"name\":\"Aerodrome (Base)\"},{\"id\":\"aevo\",\"name\":\"Aevo\"},{\"id\":\"aftermath_finance\",\"name\":\"Aftermath
+        Finance\"},{\"id\":\"agni-finance\",\"name\":\"Agni Finance\"},{\"id\":\"agora_swap\",\"name\":\"Agora
+        Swap\"},{\"id\":\"aktionariat-ethereum\",\"name\":\"Aktionariat (Ethereum)\"},{\"id\":\"alexgo\",\"name\":\"ALEX\"},{\"id\":\"algebra_finance\",\"name\":\"Algebra
+        finance\"},{\"id\":\"alien-base\",\"name\":\"Alien Base\"},{\"id\":\"alienfi\",\"name\":\"AlienFi\"},{\"id\":\"allinxswap-opbnb\",\"name\":\"AllInXSwap
+        (opBnb)\"},{\"id\":\"alpha_five\",\"name\":\"Alpha5\"},{\"id\":\"altcointrader\",\"name\":\"AltcoinTrader\"},{\"id\":\"alterdice\",\"name\":\"AlterDice\"},{\"id\":\"altmarkets\",\"name\":\"Altmarkets\"},{\"id\":\"amaterasu\",\"name\":\"Amaterasu
+        Finance\"},{\"id\":\"animeswap\",\"name\":\"Animeswap\"},{\"id\":\"apertureswap\",\"name\":\"ApertureSwap\"},{\"id\":\"apeswap-arbitrum\",\"name\":\"Apeswap
+        (Arbitrum)\"},{\"id\":\"apeswap_bsc\",\"name\":\"ApeSwap\"},{\"id\":\"apeswap_polygon\",\"name\":\"ApeSwap
+        (Polygon)\"},{\"id\":\"apeswap_telos\",\"name\":\"Apeswap (Telos)\"},{\"id\":\"apex_pro\",\"name\":\"ApeX
+        Pro\"},{\"id\":\"aprobit\",\"name\":\"Aprobit\"},{\"id\":\"aqx\",\"name\":\"AQX\"},{\"id\":\"aqx_derivatives\",\"name\":\"Flipster\"},{\"id\":\"arbidex\",\"name\":\"Arbidex\"},{\"id\":\"arbswap_arbitrum_one\",\"name\":\"Arbswap\"},{\"id\":\"archerswap\",\"name\":\"Archerswap\"},{\"id\":\"arthswap\",\"name\":\"ArthSwap\"},{\"id\":\"ashswap\",\"name\":\"Ashswap\"},{\"id\":\"astroport\",\"name\":\"Astroport
+        (Classic)\"},{\"id\":\"astroport_injective\",\"name\":\"Astroport (Injective)\"},{\"id\":\"astroport_neutron\",\"name\":\"Astroport
+        (Neutron)\"},{\"id\":\"astroport-sei\",\"name\":\"Astroport (Sei)\"},{\"id\":\"astroport_v2\",\"name\":\"Astroport
+        V2\"},{\"id\":\"astrovault\",\"name\":\"Astrovault\"},{\"id\":\"auroraswap\",\"name\":\"AuroraSwap\"},{\"id\":\"autoshark_finance\",\"name\":\"AutoShark
+        Finance\"},{\"id\":\"aux\",\"name\":\"AUX Exchange\"},{\"id\":\"ayin\",\"name\":\"AYIN\"},{\"id\":\"azbit\",\"name\":\"Azbit\"},{\"id\":\"b2bx\",\"name\":\"B2BX\"},{\"id\":\"babydogeswap\",\"name\":\"BabyDogeSwap\"},{\"id\":\"babyswap\",\"name\":\"BabySwap\"},{\"id\":\"baguette\",\"name\":\"Baguette\"},{\"id\":\"bakeryswap\",\"name\":\"Bakeryswap\"},{\"id\":\"bakeryswap-base\",\"name\":\"BakerySwap
+        (Base)\"},{\"id\":\"bakkt\",\"name\":\"Bakkt\"},{\"id\":\"balanced_network\",\"name\":\"Balanced\"},{\"id\":\"balancer\",\"name\":\"Balancer
+        V2\"},{\"id\":\"balancer_arbitrum\",\"name\":\"Balancer V2 (Arbitrum)\"},{\"id\":\"balancer-gnosis\",\"name\":\"Balancer
+        V2 (Gnosis)\"},{\"id\":\"balancer_polygon\",\"name\":\"Balancer V2 (Polygon)\"},{\"id\":\"balancer_v1\",\"name\":\"Balancer
+        V1\"},{\"id\":\"balancer-v2-avalanche\",\"name\":\"Balancer V2 (Avalanche)\"},{\"id\":\"balancer-v2-base\",\"name\":\"Balancer
+        V2 (Base)\"},{\"id\":\"bancor\",\"name\":\"Bancor (V2)\"},{\"id\":\"bancor_v3\",\"name\":\"Bancor
+        (V3)\"},{\"id\":\"baptswap\",\"name\":\"BAPTSwap\"},{\"id\":\"baryon_network\",\"name\":\"Baryon
+        Network\"},{\"id\":\"basefex\",\"name\":\"BaseFEX\"},{\"id\":\"baseswap\",\"name\":\"BaseSwap\"},{\"id\":\"baso-finance\",\"name\":\"Baso
+        Finance\"},{\"id\":\"bcex\",\"name\":\"BCEX\"},{\"id\":\"beamswap\",\"name\":\"Beamswap\"},{\"id\":\"beam-swap\",\"name\":\"Beam
+        Swap\"},{\"id\":\"beaxy\",\"name\":\"Beaxy\"},{\"id\":\"beethovenx\",\"name\":\"Beethoven
+        X\"},{\"id\":\"beethoven_x_optimism\",\"name\":\"Beethoven X (Optimism)\"},{\"id\":\"benswap_smart_bitcoin_cash\",\"name\":\"Benswap\"},{\"id\":\"bgogo\",\"name\":\"Bgogo\"},{\"id\":\"bibox\",\"name\":\"Bibox\"},{\"id\":\"bibox_futures\",\"name\":\"Bibox
+        (Futures)\"},{\"id\":\"biconomy\",\"name\":\"Biconomy\"},{\"id\":\"bifrost_swap\",\"name\":\"Bifrost
+        Swap\"},{\"id\":\"bigone\",\"name\":\"BigONE\"},{\"id\":\"bigone_futures\",\"name\":\"BigONE
+        Futures\"},{\"id\":\"bilaxy\",\"name\":\"Bilaxy\"},{\"id\":\"binance\",\"name\":\"Binance\"},{\"id\":\"binance_dex\",\"name\":\"Binance
+        DEX\"},{\"id\":\"binance_dex_mini\",\"name\":\"Binance DEX (Mini)\"},{\"id\":\"binance_futures\",\"name\":\"Binance
+        (Futures)\"},{\"id\":\"binance_us\",\"name\":\"Binance US\"},{\"id\":\"binaryswap\",\"name\":\"BinarySwap\"},{\"id\":\"bingx\",\"name\":\"BingX\"},{\"id\":\"bingx_futures\",\"name\":\"BingX
+        (Futures)\"},{\"id\":\"bione\",\"name\":\"BiONE\"},{\"id\":\"birake\",\"name\":\"Birake\"},{\"id\":\"bisq\",\"name\":\"Bisq\"},{\"id\":\"biswap\",\"name\":\"Biswap\"},{\"id\":\"biswap-v3-1\",\"name\":\"Biswap
+        V3\"},{\"id\":\"bit2c\",\"name\":\"Bit2c\"},{\"id\":\"bit2me\",\"name\":\"Bit2Me\"},{\"id\":\"bitazza\",\"name\":\"Bitazza\"},{\"id\":\"bitbank\",\"name\":\"Bitbank\"},{\"id\":\"bitbay\",\"name\":\"zondacrypto\"},{\"id\":\"bitbegin\",\"name\":\"Bitbegin\"},{\"id\":\"bitbns\",\"name\":\"BitBNS\"},{\"id\":\"bitbox\",\"name\":\"BITFRONT\"},{\"id\":\"bitcastle\",\"name\":\"bitcastle\"},{\"id\":\"bitci\",\"name\":\"Bitci
+        TR\"},{\"id\":\"bitcoin_com\",\"name\":\"FMFW.io\"},{\"id\":\"bitcointry_exchange\",\"name\":\"Bitcointry
+        Exchange\"},{\"id\":\"bit_com\",\"name\":\"BIT\"},{\"id\":\"bit_com_futures\",\"name\":\"BIT
+        (Futures)\"},{\"id\":\"bitdelta\",\"name\":\"BitDelta\"},{\"id\":\"bitexbook\",\"name\":\"BITEXBOOK\"},{\"id\":\"bitexen\",\"name\":\"Bitexen\"},{\"id\":\"bitexlive\",\"name\":\"Bitexlive\"},{\"id\":\"bitfex\",\"name\":\"Bitfex\"},{\"id\":\"bitfinex\",\"name\":\"Bitfinex\"},{\"id\":\"bitfinex_futures\",\"name\":\"Bitfinex
+        (Futures)\"},{\"id\":\"bitflyer\",\"name\":\"bitFlyer\"},{\"id\":\"bitflyer_futures\",\"name\":\"Bitflyer
+        (Futures)\"},{\"id\":\"bitforex\",\"name\":\"Bitforex\"},{\"id\":\"bitforex_futures\",\"name\":\"Bitforex
+        (Futures)\"},{\"id\":\"bitget\",\"name\":\"Bitget\"},{\"id\":\"bitget_futures\",\"name\":\"Bitget
+        Futures\"},{\"id\":\"bithash\",\"name\":\"BitHash\"},{\"id\":\"bithumb\",\"name\":\"Bithumb\"},{\"id\":\"bithumb_futures\",\"name\":\"Bithumb
+        (Futures)\"},{\"id\":\"bithumb_global\",\"name\":\"BitGlobal\"},{\"id\":\"bitinka\",\"name\":\"Bitinka.com\"},{\"id\":\"bitkonan\",\"name\":\"BitKonan\"},{\"id\":\"bitkub\",\"name\":\"Bitkub\"},{\"id\":\"bitlo\",\"name\":\"Bitlo\"},{\"id\":\"bitmake\",\"name\":\"BitMake\"},{\"id\":\"bitmake_futures\",\"name\":\"BitMake
+        Futures\"},{\"id\":\"bitmart\",\"name\":\"BitMart\"},{\"id\":\"bitmart_futures\",\"name\":\"Bitmart
+        Futures\"},{\"id\":\"bitmax\",\"name\":\"AscendEX (BitMax)\"},{\"id\":\"bitmax_futures\",\"name\":\"AscendEX
+        \ (BitMax) (Futures)\"},{\"id\":\"bitmex\",\"name\":\"BitMEX (Derivative)\"},{\"id\":\"bitmex_spot\",\"name\":\"BitMEX\"},{\"id\":\"bitonbay\",\"name\":\"BitOnBay\"},{\"id\":\"bitopro\",\"name\":\"BitoPro\"},{\"id\":\"bitpanda\",\"name\":\"One
+        Trading\"},{\"id\":\"bitrue\",\"name\":\"Bitrue\"},{\"id\":\"bitrue_futures\",\"name\":\"Bitrue
+        (Futures)\"},{\"id\":\"bitso\",\"name\":\"Bitso\"},{\"id\":\"bitstamp\",\"name\":\"Bitstamp\"},{\"id\":\"bitsten\",\"name\":\"Bitsten\"},{\"id\":\"bitstorage\",\"name\":\"BitStorage\"},{\"id\":\"bitswap\",\"name\":\"BitSwap\"},{\"id\":\"bittime\",\"name\":\"Bittime\"},{\"id\":\"bittrex\",\"name\":\"Bittrex
+        Global\"},{\"id\":\"bitubu\",\"name\":\"Bitubu Exchange\"},{\"id\":\"bitunix\",\"name\":\"Bitunix\"},{\"id\":\"bitunix_futures\",\"name\":\"Bitunix
+        Futures\"},{\"id\":\"bitvavo\",\"name\":\"Bitvavo\"},{\"id\":\"bitvenus\",\"name\":\"BitVenus
+        Futures\"},{\"id\":\"bitvenus_spot\",\"name\":\"BitVenus\"},{\"id\":\"bitz_futures\",\"name\":\"BitZ
+        (Futures)\"},{\"id\":\"bkex\",\"name\":\"BKEX\"},{\"id\":\"blazeswap\",\"name\":\"Blazeswap
+        (Songbird)\"},{\"id\":\"blazeswap-flare\",\"name\":\"BlazeSwap (Flare) \"},{\"id\":\"blockchain_com\",\"name\":\"Blockchain.com\"},{\"id\":\"blofin\",\"name\":\"Blofin\"},{\"id\":\"bluemove\",\"name\":\"BlueMove\"},{\"id\":\"blueshift\",\"name\":\"Blueshift\"},{\"id\":\"bobswap_polygon\",\"name\":\"BobSwap
+        (Polygon)\"},{\"id\":\"bossswap\",\"name\":\"BossSwap\"},{\"id\":\"btc_alpha\",\"name\":\"BTC-Alpha\"},{\"id\":\"btcbox\",\"name\":\"BTCBOX\"},{\"id\":\"btcc\",\"name\":\"BTCC\"},{\"id\":\"btcc_futures\",\"name\":\"BTCC
+        Futures\"},{\"id\":\"btcmarkets\",\"name\":\"BTCMarkets\"},{\"id\":\"btcmex\",\"name\":\"BTCMEX\"},{\"id\":\"btcsquare\",\"name\":\"BTCSquare\"},{\"id\":\"btc_trade_ua\",\"name\":\"BTC
+        Trade UA\"},{\"id\":\"btcturk\",\"name\":\"BtcTurk | Kripto\"},{\"id\":\"btse\",\"name\":\"BTSE\"},{\"id\":\"btse_futures\",\"name\":\"BTSE
+        (Futures)\"},{\"id\":\"bullish_com\",\"name\":\"Bullish\"},{\"id\":\"butter-xyz\",\"name\":\"Butter.xyz\"},{\"id\":\"buyucoin\",\"name\":\"BuyUcoin\"},{\"id\":\"bw\",\"name\":\"BW.com\"},{\"id\":\"bybit\",\"name\":\"Bybit
+        (Futures)\"},{\"id\":\"bybit_spot\",\"name\":\"Bybit\"},{\"id\":\"bydfi\",\"name\":\"BYDFi\"},{\"id\":\"byte-exchange\",\"name\":\"Byte
+        Exchange\"},{\"id\":\"bytex\",\"name\":\"Bytex\"},{\"id\":\"camelot\",\"name\":\"Camelot\"},{\"id\":\"camelot-v3\",\"name\":\"Camelot
+        V3\"},{\"id\":\"canto_dex\",\"name\":\"Canto Dex\"},{\"id\":\"cantoswap\",\"name\":\"Cantoswap\"},{\"id\":\"capricorn\",\"name\":\"Capricorn\"},{\"id\":\"carbon\",\"name\":\"Carbon\"},{\"id\":\"catex\",\"name\":\"Catex\"},{\"id\":\"caviarnine\",\"name\":\"CaviarNine\"},{\"id\":\"cetus\",\"name\":\"Cetus\"},{\"id\":\"cex\",\"name\":\"CEX.IO\"},{\"id\":\"chainex\",\"name\":\"ChainEX\"},{\"id\":\"changelly\",\"name\":\"Changelly
+        PRO\"},{\"id\":\"cherryswap\",\"name\":\"CherrySwap\"},{\"id\":\"chiliz\",\"name\":\"ChilizX\"},{\"id\":\"chronos\",\"name\":\"Chronos\"},{\"id\":\"citadelswap\",\"name\":\"CitadelSwap\"},{\"id\":\"citex\",\"name\":\"CITEX\"},{\"id\":\"claimswap\",\"name\":\"Claimswap\"},{\"id\":\"cleopatra-exchange\",\"name\":\"Cleopatra
+        Exchange\"},{\"id\":\"clipper-arbitrum\",\"name\":\"Clipper (Arbitrum)\"},{\"id\":\"clipper_ethereum\",\"name\":\"Clipper
+        (Ethereum)\"},{\"id\":\"clipper_optimism\",\"name\":\"Clipper (Optimism)\"},{\"id\":\"clipper_polygon\",\"name\":\"Clipper
+        (Polygon)\"},{\"id\":\"cme_futures\",\"name\":\"CME Group\"},{\"id\":\"coinbase_international\",\"name\":\"Coinbase
+        International Exchange\"},{\"id\":\"coinbase_international_derivatives\",\"name\":\"Coinbase
+        International Exchange (Derivatives)\"},{\"id\":\"coincatch\",\"name\":\"CoinCatch\"},{\"id\":\"coincatch_derivatives\",\"name\":\"CoinCatch
+        Derivatives\"},{\"id\":\"coincheck\",\"name\":\"Coincheck\"},{\"id\":\"coindcx\",\"name\":\"CoinDCX\"},{\"id\":\"coindeal\",\"name\":\"Coindeal\"},{\"id\":\"coin_egg\",\"name\":\"CoinEgg\"},{\"id\":\"coinex\",\"name\":\"CoinEx\"},{\"id\":\"coinex_futures\",\"name\":\"CoinEx
+        (Futures)\"},{\"id\":\"coinfalcon\",\"name\":\"Coinfalcon\"},{\"id\":\"coinfield\",\"name\":\"Coinfield\"},{\"id\":\"coinflex\",\"name\":\"CoinFLEX\"},{\"id\":\"coinflex_futures\",\"name\":\"CoinFLEX
+        (Futures)\"},{\"id\":\"coingi\",\"name\":\"Coingi\"},{\"id\":\"coinjar\",\"name\":\"CoinJar
+        Exchange\"},{\"id\":\"coinlist\",\"name\":\"Coinlist\"},{\"id\":\"coinmargin\",\"name\":\"CoinMargin\"},{\"id\":\"coin_metro\",\"name\":\"Coinmetro\"},{\"id\":\"coinone\",\"name\":\"Coinone\"},{\"id\":\"coinsbit\",\"name\":\"Coinsbit\"},{\"id\":\"coinspro\",\"name\":\"Coins.ph\"},{\"id\":\"coinstore\",\"name\":\"Coinstore\"},{\"id\":\"cointiger_futures\",\"name\":\"CoinTiger
+        (Futures)\"},{\"id\":\"cointr\",\"name\":\"CoinTR Pro\"},{\"id\":\"cointr_derivatives\",\"name\":\"CoinTR
+        Pro (Derivatives)\"},{\"id\":\"coinw\",\"name\":\"CoinW\"},{\"id\":\"coinzix\",\"name\":\"Coinzix\"},{\"id\":\"coinzoom\",\"name\":\"Coinzoom\"},{\"id\":\"comethswap\",\"name\":\"ComethSwap\"},{\"id\":\"concave\",\"name\":\"Concave\"},{\"id\":\"c_patex\",\"name\":\"C-Patex\"},{\"id\":\"crema_finance\",\"name\":\"Crema
+        Finance\"},{\"id\":\"crescent\",\"name\":\"Crescent\"},{\"id\":\"crex24\",\"name\":\"CREX24\"},{\"id\":\"crodex\",\"name\":\"Crodex\"},{\"id\":\"cronaswap\",\"name\":\"Cronaswap\"},{\"id\":\"cronus_finance\",\"name\":\"Cronus
+        Finance\"},{\"id\":\"croswap\",\"name\":\"CroSwap\"},{\"id\":\"crowdswap-polygon\",\"name\":\"CrowdSwap
+        (Polygon)\"},{\"id\":\"cryptal\",\"name\":\"Cryptal\"},{\"id\":\"crypto_com\",\"name\":\"Crypto.com
+        Exchange\"},{\"id\":\"crypto_com_futures\",\"name\":\"Crypto.com Exchange
+        (Futures)\"},{\"id\":\"cryptology\",\"name\":\"Cryptology\"},{\"id\":\"cswap\",\"name\":\"cSwap\"},{\"id\":\"c_trade\",\"name\":\"C-Trade\"},{\"id\":\"cubiswap\",\"name\":\"CUBISwap\"},{\"id\":\"currency\",\"name\":\"Currency.com\"},{\"id\":\"curve_arbitrum\",\"name\":\"Curve
+        (Arbitrum)\"},{\"id\":\"curve_avalanche\",\"name\":\"Curve (Avalanche)\"},{\"id\":\"curve-celo\",\"name\":\"Curve
+        (Celo)\"},{\"id\":\"curve_ethereum\",\"name\":\"Curve (Ethereum)\"},{\"id\":\"curve_fantom\",\"name\":\"Curve
+        (Fantom)\"},{\"id\":\"curve_moonbeam\",\"name\":\"Curve (Moonbeam)\"},{\"id\":\"curve_optimism\",\"name\":\"Curve
+        (Optimism)\"},{\"id\":\"curve_polygon\",\"name\":\"Curve (Polygon)\"},{\"id\":\"curve_xdai\",\"name\":\"Curve
+        (Xdai)\"},{\"id\":\"dackieswap\",\"name\":\"DackieSwap V3\"},{\"id\":\"dackieswap-v2\",\"name\":\"DackieSwap
+        V2\"},{\"id\":\"dao_swap\",\"name\":\"DAO Swap\"},{\"id\":\"darkknight\",\"name\":\"Dark
+        KnightSwap\"},{\"id\":\"dcoin\",\"name\":\"Dcoin\"},{\"id\":\"dedust\",\"name\":\"DeDust\"},{\"id\":\"deepcoin\",\"name\":\"Deepcoin\"},{\"id\":\"deepcoin_derivatives\",\"name\":\"Deepcoin
+        (Derivatives)\"},{\"id\":\"defichain\",\"name\":\"DeFiChain DEX\"},{\"id\":\"defi_kingdoms\",\"name\":\"Defi
+        Kingdoms\"},{\"id\":\"defi_kingdoms_crystalvale\",\"name\":\"Defi Kingdoms
+        (Crystalvale)\"},{\"id\":\"defi_plaza\",\"name\":\"DefiPlaza\"},{\"id\":\"defiplaza_radix\",\"name\":\"DefiPlaza
+        (Radix)\"},{\"id\":\"defi_swap\",\"name\":\"DeFi Swap\"},{\"id\":\"degate\",\"name\":\"DeGate\"},{\"id\":\"delta_futures\",\"name\":\"Delta
+        Exchange (Futures)\"},{\"id\":\"delta_spot\",\"name\":\"Delta Exchange\"},{\"id\":\"dem_exchange\",\"name\":\"Demex\"},{\"id\":\"demex_derivatives\",\"name\":\"Demex
+        (Derivatives)\"},{\"id\":\"deribit\",\"name\":\"Deribit\"},{\"id\":\"deribit_spot\",\"name\":\"Deribit
+        Spot\"},{\"id\":\"derpdex\",\"name\":\"DerpDEX (zkSync)\"},{\"id\":\"derpdex-base\",\"name\":\"DerpDEX
+        (Base)\"},{\"id\":\"derpdex-opbnb\",\"name\":\"DerpDEX (opBnb)\"},{\"id\":\"deversifi\",\"name\":\"Rhino.fi\"},{\"id\":\"dexalot\",\"name\":\"Dexalot\"},{\"id\":\"dextrade\",\"name\":\"Dex-Trade\"},{\"id\":\"dforceswap_arbitrum\",\"name\":\"dForceswap
+        (Arbitrum)\"},{\"id\":\"dforceswap_bsc\",\"name\":\"dForceswap (BSC)\"},{\"id\":\"dforceswap_ethereum\",\"name\":\"dForceswap
+        (Ethereum)\"},{\"id\":\"dforceswap_optimism\",\"name\":\"dForceswap (Optimism)\"},{\"id\":\"dforceswap_polygon\",\"name\":\"dForceswap
+        (Polygon)\"},{\"id\":\"dfx\",\"name\":\"DFX\"},{\"id\":\"dfx_polygon\",\"name\":\"DFX
+        (Polygon)\"},{\"id\":\"dfyn\",\"name\":\"Dfyn\"},{\"id\":\"diffusion\",\"name\":\"Diffusion
+        Finance\"},{\"id\":\"difx\",\"name\":\"DIFX\"},{\"id\":\"digifinex\",\"name\":\"DigiFinex\"},{\"id\":\"digitalexchange_id\",\"name\":\"Digitalexchange.id\"},{\"id\":\"dinosaureggs\",\"name\":\"DinosaurEggs
+        (BSC)\"},{\"id\":\"dodo\",\"name\":\"DODO (Ethereum)\"},{\"id\":\"dodo_arbitrum\",\"name\":\"DODO
+        (Arbitrum)\"},{\"id\":\"dodo-avalanche\",\"name\":\"DODO (Avalanche)\"},{\"id\":\"dodo_bsc\",\"name\":\"DODO
+        (BSC)\"},{\"id\":\"dodo_polygon\",\"name\":\"DODO (Polygon)\"},{\"id\":\"dogeshrek\",\"name\":\"Dogeshrek\"},{\"id\":\"dogeswap\",\"name\":\"DogeSwap\"},{\"id\":\"dogswap\",\"name\":\"DogSwap\"},{\"id\":\"dooar_bsc\",\"name\":\"DOOAR
+        (BSC)\"},{\"id\":\"dooar_ethereum\",\"name\":\"DOOAR (Ethereum)\"},{\"id\":\"doveswap-v3\",\"name\":\"DoveSwap
+        V3\"},{\"id\":\"dove_wallet\",\"name\":\"BTX\"},{\"id\":\"dracula-finance\",\"name\":\"Dracula
+        Finance\"},{\"id\":\"drift_protocol\",\"name\":\"Drift Protocol\"},{\"id\":\"duckydefi\",\"name\":\"DuckyDeFi\"},{\"id\":\"duedex\",\"name\":\"DueDEX\"},{\"id\":\"dydx_perpetual\",\"name\":\"dYdX
+        Perpetual\"},{\"id\":\"dystopia\",\"name\":\"Dystopia\"},{\"id\":\"echodex\",\"name\":\"EchoDEX\"},{\"id\":\"elk_finance_avax\",\"name\":\"Elk
+        Finance (Avalanche)\"},{\"id\":\"elk_finance_bsc\",\"name\":\"Elk Finance
+        (BSC)\"},{\"id\":\"elk_finance_ethereum\",\"name\":\"Elk Finance (Ethereum)\"},{\"id\":\"elk_finance_polygon\",\"name\":\"Elk
+        Finance (Polygon)\"},{\"id\":\"elk_finance_telos\",\"name\":\"Elk Finance
+        (Telos)\"},{\"id\":\"ellipsis_finance\",\"name\":\"Ellipsis Finance\"},{\"id\":\"emirex\",\"name\":\"Emirex\"},{\"id\":\"empiredex\",\"name\":\"EmpireDEX
+        (Cronos)\"},{\"id\":\"empiredex_bsc\",\"name\":\"EmpireDEX (BSC)\"},{\"id\":\"empiredex_empire\",\"name\":\"EmpireDEX
+        (Empire)\"},{\"id\":\"energiswap\",\"name\":\"Energiswap\"},{\"id\":\"enosys-flare\",\"name\":\"Enosys
+        (Flare)\"},{\"id\":\"equalizer\",\"name\":\"Equalizer\"},{\"id\":\"equalizer-base\",\"name\":\"Equalizer
+        (Base)\"},{\"id\":\"equilibre\",\"name\":\"\xC9quilibre\"},{\"id\":\"evmoswap\",\"name\":\"EvmoSwap\"},{\"id\":\"excalibur\",\"name\":\"Excalibur\"},{\"id\":\"exmo\",\"name\":\"EXMO\"},{\"id\":\"ezkalibur\",\"name\":\"eZKalibur\"},{\"id\":\"fairdesk\",\"name\":\"Fairdesk\"},{\"id\":\"fairdesk_derivatives\",\"name\":\"Fairdesk
+        Derivatives\"},{\"id\":\"fairyswap\",\"name\":\"Fairyswap\"},{\"id\":\"fameex\",\"name\":\"FameEX\"},{\"id\":\"fastex\",\"name\":\"Fastex\"},{\"id\":\"fatbtc\",\"name\":\"FatBTC\"},{\"id\":\"ferro_protocol\",\"name\":\"Ferro
+        Protocol\"},{\"id\":\"financex\",\"name\":\"FinanceX\"},{\"id\":\"finexbox\",\"name\":\"FinexBox\"},{\"id\":\"firebird_finance_polygon\",\"name\":\"Firebird
+        Finance (Polygon)\"},{\"id\":\"flatqube\",\"name\":\"FlatQube\"},{\"id\":\"flowx-finance\",\"name\":\"FlowX
+        Finance\"},{\"id\":\"flybit\",\"name\":\"Flybit\"},{\"id\":\"fmcpay\",\"name\":\"FMCPAY\"},{\"id\":\"forge\",\"name\":\"Forge\"},{\"id\":\"forteswap\",\"name\":\"Forteswap\"},{\"id\":\"four_swap\",\"name\":\"4swap\"},{\"id\":\"foxbit\",\"name\":\"Foxbit\"},{\"id\":\"fraxswap_ethereum\",\"name\":\"Fraxswap
+        (Ethereum)\"},{\"id\":\"freiexchange\",\"name\":\"Freiexchange\"},{\"id\":\"fubt\",\"name\":\"FUBT\"},{\"id\":\"fusionx-v2\",\"name\":\"FusionX
+        V2\"},{\"id\":\"fusionx-v3\",\"name\":\"FusionX V3\"},{\"id\":\"fuzz_finance\",\"name\":\"FuzzSwap\"},{\"id\":\"fx_swap\",\"name\":\"Fx
+        Swap\"},{\"id\":\"gate\",\"name\":\"Gate.io\"},{\"id\":\"gate_futures\",\"name\":\"Gate.io
+        (Futures)\"},{\"id\":\"gdac\",\"name\":\"GDAC\"},{\"id\":\"gdax\",\"name\":\"Coinbase
+        Exchange\"},{\"id\":\"gemini\",\"name\":\"Gemini\"},{\"id\":\"gemini_derivatives\",\"name\":\"Gemini
+        Derivatives\"},{\"id\":\"gemswap\",\"name\":\"GemSwap\"},{\"id\":\"glide_finance\",\"name\":\"Glide
+        Finance\"},{\"id\":\"globe_exchange\",\"name\":\"Globe\"},{\"id\":\"globe_exchange_derivatives\",\"name\":\"Globe
+        (Derivatives)\"},{\"id\":\"globiance\",\"name\":\"Globiance\"},{\"id\":\"gmo_japan\",\"name\":\"GMO
+        Japan\"},{\"id\":\"gmo_japan_futures\",\"name\":\"GMO Japan (Futures)\"},{\"id\":\"gmx_arbitrum\",\"name\":\"GMX
+        Derivatives (Arbitrum)\"},{\"id\":\"gmx_avalanche\",\"name\":\"GMX Derivatives
+        (Avalanche)\"},{\"id\":\"gopax\",\"name\":\"GoPax\"},{\"id\":\"graviex\",\"name\":\"Graviex\"},{\"id\":\"gravity_finance\",\"name\":\"Gravity
+        Finance\"},{\"id\":\"greenhouse_dex\",\"name\":\"Greenhouse\"},{\"id\":\"gumball\",\"name\":\"GumBall\"},{\"id\":\"hakuswap\",\"name\":\"HakuSwap\"},{\"id\":\"halo_trade\",\"name\":\"Halo
+        Trade\"},{\"id\":\"hanbitco\",\"name\":\"Hanbitco\"},{\"id\":\"hashkey_exchange\",\"name\":\"HashKey
+        Exchange\"},{\"id\":\"hbtc_futures\",\"name\":\"BHEX (Futures)\"},{\"id\":\"hebeswap\",\"name\":\"Hebeswap\"},{\"id\":\"heliswap\",\"name\":\"HeliSwap\"},{\"id\":\"hermes_protocol\",\"name\":\"Hermes
+        Protocol\"},{\"id\":\"hitbtc\",\"name\":\"HitBTC\"},{\"id\":\"hitbtc_derivatives\",\"name\":\"HitBTC
+        (Derivatives)\"},{\"id\":\"holdstation-defutures\",\"name\":\"Holdstation
+        DeFutures\"},{\"id\":\"honeyswap\",\"name\":\"Honeyswap\"},{\"id\":\"honeyswap_polygon\",\"name\":\"Honeyswap
+        (Polygon)\"},{\"id\":\"hopeswap\",\"name\":\"HopeSwap\"},{\"id\":\"hopex\",\"name\":\"Hopex\"},{\"id\":\"horizondex\",\"name\":\"HorizonDEX\"},{\"id\":\"hotcoin_global\",\"name\":\"Hotcoin
+        Global\"},{\"id\":\"huckleberry\",\"name\":\"Huckleberry\"},{\"id\":\"huobi\",\"name\":\"HTX\"},{\"id\":\"huobi_dm\",\"name\":\"HTX
+        Futures\"},{\"id\":\"huobi_japan\",\"name\":\"BitTrade\"},{\"id\":\"huobi_korea\",\"name\":\"HTX
+        Korea\"},{\"id\":\"hydra\",\"name\":\"Hydra DEX\"},{\"id\":\"hydradx\",\"name\":\"HydraDX\"},{\"id\":\"hyperliquid\",\"name\":\"Hyperliquid\"},{\"id\":\"icecreamswap-core\",\"name\":\"IcecreamSwap
+        (Core)\"},{\"id\":\"icpswap\",\"name\":\"ICPSwap\"},{\"id\":\"icrypex\",\"name\":\"Icrypex\"},{\"id\":\"idex\",\"name\":\"Idex\"},{\"id\":\"impossible_finance\",\"name\":\"Impossible
+        Finance\"},{\"id\":\"impossible-finance-humanode\",\"name\":\"Impossible Finance
+        (Humanode)\"},{\"id\":\"impossible_finance_v3\",\"name\":\"Impossible Finance
+        (v3)\"},{\"id\":\"increment_swap\",\"name\":\"Increment Swap\"},{\"id\":\"independent_reserve\",\"name\":\"Independent
+        Reserve\"},{\"id\":\"indodax\",\"name\":\"Indodax\"},{\"id\":\"injective\",\"name\":\"Helix\"},{\"id\":\"injective_futures\",\"name\":\"Helix
+        (Futures)\"},{\"id\":\"integral_size\",\"name\":\"Integral\"},{\"id\":\"inx_one\",\"name\":\"INX
+        One\"},{\"id\":\"iotabee-shimmerevm\",\"name\":\"Iotabee (ShimmerEVM)\"},{\"id\":\"itbit\",\"name\":\"itBit\"},{\"id\":\"iziswap\",\"name\":\"iZiSwap
+        (BSC)\"},{\"id\":\"iziswap-linea\",\"name\":\"iZiSwap (Linea)\"},{\"id\":\"iziswap-manta-pacific\",\"name\":\"iZiSwap
+        (Manta Pacific)\"},{\"id\":\"iziswap-mantle\",\"name\":\"iZiSwap (Mantle)\"},{\"id\":\"iziswap-scroll\",\"name\":\"iZiSwap
+        (Scroll)\"},{\"id\":\"iziswap-zkfair\",\"name\":\"iZiSwap (ZKFair)\"},{\"id\":\"iziswap_zksync\",\"name\":\"iZiSwap
+        (zkSync)\"},{\"id\":\"jediswap-starknet-alpha\",\"name\":\"JediSwap\"},{\"id\":\"jetswap\",\"name\":\"JetSwap\"},{\"id\":\"jex_futures\",\"name\":\"Binance
+        JEX (Futures)\"},{\"id\":\"jswap\",\"name\":\"Jswap\"},{\"id\":\"julswap\",\"name\":\"Julswap\"},{\"id\":\"junoswap\",\"name\":\"Junoswap\"},{\"id\":\"jupiter\",\"name\":\"Jupiter\"},{\"id\":\"justmoney_bttc\",\"name\":\"Justmoney
+        (Bittorent)\"},{\"id\":\"kaddex\",\"name\":\"eckoDEX\"},{\"id\":\"kaidex\",\"name\":\"Kaidex\"},{\"id\":\"kaidex_v3\",\"name\":\"Kaidex
+        V3\"},{\"id\":\"kanga\",\"name\":\"Kanga\"},{\"id\":\"karura_swap\",\"name\":\"Karura
+        Swap\"},{\"id\":\"katana\",\"name\":\"Katana\"},{\"id\":\"kava\",\"name\":\"Kava
+        Swap\"},{\"id\":\"kdswap\",\"name\":\"KDSwap\"},{\"id\":\"khaos_exchange\",\"name\":\"Khaos
+        Exchange\"},{\"id\":\"kibbleswap\",\"name\":\"KibbleSwap\"},{\"id\":\"kickex\",\"name\":\"KickEX\"},{\"id\":\"kine-protocol-derivatives\",\"name\":\"Kine
+        Protocol (Derivatives)\"},{\"id\":\"kine-protocol-spot\",\"name\":\"Kine Protocol
+        (Spot)\"},{\"id\":\"kinesis_money\",\"name\":\"Kinesis Money\"},{\"id\":\"kinetix-v3\",\"name\":\"Kinetix
+        V3\"},{\"id\":\"klayswap\",\"name\":\"KLAYSwap\"},{\"id\":\"klayswap-v3\",\"name\":\"Klayswap
+        V3\"},{\"id\":\"klever_exchange\",\"name\":\"Bitcoin.me\"},{\"id\":\"klex\",\"name\":\"KLEX\"},{\"id\":\"knightswap\",\"name\":\"KnightSwap\"},{\"id\":\"koinbazar\",\"name\":\"Koinbx\"},{\"id\":\"komodo_wallet\",\"name\":\"Komodo
+        Wallet\"},{\"id\":\"korbit\",\"name\":\"Korbit\"},{\"id\":\"kraken\",\"name\":\"Kraken\"},{\"id\":\"kraken_futures\",\"name\":\"Kraken
+        (Futures)\"},{\"id\":\"kriya-dex\",\"name\":\"KriyaDEX\"},{\"id\":\"ktx_finance_bsc_derivatives\",\"name\":\"KTX.Finance
+        (BSC)\"},{\"id\":\"ktx_finance_mantle_derivatives\",\"name\":\"KTX.Finance
+        (Mantle)\"},{\"id\":\"kucoin\",\"name\":\"KuCoin\"},{\"id\":\"kujira\",\"name\":\"Kujira
+        Fin\"},{\"id\":\"kumex\",\"name\":\"KuCoin Futures\"},{\"id\":\"kuna\",\"name\":\"Kuna
+        Exchange\"},{\"id\":\"kuswap\",\"name\":\"Kuswap\"},{\"id\":\"kwenta_derivatives\",\"name\":\"Kwenta
+        Derivatives\"},{\"id\":\"kyberswap_classic_arbitrum\",\"name\":\"Kyberswap
+        Classic (Arbitrum)\"},{\"id\":\"kyberswap_classic_avalanche\",\"name\":\"KyberSwap
+        Classic (Avalanche)\"},{\"id\":\"kyberswap_classic_bsc\",\"name\":\"KyberSwap
+        Classic (BSC)\"},{\"id\":\"kyberswap_classic_bttc\",\"name\":\"Kyberswap Classic
+        (Bittorent)\"},{\"id\":\"kyberswap_classic_ethereum\",\"name\":\"KyberSwap
+        Classic (Ethereum)\"},{\"id\":\"kyberswap_classic_fantom\",\"name\":\"KyberSwap
+        Classic (Fantom)\"},{\"id\":\"kyberswap_classic_optimism\",\"name\":\"Kyberswap
+        Classic (Optimism)\"},{\"id\":\"kyberswap_classic_polygon\",\"name\":\"KyberSwap
+        Classic (Polygon)\"},{\"id\":\"kyberswap_elastic\",\"name\":\"KyberSwap Elastic
+        (Ethereum)\"},{\"id\":\"kyberswap_elastic_arbitrum\",\"name\":\"Kyberswap
+        Elastic (Arbitrum)\"},{\"id\":\"kyberswap_elastic_avalanche\",\"name\":\"Kyberswap
+        Elastic (Avalanche)\"},{\"id\":\"kyberswap_elastic_bsc\",\"name\":\"Kyberswap
+        Elastic (BSC)\"},{\"id\":\"kyberswap_elastic_fantom\",\"name\":\"Kyberswap
+        Elastic (Fantom)\"},{\"id\":\"kyberswap-elastic-linea\",\"name\":\"Kyberswap
+        Elastic (Linea)\"},{\"id\":\"kyberswap_elastic_optimism\",\"name\":\"Kyberswap
+        Elastic (Optimism)\"},{\"id\":\"kyberswap_elastic_polygon\",\"name\":\"Kyberswap
+        Elastic (Polygon)\"},{\"id\":\"latoken\",\"name\":\"LATOKEN\"},{\"id\":\"lbank\",\"name\":\"LBank\"},{\"id\":\"lcx\",\"name\":\"LCX
+        Exchange\"},{\"id\":\"leetswap-base\",\"name\":\"LeetSwap (Base)\"},{\"id\":\"leetswap-linea\",\"name\":\"LeetSwap
+        (Linea)\"},{\"id\":\"leonicornswap\",\"name\":\"LeonicornSwap\"},{\"id\":\"levana-perps-osmosis\",\"name\":\"Levana
+        Perps (Osmosis)\"},{\"id\":\"levinswap_xdai\",\"name\":\"Levinswap (xDai)\"},{\"id\":\"lfgswap\",\"name\":\"LFGswap\"},{\"id\":\"lfgswap-core\",\"name\":\"LFGSwap
+        (Core)\"},{\"id\":\"libre_swap\",\"name\":\"Libre Swap\"},{\"id\":\"lif3\",\"name\":\"LIF3
+        (Tombchain)\"},{\"id\":\"lif3-bsc\",\"name\":\"LIF3 (BSC)\"},{\"id\":\"lif3-polygon\",\"name\":\"LIF3
+        (Polygon)\"},{\"id\":\"liquid_derivatives\",\"name\":\"Liquid Perpetuals\"},{\"id\":\"liquidswap\",\"name\":\"Liquidswap\"},{\"id\":\"localtrade\",\"name\":\"LocalTrade\"},{\"id\":\"loop_markets\",\"name\":\"Loop
+        Markets\"},{\"id\":\"loopring\",\"name\":\"Loopring\"},{\"id\":\"loopring_amm\",\"name\":\"Loopring
+        AMM\"},{\"id\":\"luaswap\",\"name\":\"Luaswap\"},{\"id\":\"luigiswap\",\"name\":\"LuigiSwap\"},{\"id\":\"luno\",\"name\":\"Luno\"},{\"id\":\"lydia_finance\",\"name\":\"Lydia
+        Finance\"},{\"id\":\"lykke\",\"name\":\"Lykke\"},{\"id\":\"lynex-linea\",\"name\":\"Lynex\"},{\"id\":\"magicswap\",\"name\":\"Magicswap\"},{\"id\":\"maiar\",\"name\":\"xExchange\"},{\"id\":\"makiswap\",\"name\":\"Makiswap\"},{\"id\":\"mangata\",\"name\":\"Mangata\"},{\"id\":\"mango_markets_derivatives\",\"name\":\"Mango
+        Markets (Derivatives)\"},{\"id\":\"mango_markets_spot\",\"name\":\"Mango Markets\"},{\"id\":\"mantaswap\",\"name\":\"MantaSwap\"},{\"id\":\"mars_ecosystem\",\"name\":\"Mars
+        Ecosystem\"},{\"id\":\"marswap\",\"name\":\"MARSWAP\"},{\"id\":\"maverick_protocol\",\"name\":\"Maverick
+        Protocol\"},{\"id\":\"maverick_protocol_base\",\"name\":\"Maverick Protocol
+        (Base)\"},{\"id\":\"maverick_protocol_bsc\",\"name\":\"Maverick Protocol (BSC)\"},{\"id\":\"maverick_protocol_zksync\",\"name\":\"Maverick
+        Protocol (zkSync)\"},{\"id\":\"max_maicoin\",\"name\":\"Max Maicoin\"},{\"id\":\"mcdex\",\"name\":\"MCDEX
+        (Arbitrum)\"},{\"id\":\"mcdex_bsc\",\"name\":\"MCDEX (BSC)\"},{\"id\":\"mdex\",\"name\":\"Mdex\"},{\"id\":\"mdex_bsc\",\"name\":\"Mdex
+        BSC\"},{\"id\":\"megaton-finance\",\"name\":\"Megaton Finance\"},{\"id\":\"melegaswap\",\"name\":\"MelegaSwap\"},{\"id\":\"mercado_bitcoin\",\"name\":\"Mercado
+        Bitcoin\"},{\"id\":\"mercatox\",\"name\":\"Mercatox\"},{\"id\":\"merchant-moe-mantle\",\"name\":\"Merchant
+        Moe\"},{\"id\":\"meshswap\",\"name\":\"Meshswap\"},{\"id\":\"metalx\",\"name\":\"Metal
+        X\"},{\"id\":\"miaswap\",\"name\":\"MiaSwap\"},{\"id\":\"milkyswap-milkada\",\"name\":\"MilkySwap\"},{\"id\":\"mimo\",\"name\":\"Mimo\"},{\"id\":\"mindgames-arbitrum\",\"name\":\"MIND
+        Games\"},{\"id\":\"minswap\",\"name\":\"Minswap\"},{\"id\":\"mistswap_smart_bitcoin_cash\",\"name\":\"Mistswap\"},{\"id\":\"mm_finance\",\"name\":\"MMFinance
+        (Cronos)\"},{\"id\":\"mm-finance-arbitrum\",\"name\":\"MM Finance (Arbitrum)\"},{\"id\":\"mmfinance_polygon\",\"name\":\"MMFinance
+        (Polygon)\"},{\"id\":\"mmfinance-v3-arbitrum\",\"name\":\"MMFinance V3 (Arbitrum)\"},{\"id\":\"mojitoswap\",\"name\":\"MojitoSwap\"},{\"id\":\"moraswap-v2\",\"name\":\"Moraswap
+        V2\"},{\"id\":\"morpheus_swap\",\"name\":\"Morpheus Swap\"},{\"id\":\"mudrex\",\"name\":\"Mudrex\"},{\"id\":\"muesliswap\",\"name\":\"Muesliswap\"},{\"id\":\"muesliswap-milkada\",\"name\":\"Muesliswap
+        (Milkada)\"},{\"id\":\"mufex\",\"name\":\"MUFEX\"},{\"id\":\"mute\",\"name\":\"Mute\"},{\"id\":\"mxc\",\"name\":\"MEXC\"},{\"id\":\"mxc_futures\",\"name\":\"MEXC
+        (Futures)\"},{\"id\":\"mycoinstory\",\"name\":\"MCS\"},{\"id\":\"nachoswap\",\"name\":\"NachoSwap\"},{\"id\":\"namebase\",\"name\":\"Namebase\"},{\"id\":\"nami_exchange\",\"name\":\"Nami.Exchange\"},{\"id\":\"nanu_exchange\",\"name\":\"Nanu
+        Exchange\"},{\"id\":\"narkasa\",\"name\":\"Narkasa\"},{\"id\":\"nash\",\"name\":\"Nash\"},{\"id\":\"nearpad\",\"name\":\"NearPAD\"},{\"id\":\"netswap\",\"name\":\"Netswap\"},{\"id\":\"neutroswap\",\"name\":\"Neutroswap\"},{\"id\":\"newdex\",\"name\":\"Newdex\"},{\"id\":\"nexus_mutual\",\"name\":\"Nexus
+        Mutual\"},{\"id\":\"nice_hash\",\"name\":\"NiceHash\"},{\"id\":\"nominex\",\"name\":\"Nominex\"},{\"id\":\"nomiswap\",\"name\":\"Nomiswap\"},{\"id\":\"nomiswap_stable\",\"name\":\"Nomiswap
+        (Stable)\"},{\"id\":\"nonkyc_io\",\"name\":\"Nonkyc.io\"},{\"id\":\"novadax\",\"name\":\"NovaDAX\"},{\"id\":\"oasisswap-base\",\"name\":\"OasisSwap
+        (Base)\"},{\"id\":\"oasis_trade\",\"name\":\"OasisDEX\"},{\"id\":\"occamx\",\"name\":\"OccamX\"},{\"id\":\"oceanex\",\"name\":\"Oceanex\"},{\"id\":\"okcoin\",\"name\":\"Okcoin\"},{\"id\":\"okex\",\"name\":\"OKX\"},{\"id\":\"okex_ordinals\",\"name\":\"OKX
+        Ordinals\"},{\"id\":\"okex_swap\",\"name\":\"OKX (Futures)\"},{\"id\":\"omgfin\",\"name\":\"Omgfin\"},{\"id\":\"omnidex\",\"name\":\"OmniDex\"},{\"id\":\"onedex\",\"name\":\"OneDex\"},{\"id\":\"one_inch_liquidity_protocol\",\"name\":\"1inch
+        Liquidity Protocol\"},{\"id\":\"one_inch_liquidity_protocol_bsc\",\"name\":\"1inch
+        Liquidity Protocol (BSC)\"},{\"id\":\"onsen-swap\",\"name\":\"Onsen Swap\"},{\"id\":\"oolongswap\",\"name\":\"Oolongswap\"},{\"id\":\"openbook\",\"name\":\"OpenBook\"},{\"id\":\"openleverage\",\"name\":\"OpenLeverage\"},{\"id\":\"openocean_finance\",\"name\":\"OpenOcean\"},{\"id\":\"openswap\",\"name\":\"OpenSwap\"},{\"id\":\"opnx_derivatives\",\"name\":\"OPNX
+        Derivatives\"},{\"id\":\"opnx_spot\",\"name\":\"OPNX\"},{\"id\":\"oracleswap\",\"name\":\"Oracleswap\"},{\"id\":\"oraidex\",\"name\":\"OraiDEX\"},{\"id\":\"orangex\",\"name\":\"OrangeX\"},{\"id\":\"orangex_futures\",\"name\":\"OrangeX
+        Futures\"},{\"id\":\"orca\",\"name\":\"Orca\"},{\"id\":\"orderbook\",\"name\":\"Orderbook.io\"},{\"id\":\"orderly_network\",\"name\":\"Orderly
+        Network\"},{\"id\":\"orderly_network_derivatives\",\"name\":\"Orderly Network
+        (Derivatives) (Near)\"},{\"id\":\"orderly_network_derivatives_evm\",\"name\":\"Orderly
+        Network (Derivatives)\"},{\"id\":\"oreoswap\",\"name\":\"OreoSwap\"},{\"id\":\"osmosis\",\"name\":\"Osmosis\"},{\"id\":\"ovex\",\"name\":\"Ovex\"},{\"id\":\"p2pb2b\",\"name\":\"P2B\"},{\"id\":\"pablo\",\"name\":\"Pablo\"},{\"id\":\"pacificswap\",\"name\":\"PacificSwap\"},{\"id\":\"paintswap\",\"name\":\"Paintswap\"},{\"id\":\"pancakeswap_aptos\",\"name\":\"Pancakeswap
+        (Aptos)\"},{\"id\":\"pancakeswap_ethereum\",\"name\":\"PancakeSwap (Ethereum)\"},{\"id\":\"pancakeswap_new\",\"name\":\"PancakeSwap
+        (v2)\"},{\"id\":\"pancakeswap_stableswap\",\"name\":\"Pancakeswap (Stableswap)\"},{\"id\":\"pancakeswap-v2-arbitrum\",\"name\":\"Pancakeswap
+        V2 (Arbitrum)\"},{\"id\":\"pancakeswap-v2-opbnb\",\"name\":\"Pancakeswap V2
+        (opBnb)\"},{\"id\":\"pancakeswap-v2-polygon-zkevm\",\"name\":\"Pancakeswap
+        V2 (Polygon zkEVM)\"},{\"id\":\"pancakeswap-v2-zksync\",\"name\":\"PancakeSwap
+        (zkSync)\"},{\"id\":\"pancakeswap-v3-arbitrum\",\"name\":\"Pancakeswap V3
+        (Arbitrum)\"},{\"id\":\"pancakeswap-v3-base\",\"name\":\"Pancakeswap V3 (Base)\"},{\"id\":\"pancakeswap-v3-bsc\",\"name\":\"Pancakeswap
+        V3 (BSC)\"},{\"id\":\"pancakeswap-v3-ethereum\",\"name\":\"Pancakeswap V3
+        (Ethereum)\"},{\"id\":\"pancakeswap-v3-linea\",\"name\":\"Pancakeswap V3 (Linea)\"},{\"id\":\"pancakeswap-v3-opbnb\",\"name\":\"Pancakeswap
+        V3 (opBnb)\"},{\"id\":\"pancakeswap-v3-polygon-zkevm\",\"name\":\"Pancakeswap
+        V3 (Polygon zkEVM)\"},{\"id\":\"pancakeswap-v3-zksync\",\"name\":\"Pancakeswap
+        V3 (zkSync)\"},{\"id\":\"pangolin\",\"name\":\"Pangolin\"},{\"id\":\"pangolin-flare\",\"name\":\"Pangolin
+        (Flare)\"},{\"id\":\"pangolin-songbird\",\"name\":\"Pangolin (Songbird)\"},{\"id\":\"paradex\",\"name\":\"Paradex\"},{\"id\":\"paribu\",\"name\":\"Paribu\"},{\"id\":\"paritex\",\"name\":\"Paritex\"},{\"id\":\"paymium\",\"name\":\"Paymium\"},{\"id\":\"pearl-exchange\",\"name\":\"PearlFi\"},{\"id\":\"pearlfi-v1-5\",\"name\":\"PearlFi
+        V1.5\"},{\"id\":\"pegasys\",\"name\":\"Pegasys\"},{\"id\":\"pegasys-v3-rollux\",\"name\":\"Pegasys
+        V3 (Rollux)\"},{\"id\":\"perpetual_protocol\",\"name\":\"Perpetual Protocol\"},{\"id\":\"phemex\",\"name\":\"Phemex\"},{\"id\":\"phemex_futures\",\"name\":\"Phemex
+        (Futures)\"},{\"id\":\"photonswap\",\"name\":\"PhotonSwap (Cronos)\"},{\"id\":\"photonswap_kava\",\"name\":\"PhotonSwap
+        (Kava)\"},{\"id\":\"phux\",\"name\":\"Phux\"},{\"id\":\"pinkswap\",\"name\":\"PinkSwap\"},{\"id\":\"pionex\",\"name\":\"Pionex\"},{\"id\":\"planet_finance\",\"name\":\"Planet
+        Finance\"},{\"id\":\"platypus_finance\",\"name\":\"Platypus Finance\"},{\"id\":\"plenty_network\",\"name\":\"Plenty
+        Network\"},{\"id\":\"pointpay\",\"name\":\"PointPay\"},{\"id\":\"polaris\",\"name\":\"Polaris\"},{\"id\":\"polkaex_shiden\",\"name\":\"PolkaEx
+        (Shiden)\"},{\"id\":\"polkaswap\",\"name\":\"Polkaswap\"},{\"id\":\"poloniex\",\"name\":\"Poloniex\"},{\"id\":\"poloniex_futures\",\"name\":\"Poloniex
+        Futures\"},{\"id\":\"polycat_finance\",\"name\":\"Polycat Finance\"},{\"id\":\"polyzap\",\"name\":\"PolyZap\"},{\"id\":\"pomswap\",\"name\":\"POMSwap\"},{\"id\":\"powertrade\",\"name\":\"Powertrade\"},{\"id\":\"powertrade_derivatives\",\"name\":\"Powertrade
+        (Derivatives)\"},{\"id\":\"powswap\",\"name\":\"Powswap\"},{\"id\":\"prime_xbt\",\"name\":\"Prime
+        XBT\"},{\"id\":\"prism\",\"name\":\"Prism Protocol\"},{\"id\":\"probit\",\"name\":\"ProBit
+        Global\"},{\"id\":\"probit_kr\",\"name\":\"Probit (Korea)\"},{\"id\":\"protofi\",\"name\":\"ProtoFi\"},{\"id\":\"puddingswap\",\"name\":\"PuddingSwap\"},{\"id\":\"pulsex\",\"name\":\"PulseX\"},{\"id\":\"pulsex-v2\",\"name\":\"PulseX
+        V2\"},{\"id\":\"punkswap\",\"name\":\"Punkswap\"},{\"id\":\"purcow\",\"name\":\"Purcow\"},{\"id\":\"qmall\",\"name\":\"QMall\"},{\"id\":\"quickswap\",\"name\":\"Quickswap\"},{\"id\":\"quickswap_dogechain\",\"name\":\"Quickswap
+        (Dogechain)\"},{\"id\":\"quickswap-polygon-zkevm\",\"name\":\"Quickswap (Polygon
+        zkEVM)\"},{\"id\":\"quickswap_v3\",\"name\":\"Quickswap (v3)\"},{\"id\":\"quickswap-v3-manta-pacific\",\"name\":\"Quickswap
+        V3 (Manta Pacific)\"},{\"id\":\"quipuswap\",\"name\":\"Quipuswap\"},{\"id\":\"quoine\",\"name\":\"Liquid\"},{\"id\":\"rabbitx\",\"name\":\"RabbitX\"},{\"id\":\"radioshack_avalanche\",\"name\":\"RadioShack
+        (Avalanche)\"},{\"id\":\"radioshack_bsc\",\"name\":\"RadioShack (BSC)\"},{\"id\":\"radioshack_ethereum\",\"name\":\"RadioShack
+        (Ethereum)\"},{\"id\":\"radioshack_polygon_pos\",\"name\":\"RadioShack (Polygon)\"},{\"id\":\"ramses\",\"name\":\"Ramses\"},{\"id\":\"ramses-v2\",\"name\":\"Ramses
+        V2\"},{\"id\":\"raydium2\",\"name\":\"Raydium\"},{\"id\":\"rcpswap\",\"name\":\"RCP
+        Swap\"},{\"id\":\"ref_finance\",\"name\":\"Ref Finance\"},{\"id\":\"resfinex\",\"name\":\"Resfinex\"},{\"id\":\"retro\",\"name\":\"Retro\"},{\"id\":\"rocketswap\",\"name\":\"Rocketswap\"},{\"id\":\"rockswap\",\"name\":\"Rockswap\"},{\"id\":\"ruby_exchange\",\"name\":\"Ruby
+        Exchange\"},{\"id\":\"saber\",\"name\":\"Saber\"},{\"id\":\"safe_trade\",\"name\":\"SafeTrade\"},{\"id\":\"saitaswap-bsc\",\"name\":\"SaitaSwap
+        (BSC)\"},{\"id\":\"saitaswap-ethereum\",\"name\":\"SaitaSwap (Ethereum)\"},{\"id\":\"sakeswap\",\"name\":\"SakeSwap\"},{\"id\":\"saros\",\"name\":\"Saros
+        Finance\"},{\"id\":\"saucerswap\",\"name\":\"Saucerswap V1\"},{\"id\":\"saucerswap-v2\",\"name\":\"Saucerswap
+        V2\"},{\"id\":\"scrollswap\",\"name\":\"ScrollSwap\"},{\"id\":\"secondbtc\",\"name\":\"SecondBTC\"},{\"id\":\"secretswap\",\"name\":\"SecretSwap\"},{\"id\":\"serum_dex\",\"name\":\"Serum
+        DEX\"},{\"id\":\"shade_protocol\",\"name\":\"Shade Protocol\"},{\"id\":\"shadowswap\",\"name\":\"ShadowSwap\"},{\"id\":\"sharkswap\",\"name\":\"SharkSwap\"},{\"id\":\"sharkyswap\",\"name\":\"SharkySwap\"},{\"id\":\"shibaswap\",\"name\":\"Shibaswap\"},{\"id\":\"shibswap\",\"name\":\"ShibSwap\"},{\"id\":\"shimmersea\",\"name\":\"ShimmerSea\"},{\"id\":\"sideswap\",\"name\":\"Sideswap\"},{\"id\":\"siennaswap\",\"name\":\"Siennaswap\"},{\"id\":\"sinegy\",\"name\":\"SINEGY\"},{\"id\":\"skydrome\",\"name\":\"Skydrome\"},{\"id\":\"smardex-arbitrum\",\"name\":\"SmarDex
+        (Arbitrum)\"},{\"id\":\"smardex-base\",\"name\":\"SmarDex (Base)\"},{\"id\":\"smardex-bsc\",\"name\":\"SmarDex
+        (BSC)\"},{\"id\":\"smardex-ethereum\",\"name\":\"SmarDex\"},{\"id\":\"smardex-polygon\",\"name\":\"SmarDex
+        (Polygon)\"},{\"id\":\"sobal\",\"name\":\"Sobal (Neon EVM)\"},{\"id\":\"solarbeam\",\"name\":\"Solarbeam\"},{\"id\":\"solarflare\",\"name\":\"Solarflare\"},{\"id\":\"solidlizard\",\"name\":\"SolidLizard\"},{\"id\":\"solidly\",\"name\":\"Solidly
+        V1 (Fantom)\"},{\"id\":\"solidlydex\",\"name\":\"Solidly V2 (Ethereum)\"},{\"id\":\"solidly-v3\",\"name\":\"Solidly
+        V3 (Ethereum)\"},{\"id\":\"solidly-v3-fantom\",\"name\":\"Solidly V3 (Fantom)\"},{\"id\":\"solisnek\",\"name\":\"SoliSnek\"},{\"id\":\"sologenic\",\"name\":\"Sologenic\"},{\"id\":\"sonic\",\"name\":\"Sonic\"},{\"id\":\"soswap\",\"name\":\"Soswap\"},{\"id\":\"soulswap\",\"name\":\"Soulswap\"},{\"id\":\"south_xchange\",\"name\":\"SouthXchange\"},{\"id\":\"sovryn\",\"name\":\"Sovryn
+        DEX\"},{\"id\":\"soy-finance-callisto\",\"name\":\"Soy Finance (Callisto)\"},{\"id\":\"spacefi\",\"name\":\"SpaceFi\"},{\"id\":\"spacefi_zksync\",\"name\":\"SpaceFi
+        (ZkSync)\"},{\"id\":\"spartadex\",\"name\":\"SpartaDEX\"},{\"id\":\"spartan_protocol\",\"name\":\"Spartan
+        Protocol\"},{\"id\":\"spectrum_finance\",\"name\":\"Spectrum Finance\"},{\"id\":\"spectrum-finance-cardano\",\"name\":\"Spectrum
+        Finance (Cardano)\"},{\"id\":\"sphynx_brise\",\"name\":\"Sphynx (Brise)\"},{\"id\":\"sphynx_swap\",\"name\":\"Sphynx
+        Swap (BSC)\"},{\"id\":\"spice_trade_avalanche\",\"name\":\"Spice Trade (Avalanche)\"},{\"id\":\"spicyswap\",\"name\":\"Spicyswap\"},{\"id\":\"spinaqdex\",\"name\":\"SpinaqDex\"},{\"id\":\"spiritswap\",\"name\":\"SpiritSwap\"},{\"id\":\"spiritswap_v2\",\"name\":\"SpiritSwap
+        (V2)\"},{\"id\":\"spookyswap\",\"name\":\"SpookySwap\"},{\"id\":\"stake_cube\",\"name\":\"StakeCube
+        Exchange\"},{\"id\":\"stellar_term\",\"name\":\"StellarTerm\"},{\"id\":\"stellaswap\",\"name\":\"StellaSwap\"},{\"id\":\"stellaswap-v3\",\"name\":\"Stellaswap
+        (V3)\"},{\"id\":\"step-exchange\",\"name\":\"Step Exchange\"},{\"id\":\"step_finance\",\"name\":\"Step
+        Finance\"},{\"id\":\"sterling\",\"name\":\"Sterling\"},{\"id\":\"stocks_exchange\",\"name\":\"STEX\"},{\"id\":\"ston_fi\",\"name\":\"STON.fi\"},{\"id\":\"stormgain\",\"name\":\"Stormgain\"},{\"id\":\"stormgain_futures\",\"name\":\"Stormgain
+        Futures\"},{\"id\":\"suiswap\",\"name\":\"Suiswap\"},{\"id\":\"sundaeswap\",\"name\":\"Sundaeswap\"},{\"id\":\"sunswap_v1\",\"name\":\"SUN.io\"},{\"id\":\"surfswap\",\"name\":\"Surfswap\"},{\"id\":\"sushiswap\",\"name\":\"Sushiswap\"},{\"id\":\"sushiswap_arbitrum\",\"name\":\"Sushiswap
+        (Arbitrum One)\"},{\"id\":\"sushiswap_arbitrum_nova\",\"name\":\"Sushiswap
+        (Arbitrum Nova)\"},{\"id\":\"sushiswap_avalanche\",\"name\":\"Sushiswap (Avalanche)\"},{\"id\":\"sushiswap_bsc\",\"name\":\"Sushiswap
+        (BSC)\"},{\"id\":\"sushiswap_celo\",\"name\":\"Sushiswap Celo\"},{\"id\":\"sushiswap_fantom\",\"name\":\"Sushiswap
+        (Fantom)\"},{\"id\":\"sushiswap_harmony\",\"name\":\"Sushiswap (Harmony)\"},{\"id\":\"sushiswap_polygon_pos\",\"name\":\"Sushiswap
+        (Polygon POS)\"},{\"id\":\"sushiswap-v2-base\",\"name\":\"Sushiswap V2 (Base)\"},{\"id\":\"sushiswap-v3-arbitrum\",\"name\":\"Sushiswap
+        V3 (Arbitrum)\"},{\"id\":\"sushiswap-v3-arbitrum-nova\",\"name\":\"Sushiswap
+        V3 (Arbitrum Nova)\"},{\"id\":\"sushiswap-v3-base\",\"name\":\"SushiSwap V3
+        (Base)\"},{\"id\":\"sushiswap-v3-bsc\",\"name\":\"Sushiswap V3 (BSC)\"},{\"id\":\"sushiswap-v3-core\",\"name\":\"Sushiswap
+        V3 (Core)\"},{\"id\":\"sushiswap-v3-ethereum\",\"name\":\"Sushiswap V3 (Ethereum)\"},{\"id\":\"sushiswap-v3-fantom\",\"name\":\"Sushiswap
+        V3 (Fantom)\"},{\"id\":\"sushiswap-v3-linea\",\"name\":\"Sushiswap V3 (Linea)\"},{\"id\":\"sushiswap-v3-optimism\",\"name\":\"Sushiswap
+        V3 (Optimism)\"},{\"id\":\"sushiswap-v3-polygon\",\"name\":\"Sushiswap V3
+        (Polygon)\"},{\"id\":\"sushiswap-v3-polygon-zkevm\",\"name\":\"Sushiswap V3
+        (Polygon zkEVM)\"},{\"id\":\"sushiswap-v3-thundercore\",\"name\":\"Sushiswap
+        V3 (ThunderCore)\"},{\"id\":\"sushiswap_xdai\",\"name\":\"Sushiswap (xDai)\"},{\"id\":\"swapbased\",\"name\":\"SwapBased\"},{\"id\":\"swapfish\",\"name\":\"SwapFish\"},{\"id\":\"swappi\",\"name\":\"Swappi\"},{\"id\":\"swapr_arbitrum\",\"name\":\"Swapr
+        (Arbitrum)\"},{\"id\":\"swapr_ethereum\",\"name\":\"Swapr (Ethereum)\"},{\"id\":\"swapr_xdai\",\"name\":\"Swapr
+        (Xdai)\"},{\"id\":\"swapsicle\",\"name\":\"Swapsicle\"},{\"id\":\"swapsicle-telos\",\"name\":\"Swapsicle
+        (Telos)\"},{\"id\":\"swapsicle-v2-mantle\",\"name\":\"Swapsicle V2 (Mantle)\"},{\"id\":\"swapsicle-v2-telos\",\"name\":\"Swapsicle
+        V2 (Telos)\"},{\"id\":\"swop_fi\",\"name\":\"Swop.Fi\"},{\"id\":\"swych\",\"name\":\"SWYCH\"},{\"id\":\"syncswap\",\"name\":\"SyncSwap\"},{\"id\":\"syncswap-linea\",\"name\":\"SyncSwap
+        (Linea)\"},{\"id\":\"syncswap-scroll\",\"name\":\"SyncSwap (Scroll)\"},{\"id\":\"synfutures\",\"name\":\"SynFutures\"},{\"id\":\"synthetix\",\"name\":\"Kwenta\"},{\"id\":\"synthswap\",\"name\":\"Synthswap\"},{\"id\":\"tangleswap\",\"name\":\"TangleSwap\"},{\"id\":\"tangoswap\",\"name\":\"TangoSwap\"},{\"id\":\"tanx\",\"name\":\"tanX\"},{\"id\":\"tapbit\",\"name\":\"Tapbit\"},{\"id\":\"tarmex\",\"name\":\"Tarmex\"},{\"id\":\"tdax\",\"name\":\"Orbix\"},{\"id\":\"tealswap\",\"name\":\"Tealswap\"},{\"id\":\"templedao\",\"name\":\"TempleDAO\"},{\"id\":\"tenderswap\",\"name\":\"Tenderswap\"},{\"id\":\"terraport\",\"name\":\"Terraport\"},{\"id\":\"terraswap\",\"name\":\"Terraswap
+        Classic\"},{\"id\":\"tethys\",\"name\":\"Tethys Finance\"},{\"id\":\"tetuswap\",\"name\":\"Tetuswap\"},{\"id\":\"tfm\",\"name\":\"Terraformer\"},{\"id\":\"thala\",\"name\":\"Thala\"},{\"id\":\"thena\",\"name\":\"THENA\"},{\"id\":\"thena-fusion\",\"name\":\"THENA
+        FUSION\"},{\"id\":\"thena-opbnb\",\"name\":\"THENA (opBnb)\"},{\"id\":\"therocktrading\",\"name\":\"TheRockTrading\"},{\"id\":\"thorswap\",\"name\":\"THORSwap\"},{\"id\":\"thorus\",\"name\":\"Thorus\"},{\"id\":\"thorwallet\",\"name\":\"THORWallet
+        DEX\"},{\"id\":\"throne-v3-base\",\"name\":\"Throne V3 (Base)\"},{\"id\":\"tidex\",\"name\":\"Tidex\"},{\"id\":\"tinyman\",\"name\":\"Tinyman\"},{\"id\":\"tokenize\",\"name\":\"Tokenize\"},{\"id\":\"tokenlon\",\"name\":\"Tokenlon\"},{\"id\":\"tokenomy\",\"name\":\"Tokenomy\"},{\"id\":\"token_sets\",\"name\":\"TokenSets\"},{\"id\":\"toko_crypto\",\"name\":\"TokoCrypto\"},{\"id\":\"tokok\",\"name\":\"TOKOK\"},{\"id\":\"tokpie\",\"name\":\"Tokpie\"},{\"id\":\"tomb_swap_fantom\",\"name\":\"Tomb
+        Swap (Fantom)\"},{\"id\":\"toobit\",\"name\":\"Toobit\"},{\"id\":\"toobit_derivatives\",\"name\":\"Toobit
+        Futures\"},{\"id\":\"trade_ogre\",\"name\":\"TradeOgre\"},{\"id\":\"traderjoe\",\"name\":\"Trader
+        Joe\"},{\"id\":\"traderjoe-v2-1-arbitrum\",\"name\":\"Trader Joe V2.1 (Arbitrum)\"},{\"id\":\"traderjoe-v2-1-avalanche\",\"name\":\"Trader
+        Joe V2.1 (Avalanche)\"},{\"id\":\"traderjoe-v2-1-bsc\",\"name\":\"Trader Joe
+        V2.1 (BSC)\"},{\"id\":\"traderjoe-v2-arbitrum\",\"name\":\"Trader Joe v2 (Arbitrum)\"},{\"id\":\"traderjoe-v2-avalanche\",\"name\":\"Trader
+        Joe v2\"},{\"id\":\"traderjoe-v2-bsc\",\"name\":\"Trader Joe V2 (BSC)\"},{\"id\":\"tranquil_finance\",\"name\":\"Tranquil
+        Finance\"},{\"id\":\"trisolaris\",\"name\":\"Trisolaris\"},{\"id\":\"tropical_finance\",\"name\":\"Tropical
+        Finance\"},{\"id\":\"trubit\",\"name\":\"Trubit\"},{\"id\":\"trustless-market\",\"name\":\"Trustless
+        Markets\"},{\"id\":\"turbos-finance\",\"name\":\"Turbos Finance\"},{\"id\":\"txbit\",\"name\":\"Txbit\"},{\"id\":\"ubeswap\",\"name\":\"Ubeswap\"},{\"id\":\"unicly\",\"name\":\"Unicly\"},{\"id\":\"unisat\",\"name\":\"UniSat\"},{\"id\":\"uniswap-bsc\",\"name\":\"Uniswap
+        V3 (BSC)\"},{\"id\":\"uniswap_v2\",\"name\":\"Uniswap V2 (Ethereum)\"},{\"id\":\"uniswap_v3\",\"name\":\"Uniswap
+        V3 (Ethereum)\"},{\"id\":\"uniswap_v3_arbitrum\",\"name\":\"Uniswap V3 (Arbitrum
+        One)\"},{\"id\":\"uniswap-v3-avalanche\",\"name\":\"Uniswap V3 (Avalanche)\"},{\"id\":\"uniswap-v3-base\",\"name\":\"Uniswap
+        V3 (Base)\"},{\"id\":\"uniswap_v3_celo\",\"name\":\"Uniswap V3 (Celo)\"},{\"id\":\"uniswap_v3_optimism\",\"name\":\"Uniswap
+        V3 (Optimism)\"},{\"id\":\"uniswap_v3_polygon_pos\",\"name\":\"Uniswap V3
+        (Polygon)\"},{\"id\":\"uniwswap\",\"name\":\"UniWswap\"},{\"id\":\"unnamed\",\"name\":\"Unnamed\"},{\"id\":\"upbit\",\"name\":\"Upbit\"},{\"id\":\"upbit_indonesia\",\"name\":\"Upbit
+        Indonesia \"},{\"id\":\"usdfi\",\"name\":\"USDFI\"},{\"id\":\"valr\",\"name\":\"VALR\"},{\"id\":\"value_liquid_bsc\",\"name\":\"vSwap
+        BSC\"},{\"id\":\"velocimeter\",\"name\":\"Velocimeter\"},{\"id\":\"velocimeter-base\",\"name\":\"Velocimeter
+        (Base)\"},{\"id\":\"velocimeter-fantom\",\"name\":\"Velocimeter (Fantom)\"},{\"id\":\"velocimeter_v2\",\"name\":\"Velocimeter
+        V2\"},{\"id\":\"velocore\",\"name\":\"Velocore\"},{\"id\":\"velocore-v2-linea\",\"name\":\"Velocore
+        V2 (Linea)\"},{\"id\":\"velocore-v2-telos\",\"name\":\"Velocore V2 (Telos)\"},{\"id\":\"velocore-v2-zksync\",\"name\":\"Velocore
+        V2 (ZkSync)\"},{\"id\":\"velodrome\",\"name\":\"Velodrome Finance\"},{\"id\":\"velodrome-finance-v2\",\"name\":\"Velodrome
+        Finance v2\"},{\"id\":\"verse\",\"name\":\"Verse\"},{\"id\":\"vertex_protocol_derivatives\",\"name\":\"Vertex
+        Protocol (Derivatives)\"},{\"id\":\"vertex-protocol-spot\",\"name\":\"Vertex
+        Protocol (Spot)\"},{\"id\":\"vindax\",\"name\":\"Vindax\"},{\"id\":\"virtuswap\",\"name\":\"VirtuSwap\"},{\"id\":\"vitex\",\"name\":\"ViteX\"},{\"id\":\"voltage_finance\",\"name\":\"Voltage
+        Finance\"},{\"id\":\"voltswap_meter\",\"name\":\"Voltswap (Meter)\"},{\"id\":\"voltswap_theta\",\"name\":\"Voltswap
+        (Theta)\"},{\"id\":\"vvs\",\"name\":\"VVS Finance\"},{\"id\":\"wagmi-ethereum\",\"name\":\"WAGMI
+        (Ethereum)\"},{\"id\":\"wagmi-kava\",\"name\":\"WAGMI (Kava)\"},{\"id\":\"wagmi-metis\",\"name\":\"WAGMI
+        (Metis)\"},{\"id\":\"wagmi-zksync\",\"name\":\"WAGMI (zkSync)\"},{\"id\":\"wagyuswap\",\"name\":\"WagyuSwap\"},{\"id\":\"wannaswap\",\"name\":\"Wannaswap\"},{\"id\":\"wanswap\",\"name\":\"WanSwap\"},{\"id\":\"waultswap_polygon\",\"name\":\"WaultSwap
+        Polygon\"},{\"id\":\"wavelength\",\"name\":\"Wavelength\"},{\"id\":\"waves\",\"name\":\"WX
+        Network\"},{\"id\":\"wazirx\",\"name\":\"WazirX\"},{\"id\":\"websea\",\"name\":\"Websea\"},{\"id\":\"wemix_fi\",\"name\":\"WEMIX.Fi\"},{\"id\":\"whitebit\",\"name\":\"WhiteBIT\"},{\"id\":\"whitebit_futures\",\"name\":\"WhiteBIT
+        Futures\"},{\"id\":\"white-whale-juno\",\"name\":\"White Whale (Juno)\"},{\"id\":\"white-whale-migaloo\",\"name\":\"White
+        Whale (Migaloo)\"},{\"id\":\"wigoswap\",\"name\":\"Wigoswap\"},{\"id\":\"wingriders\",\"name\":\"WingRiders\"},{\"id\":\"wombat\",\"name\":\"Wombat
+        Exchange (BNB)\"},{\"id\":\"wombat_arbitrum\",\"name\":\"Wombat (Arbitrum)\"},{\"id\":\"woofi\",\"name\":\"WOOFi\"},{\"id\":\"woofswap\",\"name\":\"WoofSwap\"},{\"id\":\"woofswap-core\",\"name\":\"WOOFSwap
+        (Core)\"},{\"id\":\"woo_network_futures\",\"name\":\"WOO X (Futures)\"},{\"id\":\"wootrade\",\"name\":\"WOO
+        X\"},{\"id\":\"xave\",\"name\":\"Xave Finance\"},{\"id\":\"xcad\",\"name\":\"XCAD
+        DEX\"},{\"id\":\"xeggex\",\"name\":\"XeggeX\"},{\"id\":\"xswap\",\"name\":\"XSwap\"},{\"id\":\"xswap-v3\",\"name\":\"XSwap
+        Protocol V3\"},{\"id\":\"xt\",\"name\":\"XT.COM\"},{\"id\":\"xt_derivatives\",\"name\":\"XT.COM
+        (Derivatives)\"},{\"id\":\"yobit\",\"name\":\"YoBit\"},{\"id\":\"yodeswap\",\"name\":\"Yodeswap\"},{\"id\":\"yokaiswap\",\"name\":\"Yokaiswap\"},{\"id\":\"yoshi_exchange_bsc\",\"name\":\"Yoshi.exchange
+        (BSC)\"},{\"id\":\"yoshi_exchange_ftm\",\"name\":\"Yoshi.exchange (Fantom)\"},{\"id\":\"yunex\",\"name\":\"Yunex.io\"},{\"id\":\"zaif\",\"name\":\"Zaif\"},{\"id\":\"zappy\",\"name\":\"Zappy\"},{\"id\":\"zbg\",\"name\":\"ZBG\"},{\"id\":\"zbg_futures\",\"name\":\"ZBG
+        Futures\"},{\"id\":\"zbx\",\"name\":\"ZBX\"},{\"id\":\"zebitex\",\"name\":\"Zebitex\"},{\"id\":\"zebpay\",\"name\":\"ZebPay\"},{\"id\":\"zenlink_astar\",\"name\":\"Zenlink
+        (Astar)\"},{\"id\":\"zenlink_bitfrost_kusama\",\"name\":\"Zenlink (Bifrost
+        Kusama)\"},{\"id\":\"zenlink_moonbeam\",\"name\":\"Zenlink (Moonbeam)\"},{\"id\":\"zenlink_moonriver\",\"name\":\"Zenlink
+        (Moonriver)\"},{\"id\":\"zero_ex\",\"name\":\"0x Protocol\"},{\"id\":\"zigzag\",\"name\":\"ZigZag
+        (zkSync v1)\"},{\"id\":\"zigzag_arbitrum\",\"name\":\"ZigZag (Arbitrum)\"},{\"id\":\"zilswap\",\"name\":\"ZilSwap\"},{\"id\":\"zipmex\",\"name\":\"Zipmex\"},{\"id\":\"zipswap\",\"name\":\"ZipSwap\"},{\"id\":\"zircon\",\"name\":\"Zircon\"},{\"id\":\"zkswap-finance\",\"name\":\"zkSwap
+        Finance\"},{\"id\":\"zyberswap\",\"name\":\"Zyberswap\"}]"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845ce202fc014104-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 08:52:30 GMT
+      ETag:
+      - W/"2c4cd979f7bd174d4f7b1d9e81fc8bb0"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=eV8jOks3aF10HMXvoAAGL.Vgz5svOKBdR8mU4YiIStc-1705308750-1-AW5+FqYD9zwP1nnfLNcqyc98xIPXm9McL+CIBXHEXO1881THdsVCqH5bvQNbw/azPYv5beILvoE6EH9lxpd2UgY=;
+        path=/; expires=Mon, 15-Jan-24 09:22:30 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 4866edb4-f192-41b5-9592-b5d1a2b9dd45
+      X-Runtime:
+      - '0.174275'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

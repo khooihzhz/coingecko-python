@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/exchanges/binance/volume_chart/range?from=1673222400&to=1675814400
+  response:
+    body:
+      string: '[[1673308200000.0,"889203.4271612780931156"],[1673394600000.0,"661985.7387740987367041"],[1673481000000.0,"696912.6761325458443203"],[1673567400000.0,"1172890.4432837034367664"],[1673653800000.0,"934669.5499540595390383"],[1673740200000.0,"1288862.9220123546850494"],[1673826600000.0,"667918.8318715256931206"],[1673913000000.0,"857921.4444983128828479"],[1673999400000.0,"754719.2461226678946454"],[1674085800000.0,"1011622.2322276240425293"],[1674172200000.0,"645676.522486667033055"],[1674258600000.0,"828943.8868885240011288"],[1674345000000.0,"978401.9407699065812226"],[1674431400000.0,"782173.038160926934963"],[1674517800000.0,"867447.6616828384209145"],[1674604200000.0,"844863.9556689538792153"],[1674690600000.0,"951978.3015163248147585"],[1674777000000.0,"847287.1968810897027981"],[1674863400000.0,"819303.2175089810727608"],[1674949800000.0,"516377.8680338690360118"],[1675036200000.0,"798510.6375712347987999"],[1675122600000.0,"920427.4054831039586805"],[1675209000000.0,"726905.8653489608478716"],[1675295400000.0,"851229.0757355639044196"],[1675381800000.0,"1025941.2129509886623256"],[1675468200000.0,"905272.6620055879253802"],[1675554600000.0,"546831.5060200656552407"],[1675641000000.0,"749186.5017747981859426"],[1675727400000.0,"775745.0064337665574371"],[1675813800000.0,"918005.1043721078958494"]]'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84a96eab0bf84bfe-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 24 Jan 2024 15:50:28 GMT
+      ETag:
+      - W/"5d339b763dea840fff46a314cac737f3"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=URGA2B.njVavCjPYGvMNxO_I1ghwgxbi_cFrOm87P8Q-1706111428-1-AYX02Sa4zj+xqp/jVIpYVjKGysvS8nCzwX+MUwH4IY/OHare4A7OjeOHGTP3npH/G+wnzzrx8y4e13F32gwclLQ=;
+        path=/; expires=Wed, 24-Jan-24 16:20:28 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - e84aee43-2b28-4ce6-be57-93ba30e711b1
+      X-Runtime:
+      - '0.072753'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

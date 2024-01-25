@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/nfts/pudgy-penguins/tickers
+  response:
+    body:
+      string: '{"tickers":[{"floor_price_in_native_currency":18.08,"h24_volume_in_native_currency":1169.79,"native_currency":"ethereum","native_currency_symbol":"ETH","updated_at":"2024-01-24T15:40:52.336Z","nft_marketplace_id":"blur","name":"Blur","image":"https://assets.coingecko.com/nft_marketplaces/images/20/small/blur_logo.jpg?1690993708","nft_collection_url":"https://blur.io/collection/pudgypenguins"},{"floor_price_in_native_currency":18.27,"h24_volume_in_native_currency":20.0,"native_currency":"ethereum","native_currency_symbol":"ETH","updated_at":"2024-01-24T15:40:52.615Z","nft_marketplace_id":"opensea","name":"OpenSea","image":"https://assets.coingecko.com/nft_marketplaces/images/1/small/Opensea.png?1686193426","nft_collection_url":"https://opensea.io/collection/pudgypenguins"},{"floor_price_in_native_currency":199.0,"h24_volume_in_native_currency":0.0,"native_currency":"ethereum","native_currency_symbol":"ETH","updated_at":"2024-01-24T15:40:52.738Z","nft_marketplace_id":"x2y2","name":"X2Y2","image":"https://assets.coingecko.com/nft_marketplaces/images/21/small/Logo.png?1693192556","nft_collection_url":"https://x2y2.io/collection/0xBd3531dA5CF5857e7CfAA92426877b022e612cf8"},{"floor_price_in_native_currency":19.6,"h24_volume_in_native_currency":0.0,"native_currency":"ethereum","native_currency_symbol":"ETH","updated_at":"2024-01-24T15:40:52.923Z","nft_marketplace_id":"looksrare","name":"LooksRare","image":"https://assets.coingecko.com/nft_marketplaces/images/2/small/Looksrare.jpg?1686193414","nft_collection_url":"https://looksrare.org/collections/0xBd3531dA5CF5857e7CfAA92426877b022e612cf8?ref=9247712"}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84a96557baff9e2f-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=30
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 24 Jan 2024 15:44:06 GMT
+      ETag:
+      - W/"e603cdda916d4cb5714c77a315c1717e"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=IrZqNe.vZJUoe3JrBn9J2opdHsdWk0KJlZ7I9veg3vQ-1706111046-1-AXMWTkaOmf098B+NeAkHrhRofy8yoGw71NWHLQqovCdgNh+v74wAR9WBv3V5LNfDrNlxbTJbbwUU8/WC2kdzq4w=;
+        path=/; expires=Wed, 24-Jan-24 16:14:06 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 066b45a8-eaa6-4eec-aed6-986b0031ea35
+      X-Runtime:
+      - '0.036222'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

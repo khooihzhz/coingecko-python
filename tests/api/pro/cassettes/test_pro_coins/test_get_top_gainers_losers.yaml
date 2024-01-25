@@ -1,0 +1,101 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/coins/top_gainers_losers?vs_currency=usd&duration=24h&top_coins=1000
+  response:
+    body:
+      string: '{"top_gainers":[{"id":"dogwifcoin","symbol":"wif","name":"dogwifhat","image":"https://assets.coingecko.com/coins/images/33566/original/dogwifhat.jpg?1702499428","market_cap_rank":282,"usd":0.1448355261900145,"usd_24h_vol":23014686.12597986,"usd_24h_change":86.94463914860239},{"id":"solidus-aitech","symbol":"aitech","name":"Solidus
+        Ai Tech","image":"https://assets.coingecko.com/coins/images/22114/original/CMC_200x200_AITECH.png?1696521456","market_cap_rank":823,"usd":0.0628614436187817,"usd_24h_vol":7546863.689426936,"usd_24h_change":64.53051240682304},{"id":"bazed-games","symbol":"bazed","name":"Bazed
+        Games","image":"https://assets.coingecko.com/coins/images/31195/original/IMG_1849.jpeg?1696530023","market_cap_rank":909,"usd":0.26017539192085687,"usd_24h_vol":239937.00779358318,"usd_24h_change":44.16739654570732},{"id":"helium","symbol":"hnt","name":"Helium","image":"https://assets.coingecko.com/coins/images/4284/original/Helium_HNT.png?1696504894","market_cap_rank":70,"usd":7.108558372071776,"usd_24h_vol":29338847.17013343,"usd_24h_change":42.261980951798286},{"id":"helium-iot","symbol":"iot","name":"Helium
+        IOT","image":"https://assets.coingecko.com/coins/images/29880/original/Iot_Icon.png?1696528805","market_cap_rank":600,"usd":0.001975950070240909,"usd_24h_vol":207126.12967154855,"usd_24h_change":41.735476255857826},{"id":"genesysgo-shadow","symbol":"shdw","name":"Shadow
+        Token","image":"https://assets.coingecko.com/coins/images/22271/original/Property_1_Color.png?1696521615","market_cap_rank":206,"usd":1.4900850629547013,"usd_24h_vol":3005106.6693355395,"usd_24h_change":33.41828396172611},{"id":"big-time","symbol":"bigtime","name":"Big
+        Time","image":"https://assets.coingecko.com/coins/images/32251/original/-6136155493475923781_121.jpg?1696998691","market_cap_rank":511,"usd":0.40169890889463844,"usd_24h_vol":125637507.98811509,"usd_24h_change":31.22429573447758},{"id":"everscale","symbol":"ever","name":"Everscale","image":"https://assets.coingecko.com/coins/images/12783/original/everscale_badge_main_round_1x.png?1696512578","market_cap_rank":277,"usd":0.07594027463138983,"usd_24h_vol":13991477.79235608,"usd_24h_change":30.767119520521724},{"id":"bonk","symbol":"bonk","name":"Bonk","image":"https://assets.coingecko.com/coins/images/28600/original/bonk.jpg?1696527587","market_cap_rank":85,"usd":1.327579438373878e-05,"usd_24h_vol":345158241.4963834,"usd_24h_change":30.65378160088126},{"id":"rif-token","symbol":"rif","name":"RSK
+        Infrastructure Framework","image":"https://assets.coingecko.com/coins/images/7460/original/RIF.png?1696507732","market_cap_rank":261,"usd":0.16185591129681232,"usd_24h_vol":36589932.48125862,"usd_24h_change":29.836390384005025},{"id":"samoyedcoin","symbol":"samo","name":"Samoyedcoin","image":"https://assets.coingecko.com/coins/images/15051/original/IXeEj5e.png?1696514710","market_cap_rank":529,"usd":0.014218991900274014,"usd_24h_vol":3151138.155299593,"usd_24h_change":27.774181622965827},{"id":"guacamole","symbol":"guac","name":"Guacamole","image":"https://assets.coingecko.com/coins/images/30119/original/GUAC_Official_Logo.png?1696529041","market_cap_rank":874,"usd":2.2227814533567926e-07,"usd_24h_vol":1960973.3430131874,"usd_24h_change":26.46220968638807},{"id":"stride","symbol":"strd","name":"Stride","image":"https://assets.coingecko.com/coins/images/27275/original/Stride_Token.png?1696526327","market_cap_rank":155,"usd":3.9995977534068925,"usd_24h_vol":566642.2032994184,"usd_24h_change":25.290848434369163},{"id":"myro","symbol":"$myro","name":"Myro","image":"https://assets.coingecko.com/coins/images/32878/original/MYRO_200x200.png?1699709942","market_cap_rank":439,"usd":0.07841590284402904,"usd_24h_vol":18370573.29746262,"usd_24h_change":24.792376466150298},{"id":"ovr","symbol":"ovr","name":"Ovr","image":"https://assets.coingecko.com/coins/images/13429/original/LOGO-OVER-ICON-200X200PX.png?1699396496","market_cap_rank":900,"usd":0.4064029520940503,"usd_24h_vol":1845748.905838223,"usd_24h_change":24.52929605924983},{"id":"honeyland-honey","symbol":"hxd","name":"Honeyland","image":"https://assets.coingecko.com/coins/images/29256/original/hxd-200x200.png?1696528210","market_cap_rank":642,"usd":0.24463361778042295,"usd_24h_vol":493741.8644376256,"usd_24h_change":23.411053988995643},{"id":"multibit","symbol":"mubi","name":"Multibit","image":"https://assets.coingecko.com/coins/images/33051/original/multi.jpg?1700473994","market_cap_rank":267,"usd":0.1662911868572874,"usd_24h_vol":27795894.4956102,"usd_24h_change":22.838438320380288},{"id":"picasso","symbol":"pica","name":"Picasso","image":"https://assets.coingecko.com/coins/images/28286/original/PICA.png?1696527286","market_cap_rank":333,"usd":0.023265217643551033,"usd_24h_vol":2703221.5498019974,"usd_24h_change":22.429558562807507},{"id":"kin","symbol":"kin","name":"Kin","image":"https://assets.coingecko.com/coins/images/959/original/Kin_Logo.png?1696502073","market_cap_rank":586,"usd":1.6396384072655675e-05,"usd_24h_vol":1189001.8984211148,"usd_24h_change":22.405977401822668},{"id":"creditcoin-2","symbol":"ctc","name":"Creditcoin","image":"https://assets.coingecko.com/coins/images/10569/original/ctc.png?1696510552","market_cap_rank":238,"usd":0.5955154263751161,"usd_24h_vol":24699541.873948872,"usd_24h_change":22.277026158922304},{"id":"celestia","symbol":"tia","name":"Celestia","image":"https://assets.coingecko.com/coins/images/31967/original/tia.jpg?1696530772","market_cap_rank":41,"usd":16.049769480320297,"usd_24h_vol":430674035.70051295,"usd_24h_change":22.017031650974825},{"id":"omnicat","symbol":"omni","name":"OmniCat","image":"https://assets.coingecko.com/coins/images/33917/original/2023-12-21_21.39.10.jpg?1703321588","market_cap_rank":778,"usd":0.0006666465104643444,"usd_24h_vol":5461649.570389697,"usd_24h_change":21.813588703296755},{"id":"moviebloc","symbol":"mbl","name":"MovieBloc","image":"https://assets.coingecko.com/coins/images/8460/original/MBL_Logo.png?1696508646","market_cap_rank":406,"usd":0.004968443432822306,"usd_24h_vol":32256109.907574993,"usd_24h_change":21.29833063440049},{"id":"carry","symbol":"cre","name":"Carry","image":"https://assets.coingecko.com/coins/images/3994/original/Carry.png?1696504635","market_cap_rank":514,"usd":0.00625067879651602,"usd_24h_vol":57966093.46814894,"usd_24h_change":19.99345760548719},{"id":"bitcoin-cash-sv","symbol":"bsv","name":"Bitcoin
+        SV","image":"https://assets.coingecko.com/coins/images/6799/original/BSV.png?1696507128","market_cap_rank":48,"usd":87.29206940251048,"usd_24h_vol":149064848.9834682,"usd_24h_change":19.88771120265995},{"id":"ztx","symbol":"ztx","name":"ZTX","image":"https://assets.coingecko.com/coins/images/32340/original/CoinGecko_200_x_200.jpg?1697466589","market_cap_rank":611,"usd":0.022338825636563458,"usd_24h_vol":1569141.598163218,"usd_24h_change":19.860724188066804},{"id":"playa3ull-games-2","symbol":"3ull","name":"PLAYA3ULL
+        GAMES","image":"https://assets.coingecko.com/coins/images/30695/original/App_Icon_Round.png?1696529564","market_cap_rank":585,"usd":0.006805472741431332,"usd_24h_vol":1236405.1364577308,"usd_24h_change":19.778704606189507},{"id":"coq-inu","symbol":"coq","name":"Coq
+        Inu","image":"https://assets.coingecko.com/coins/images/33511/original/Coin_CoqInu_1200px.png?1702041053","market_cap_rank":346,"usd":1.5135110089982234e-06,"usd_24h_vol":16498590.687077183,"usd_24h_change":19.26631141980638},{"id":"pirate-chain","symbol":"arrr","name":"Pirate
+        Chain","image":"https://assets.coingecko.com/coins/images/6905/original/Pirate_Chain.png?1696507223","market_cap_rank":627,"usd":0.21208360808607393,"usd_24h_vol":233852.9076358339,"usd_24h_change":19.255713711694096},{"id":"astroport-fi","symbol":"astro","name":"Astroport","image":"https://assets.coingecko.com/coins/images/26309/original/Astroport_Circle_Icon_400x400.png?1696525392","market_cap_rank":325,"usd":0.26897464549730477,"usd_24h_vol":1061645.917932772,"usd_24h_change":19.175151018015466}],"top_losers":[{"id":"aventus","symbol":"avt","name":"Aventus","image":"https://assets.coingecko.com/coins/images/901/original/1673958879448.jpeg?1696502024","market_cap_rank":994,"usd":1.7723159909514874,"usd_24h_vol":696155.616034828,"usd_24h_change":-17.44475735235894},{"id":"the-big-five","symbol":"bft","name":"The
+        Big Five","image":"https://assets.coingecko.com/coins/images/27429/original/photo_2022-08-01_16-49-53.jpg?1696526470","market_cap_rank":382,"usd":0.0011981232691988051,"usd_24h_vol":65332.315275734196,"usd_24h_change":-16.751768082411537},{"id":"constitutiondao","symbol":"people","name":"ConstitutionDAO","image":"https://assets.coingecko.com/coins/images/20612/original/GN_UVm3d_400x400.jpg?1696520017","market_cap_rank":239,"usd":0.037651822098334745,"usd_24h_vol":337358875.2820764,"usd_24h_change":-16.51583263359198},{"id":"stepn","symbol":"gmt","name":"GMT","image":"https://assets.coingecko.com/coins/images/23597/original/token-gmt-200x200.png?1703153841","market_cap_rank":111,"usd":0.3372687990457896,"usd_24h_vol":267851434.8338801,"usd_24h_change":-11.816585698558008},{"id":"datamall-coin","symbol":"dmc","name":"Datamall
+        Coin","image":"https://assets.coingecko.com/coins/images/31347/original/DatamallChain.png?1696530164","market_cap_rank":702,"usd":0.08916037078897276,"usd_24h_vol":403251.982639084,"usd_24h_change":-11.130558990080857},{"id":"kira-network","symbol":"kex","name":"KIRA
+        Network","image":"https://assets.coingecko.com/coins/images/13232/original/avatar.png?1696513010","market_cap_rank":779,"usd":0.12304561835046232,"usd_24h_vol":891236.6900483686,"usd_24h_change":-10.901610767987457},{"id":"feg-bsc","symbol":"feg","name":"FEG
+        BSC","image":"https://assets.coingecko.com/coins/images/29644/original/feg.png?1696528581","market_cap_rank":832,"usd":0.0004510063464408617,"usd_24h_vol":165023.75153758645,"usd_24h_change":-9.206728478839343},{"id":"battle-world","symbol":"bwo","name":"Battle
+        World","image":"https://assets.coingecko.com/coins/images/25799/original/battleworld_logo_200x200.png?1696524885","market_cap_rank":940,"usd":0.034748793353151,"usd_24h_vol":314984.79328988463,"usd_24h_change":-8.671927882052922},{"id":"gearbox","symbol":"gear","name":"Gearbox","image":"https://assets.coingecko.com/coins/images/21630/original/gear.png?1696520990","market_cap_rank":863,"usd":0.008234586710605236,"usd_24h_vol":1230468.1486509985,"usd_24h_change":-8.244387482913544},{"id":"weway","symbol":"wwy","name":"WeWay","image":"https://assets.coingecko.com/coins/images/22418/original/wwy.png?1696521760","market_cap_rank":771,"usd":0.00881527481124297,"usd_24h_vol":2527108.735821894,"usd_24h_change":-8.240036537810315},{"id":"creo-engine","symbol":"creo","name":"Creo
+        Engine","image":"https://assets.coingecko.com/coins/images/25419/original/17000.png?1696524549","market_cap_rank":781,"usd":0.09332255920798664,"usd_24h_vol":2914118.258425907,"usd_24h_change":-8.185189941449869},{"id":"yield-guild-games","symbol":"ygg","name":"Yield
+        Guild Games","image":"https://assets.coingecko.com/coins/images/17358/original/Shield_Mark_-_Colored_-_Iridescent.png?1696516909","market_cap_rank":292,"usd":0.4777020249377969,"usd_24h_vol":92020701.45174906,"usd_24h_change":-7.901389561146445},{"id":"tominet","symbol":"tomi","name":"tomiNet","image":"https://assets.coingecko.com/coins/images/28730/original/logo_for_token.png?1696527710","market_cap_rank":345,"usd":1.1893507761611235,"usd_24h_vol":14005709.550058281,"usd_24h_change":-7.478313510832719},{"id":"divi","symbol":"divi","name":"Divi","image":"https://assets.coingecko.com/coins/images/1273/original/red_logomark.png?1696502345","market_cap_rank":969,"usd":0.004790829154218368,"usd_24h_vol":285710.477782052,"usd_24h_change":-7.368794949237245},{"id":"mantra-dao","symbol":"om","name":"MANTRA","image":"https://assets.coingecko.com/coins/images/12151/original/OM_Token.png?1696511991","market_cap_rank":591,"usd":0.06632029115886473,"usd_24h_vol":18156557.333699286,"usd_24h_change":-7.31701805875301},{"id":"vaulttech","symbol":"$vault","name":"VaultTech","image":"https://assets.coingecko.com/coins/images/32578/original/IMG_6957.jpeg?1698558686","market_cap_rank":993,"usd":0.16739099009124456,"usd_24h_vol":144265.3922408101,"usd_24h_change":-6.805597157070213},{"id":"mxc","symbol":"mxc","name":"MXC","image":"https://assets.coingecko.com/coins/images/4604/original/mxc.png?1696505179","market_cap_rank":885,"usd":0.008735237573859014,"usd_24h_vol":2368939.946791801,"usd_24h_change":-6.385521560425249},{"id":"baby-grok","symbol":"babygrok","name":"Baby
+        Grok","image":"https://assets.coingecko.com/coins/images/32972/original/photo_2023-11-10_15-50-54.jpg?1700064075","market_cap_rank":782,"usd":6.502778797892819e-11,"usd_24h_vol":14960755.975461451,"usd_24h_change":-6.299445916776375},{"id":"hapi","symbol":"hapi","name":"HAPI","image":"https://assets.coingecko.com/coins/images/14298/original/Hapi_logo_square_%281%29.png?1696513995","market_cap_rank":972,"usd":24.86066944954565,"usd_24h_vol":954574.6435505449,"usd_24h_change":-6.181688056116574},{"id":"sx-network","symbol":"sx","name":"SX
+        Network","image":"https://assets.coingecko.com/coins/images/13779/original/sx.png?1696513520","market_cap_rank":531,"usd":0.13733099688067607,"usd_24h_vol":133808.8651612868,"usd_24h_change":-6.119174939074033},{"id":"dock","symbol":"dock","name":"Dock","image":"https://assets.coingecko.com/coins/images/3978/original/dock-icon-dark-large.png?1696504619","market_cap_rank":471,"usd":0.026598385911828684,"usd_24h_vol":4782529.847109541,"usd_24h_change":-6.021015955980364},{"id":"blockv","symbol":"vee","name":"BLOCKv","image":"https://assets.coingecko.com/coins/images/1266/original/blockv.png?1696502339","market_cap_rank":554,"usd":0.01627038264226609,"usd_24h_vol":983347.2007031252,"usd_24h_change":-5.914773457406854},{"id":"axelar","symbol":"axl","name":"Axelar","image":"https://assets.coingecko.com/coins/images/27277/original/V-65_xQ1_400x400.jpeg?1696526329","market_cap_rank":108,"usd":1.1263696574846815,"usd_24h_vol":26101920.064800475,"usd_24h_change":-5.864607821695263},{"id":"shiba-saga","symbol":"shia","name":"Shiba
+        Saga","image":"https://assets.coingecko.com/coins/images/31437/original/51nmYxm3_400x400.jpg?1696530252","market_cap_rank":1000,"usd":0.05844624721481624,"usd_24h_vol":664360.9795079075,"usd_24h_change":-5.595519453625708},{"id":"ultra","symbol":"uos","name":"Ultra","image":"https://assets.coingecko.com/coins/images/4480/original/Ultra.png?1696505069","market_cap_rank":457,"usd":0.20194518629603125,"usd_24h_vol":1994305.1106057167,"usd_24h_change":-5.416974155743742},{"id":"hourglass","symbol":"wait","name":"Hourglass","image":"https://assets.coingecko.com/coins/images/27516/original/Hourglass-Logo.png?1696526555","market_cap_rank":864,"usd":0.23794628450492275,"usd_24h_vol":142246.95122667946,"usd_24h_change":-5.374843096240977},{"id":"unlend-finance","symbol":"uft","name":"UniLend
+        Finance","image":"https://assets.coingecko.com/coins/images/12819/original/UniLend_Finance_logo_PNG.png?1696512611","market_cap_rank":843,"usd":0.37218688835517033,"usd_24h_vol":13662216.121825265,"usd_24h_change":-5.352726905444323},{"id":"neon","symbol":"neon","name":"Neon","image":"https://assets.coingecko.com/coins/images/28331/original/neon_%281%29.png?1696527338","market_cap_rank":278,"usd":2.444792386423454,"usd_24h_vol":6972588.641506991,"usd_24h_change":-4.914518024849801},{"id":"planet-token","symbol":"planet","name":"Planet
+        Token","image":"https://assets.coingecko.com/coins/images/30767/original/Logo-Planet.png?1696529635","market_cap_rank":469,"usd":8.316044408082673e-05,"usd_24h_vol":27743720.20574082,"usd_24h_change":-4.794309902165574},{"id":"victoria-vr","symbol":"vr","name":"Victoria
+        VR","image":"https://assets.coingecko.com/coins/images/21178/original/vr.png?1696520554","market_cap_rank":314,"usd":0.02065852960842965,"usd_24h_vol":1170836.1028295706,"usd_24h_change":-4.778680124588104}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 842b9d664bfb91c0-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 09 Jan 2024 09:22:18 GMT
+      ETag:
+      - W/"7738e003798985d6df91a1fbd35e2a69"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=mF4KxzexMzd4ijrw9lX4OyBfH7YSfrhJAyryFbhzK6g-1704792138-1-AeMID5+9C0f1oEROhkT3BPb6rOb0ISYyAgLWqmaWPLqv29q40fL671R056frzhWd7788cxmw4tMPNKgjQqpGPqk=;
+        path=/; expires=Tue, 09-Jan-24 09:52:18 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 957720a7-8a68-48a8-9914-4376f1d20e0d
+      X-Runtime:
+      - '1.391247'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,453 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/exchanges
+  response:
+    body:
+      string: "[{\"id\":\"okex\",\"name\":\"OKX\",\"year_established\":2017,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.okx.com\",\"image\":\"https://assets.coingecko.com/markets/images/96/small/WeChat_Image_20220117220452.png?1642428377\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":1,\"trade_volume_24h_btc\":51619.13648480571,\"trade_volume_24h_btc_normalized\":51619.13648480571},{\"id\":\"gdax\",\"name\":\"Coinbase
+        Exchange\",\"year_established\":2012,\"country\":\"United States\",\"description\":\"\",\"url\":\"https://www.coinbase.com/\",\"image\":\"https://assets.coingecko.com/markets/images/23/small/Coinbase_Coin_Primary.png?1621471875\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":2,\"trade_volume_24h_btc\":42598.74134324577,\"trade_volume_24h_btc_normalized\":42598.74134324577},{\"id\":\"bybit_spot\",\"name\":\"Bybit\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"Bybit is a cryptocurrency exchange that
+        offers a professional platform featuring an ultra-fast matching engine, excellent
+        customer service and multilingual community support for crypto traders of
+        all levels. Established in March 2018, Bybit currently serves more than 10
+        million users and institutions offering access to over 100 assets and contracts
+        across Spot, Futures and Options, launchpad projects, earn products, an NFT
+        Marketplace and more. Bybit is a proud partner of Formula One racing team,
+        Oracle Red Bull Racing, esports teams NAVI, Astralis, Alliance, Virtus.pro,
+        Made in Brazil (MIBR), City Esports, and Oracle Red Bull Racing Esports, and
+        association football (soccer) teams Borussia Dortmund and Avispa Fukuoka.\",\"url\":\"https://www.bybit.com\",\"image\":\"https://assets.coingecko.com/markets/images/698/small/bybit_spot.png?1629971794\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":3,\"trade_volume_24h_btc\":49360.20500499072,\"trade_volume_24h_btc_normalized\":42624.08441506814},{\"id\":\"gate\",\"name\":\"Gate.io\",\"year_established\":null,\"country\":\"Cayman
+        Islands\",\"description\":\"Gate was established in 2013, and it is the top
+        10 exchanges in the world in terms of authentic trading volume. It is also
+        the first choice of over 8 million registered customers, covering 130+ countries
+        worldwide, as we are providing the most comprehensive digital asset solutions.\",\"url\":\"https://www.gate.io/\",\"image\":\"https://assets.coingecko.com/markets/images/60/small/gate_io_logo1.jpg?1654596784\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":4,\"trade_volume_24h_btc\":25725.05072066412,\"trade_volume_24h_btc_normalized\":24774.97388895498},{\"id\":\"kucoin\",\"name\":\"KuCoin\",\"year_established\":2014,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.kucoin.com/\",\"image\":\"https://assets.coingecko.com/markets/images/61/small/kucoin.png?1640584259\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":5,\"trade_volume_24h_btc\":18639.126514587264,\"trade_volume_24h_btc_normalized\":18639.126514587264},{\"id\":\"kraken\",\"name\":\"Kraken\",\"year_established\":2011,\"country\":\"United
+        States\",\"description\":\"\",\"url\":\"https://www.kraken.com/\",\"image\":\"https://assets.coingecko.com/markets/images/29/small/kraken.jpg?1584251255\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":6,\"trade_volume_24h_btc\":13763.945705787582,\"trade_volume_24h_btc_normalized\":13763.945705787582},{\"id\":\"bitstamp\",\"name\":\"Bitstamp\",\"year_established\":2011,\"country\":\"Luxembourg\",\"description\":\"\",\"url\":\"https://links.bitstamp.net/c/2223866/1100037/14006\",\"image\":\"https://assets.coingecko.com/markets/images/9/small/bitstamp.jpg?1519627979\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":7,\"trade_volume_24h_btc\":3424.31936525004,\"trade_volume_24h_btc_normalized\":2674.983271561019},{\"id\":\"bitfinex\",\"name\":\"Bitfinex\",\"year_established\":2012,\"country\":\"British
+        Virgin Islands\",\"description\":\"\",\"url\":\"https://www.bitfinex.com\",\"image\":\"https://assets.coingecko.com/markets/images/4/small/BItfinex.png?1615895883\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":8,\"trade_volume_24h_btc\":3689.9371821329582,\"trade_volume_24h_btc_normalized\":2286.7411301608868},{\"id\":\"binance_us\",\"name\":\"Binance
+        US\",\"year_established\":2019,\"country\":\"United States\",\"description\":\"\",\"url\":\"https://www.binance.us/\",\"image\":\"https://assets.coingecko.com/markets/images/469/small/Binance.png?1568875842\",\"has_trading_incentive\":false,\"trust_score\":10,\"trust_score_rank\":9,\"trade_volume_24h_btc\":360.49649106495525,\"trade_volume_24h_btc_normalized\":360.49649106495525},{\"id\":\"binance\",\"name\":\"Binance\",\"year_established\":2017,\"country\":\"Cayman
+        Islands\",\"description\":\"\",\"url\":\"https://www.binance.com/\",\"image\":\"https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":10,\"trade_volume_24h_btc\":269385.8316205569,\"trade_volume_24h_btc_normalized\":133408.89822528098},{\"id\":\"huobi\",\"name\":\"HTX\",\"year_established\":2013,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.huobi.com\",\"image\":\"https://assets.coingecko.com/markets/images/25/small/logo_V_colour_black.png?1669177364\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":11,\"trade_volume_24h_btc\":40598.740281626495,\"trade_volume_24h_btc_normalized\":38817.13698244185},{\"id\":\"mxc\",\"name\":\"MEXC\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"Established
+        in April 2018, MEXC is one of the world\u2019s leading digital-asset trading
+        platforms. The core team comes from world-class enterprises and financial
+        companies with rich experience in blockchain and financial industries.\",\"url\":\"https://www.mexc.com/\",\"image\":\"https://assets.coingecko.com/markets/images/409/small/MEXC_logo_square.jpeg?1673000123\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":12,\"trade_volume_24h_btc\":35207.20489965671,\"trade_volume_24h_btc_normalized\":20827.723683913347},{\"id\":\"bitget\",\"name\":\"Bitget\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.bitget.com/\",\"image\":\"https://assets.coingecko.com/markets/images/540/small/2023-07-25_21.47.43.jpg?1690293531\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":13,\"trade_volume_24h_btc\":16228.92051978582,\"trade_volume_24h_btc_normalized\":16228.92051978582},{\"id\":\"crypto_com\",\"name\":\"Crypto.com
+        Exchange\",\"year_established\":2019,\"country\":\"Malta\",\"description\":\"Crypto.com
+        Exchange is the best place to trade crypto, with deep liquidity, low fees
+        and best execution prices, users can trade major cryptocurrencies like Bitcoin,
+        Ethereum, and many more and receive great CRO-powered rewards\",\"url\":\"https://crypto.com/exchange\",\"image\":\"https://assets.coingecko.com/markets/images/589/small/h2oMjPp6_400x400.jpg?1669699705\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":14,\"trade_volume_24h_btc\":21740.91402281068,\"trade_volume_24h_btc_normalized\":9877.545375152127},{\"id\":\"biconomy\",\"name\":\"Biconomy\",\"year_established\":2019,\"country\":\"Canada\",\"description\":\"Bi\u0441onomy
+        is a Canadian cryptocurrency exchange founded on October 1, 2019.\\r\\nThe
+        exchange has a Canadian trading license and has also recently received a US
+        MSB license.\\r\\nBiconomy only hosts high-quality projects and coins. It
+        is also possible to buy a cryptocurrency for fiat using the AdvCash solution.\",\"url\":\"https://www.biconomy.com/\",\"image\":\"https://assets.coingecko.com/markets/images/633/small/biconomy-cex.png?1642930152\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":15,\"trade_volume_24h_btc\":8712.653418699927,\"trade_volume_24h_btc_normalized\":6384.365755979666},{\"id\":\"dextrade\",\"name\":\"Dex-Trade\",\"year_established\":2019,\"country\":\"Belize\",\"description\":\"Dex-Trade
+        is a centralized cryptocurrency exchange founded in 2017 and registered in
+        Belize. This is a modern space for safe and comfortable trading with minimal
+        commissions.\\r\\n\\r\\nDex-Trade is a universal exchange for both beginners
+        and professional traders. The minimum spread and high liquidity in order books
+        allow you to trade efficiently with orders of any volume.\\r\\nAlong with
+        global opportunities, the exchange also provides a demo trading mode for risk-free
+        testing of your trading strategies. Our dedicated support team is online 24/7
+        to assist you with any questions.\\r\\n\\r\\nYou can learn more about Dex-Trade
+        on the website.\\r\\nhttps://dex-trade.com/info/about\\r\\n\\r\\nIf you are
+        looking for listing and promotion options with Dex-Trade please visit our
+        listing page and a personal manager will help you to utilize our proven tools
+        and intelligent market-making system to engage with the vast exchange community
+        in the best possible way. https://dex-trade.com/listing\",\"url\":\"https://dex-trade.com/\",\"image\":\"https://assets.coingecko.com/markets/images/380/small/Dex-Trade.png?1704903671\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":16,\"trade_volume_24h_btc\":1938.9856817806074,\"trade_volume_24h_btc_normalized\":1938.9856817806074},{\"id\":\"wootrade\",\"name\":\"WOO
+        X\",\"year_established\":2019,\"country\":\"Seychelles\",\"description\":\"WOO
+        Network is a deep liquidity network connecting traders, exchanges, institutions,
+        and DeFi platforms with democratized access to the best-in-class liquidity
+        and trading execution at lower or zero cost. Its flagship, WOO X, is a professional
+        trading platform featuring customizable modules and lower to zero fees complete
+        with deep liquidity. WOO Network was founded by Kronos Research, a quantitative
+        trading firm generating $5-10B in daily volume.\",\"url\":\"https://woo.org/\",\"image\":\"https://assets.coingecko.com/markets/images/683/small/woo.png?1677468948\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":17,\"trade_volume_24h_btc\":866.267204719274,\"trade_volume_24h_btc_normalized\":864.5139237194048},{\"id\":\"gemini\",\"name\":\"Gemini\",\"year_established\":2014,\"country\":\"United
+        States\",\"description\":\"\",\"url\":\"https://www.gemini.com/exchange\",\"image\":\"https://assets.coingecko.com/markets/images/50/small/gemini.png?1605704107\",\"has_trading_incentive\":false,\"trust_score\":9,\"trust_score_rank\":18,\"trade_volume_24h_btc\":771.0715341106435,\"trade_volume_24h_btc_normalized\":771.0715341106435},{\"id\":\"whitebit\",\"name\":\"WhiteBIT\",\"year_established\":2018,\"country\":\"Lithuania\",\"description\":\"\",\"url\":\"https://whitebit.com\",\"image\":\"https://assets.coingecko.com/markets/images/418/small/800_800.jpg?1688004634\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":19,\"trade_volume_24h_btc\":32348.191318394627,\"trade_volume_24h_btc_normalized\":32348.191318394627},{\"id\":\"bitmart\",\"name\":\"BitMart\",\"year_established\":2017,\"country\":\"Cayman
+        Islands\",\"description\":\"\",\"url\":\"https://www.bitmart.com/en\",\"image\":\"https://assets.coingecko.com/markets/images/239/small/Bitmart.png?1628066397\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":20,\"trade_volume_24h_btc\":27273.425569528958,\"trade_volume_24h_btc_normalized\":23940.41245400153},{\"id\":\"digifinex\",\"name\":\"DigiFinex\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.digifinex.com/\",\"image\":\"https://assets.coingecko.com/markets/images/225/small/DF_logo.png?1594264355\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":21,\"trade_volume_24h_btc\":23451.506977499317,\"trade_volume_24h_btc_normalized\":23451.506977499317},{\"id\":\"lbank\",\"name\":\"LBank\",\"year_established\":2015,\"country\":\"British
+        Virgin Islands\",\"description\":\"LBank is a globally based centralized exchange
+        (CEX) platform established in 2015. The platform allows users to buy and sell
+        major crypto assets like Bitcoin (BTC) and Ethereum (ETH) in over 149 fiat
+        currencies, with over 20 payment methods. The company has licenses from the
+        National Futures Association, Italian Organismo degli Agenti e dei Mediatori,
+        and money services businesses in the United States \\u0026 Canada. The LBank
+        exchange has over 9 million users and accepts clients from over 200 regions.\\r\\nLBank
+        Exchange provides its users with crypto trading, specialized financial derivatives,
+        and professional asset management services.\\r\\n \",\"url\":\"https://www.lbank.com\",\"image\":\"https://assets.coingecko.com/markets/images/118/small/LBank_logo.png?1666234663\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":22,\"trade_volume_24h_btc\":19399.68262803697,\"trade_volume_24h_btc_normalized\":19399.68262803697},{\"id\":\"bingx\",\"name\":\"BingX\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"Founded in 2018, BingX is a global digital
+        asset, spot, and derivatives trading platform that provides a user-centric
+        and open ecosystem with intuitive social trading features.\\r\\nCreated to
+        enrich the entire cryptocurrency industry, BingX is a safe, reliable, and
+        user-friendly venue for users to trade their favorite assets.\",\"url\":\"https://bingx.com/\",\"image\":\"https://assets.coingecko.com/markets/images/812/small/YtFwQwJr_400x400.jpg?1646056092\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":23,\"trade_volume_24h_btc\":20589.281057154207,\"trade_volume_24h_btc_normalized\":18566.063855742177},{\"id\":\"upbit\",\"name\":\"Upbit\",\"year_established\":2017,\"country\":\"South
+        Korea\",\"description\":\"\",\"url\":\"https://upbit.com\",\"image\":\"https://assets.coingecko.com/markets/images/117/small/upbit.png?1520388800\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":24,\"trade_volume_24h_btc\":50546.71504835758,\"trade_volume_24h_btc_normalized\":15910.335464520967},{\"id\":\"coinw\",\"name\":\"CoinW\",\"year_established\":2017,\"country\":\"United
+        Arab Emirates\",\"description\":\"What Is CoinW?\\r\\nCoinW stands as a pinnacle
+        in the world of crypto trading platforms, where our unwavering commitment
+        to security, transparency, and user-centric principles sets us apart. Powered
+        by cutting-edge technology, boasting deep liquidity, and offering support
+        for a diverse array of cryptocurrencies, we have cultivated a vast and dedicated
+        user base, solidifying our position as one of the most secure exchanges globally.\\r\\n\\r\\nDedicated
+        to upholding the highest regulatory standards, we prioritize security, transparency,
+        and compliance to contribute actively to the advancement of the crypto industry.
+        At CoinW, we take pride in serving over 10 million users worldwide, earning
+        our reputation as a beacon of security and reliability in the dynamic realm
+        of cryptocurrency. Join us on this journey, where your assets are safeguarded,
+        and your trading experience is elevated to new heights.\\r\\n\\r\\nWho Are
+        the Founders of CoinW?\\r\\nIncepted in 2017 by a fusion of crypto, cybersecurity,
+        and finance virtuosos, CoinW has established 16 Localized Trading Service
+        Centers spanning 13 distinct countries. With a robust workforce comprising
+        over 1,000 talents representing 30 diverse nations, CoinW stands as the quintessential
+        embodiment of a global and professional entity.\\r\\n\\r\\nWhen Did CoinW
+        Launch?\\r\\nCoinW was launched in 2017.\\r\\n\\r\\nWhere Is CoinW Located?\\r\\nBased
+        in the vibrant city of Dubai, UAE, CoinW has expanded its global presence
+        with 16 Localized Trading Service Centers spanning 13 countries. Our reach
+        extends to key locations such as Dubai, Singapore, Turkey, South Korea, Japan,
+        the Philippines, Malaysia, Australia, Vietnam, India, Nigeria, Canada, and
+        Russia. Serving customers in over 200 regions and countries, CoinW is dedicated
+        to providing a seamless and localized trading experience.\\r\\n\\r\\nAs a
+        forward-thinking crypto trading platform, we prioritize collaboration with
+        international regulatory bodies and organizations, contributing to the establishment
+        of a safe and secure environment for our users.\\r\\n\\r\\nWhat Coins Are
+        Supported on CoinW?\\r\\nCoinW boasts a vast array of over 1,000 listed crypto
+        tokens, offering more than 500 spot trading pairs. Popular coins include BTC,
+        ETH, BGB, XRP, PEPE, DOGE, SHIB, BNB, LTC, APT and more.\\r\\n\\r\\nHow Much
+        Are CoinW Fees?\\r\\nWhen users conduct currency transactions on CoinW, the
+        platform will charge users a certain fee to support the operation of the platform.User
+        fees for makers and takers on the platform will be charged according to different
+        rules. Currently, the basic fees for maker and takers on the platform are
+        both 0.2%.\\r\\n\\r\\nIs It Possible To Use Leverage or Margin Trading on
+        CoinW?\\r\\nCoinW empowers traders seeking strategic leverage through our
+        comprehensive options for both spot and Futures trading. Our platform offers
+        unparalleled flexibility, allowing users to utilize leverage ratios of up
+        to 200x in Futures and 6x in ETF trading. This means that traders can amplify
+        their positions, opening the door to potential profit maximization in crypto
+        market.\\r\\n\",\"url\":\"https://www.coinw.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1172/small/coinw.jpeg?1687506651\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":25,\"trade_volume_24h_btc\":13572.928716196699,\"trade_volume_24h_btc_normalized\":13572.928716196699},{\"id\":\"bitrue\",\"name\":\"Bitrue\",\"year_established\":2018,\"country\":\"Singapore\",\"description\":\"\",\"url\":\"https://www.bitrue.com/\",\"image\":\"https://assets.coingecko.com/markets/images/254/small/unnamed_%281%29.png?1656295820\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":26,\"trade_volume_24h_btc\":38002.51108678686,\"trade_volume_24h_btc_normalized\":13464.211954365184},{\"id\":\"deepcoin\",\"name\":\"Deepcoin\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"Deepcoin
+        Exchange offers groundbreaking tools for you to buy and sell over 120 cryptocurrencies.
+        Since 2018, we have provided a secure and reliable way for you to invest in
+        spot and futures trading to our over 1 million users.\",\"url\":\"https://www.deepcoin.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1005/small/deepcoin.jpeg?1689269658\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":27,\"trade_volume_24h_btc\":14424.833479736508,\"trade_volume_24h_btc_normalized\":13026.712390432618},{\"id\":\"latoken\",\"name\":\"LATOKEN\",\"year_established\":2017,\"country\":\"Cayman
+        Islands\",\"description\":\"\",\"url\":\"https://latoken.com/\",\"image\":\"https://assets.coingecko.com/markets/images/124/small/latoken.png?1685942070\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":28,\"trade_volume_24h_btc\":12387.089172689166,\"trade_volume_24h_btc_normalized\":12387.089172689166},{\"id\":\"xt\",\"name\":\"XT.COM\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"By
+        consistently expanding its ecosystem, XT.COM is dedicated to providing users
+        with the most secure, trusted, and hassle-free digital asset trading services.
+        Our exchange is built from a desire to give everyone access to digital assets
+        regardless where you are. \\r\\n\\r\\nFounded in 2018, XT.COM now serves more
+        than 6 million registered users, over 500,000+ monthly active users and 40+
+        million users in the ecosystem. Covering a rich variety of  trading categories
+        together with a NFT aggregated marketplace,  our platform strives to cater
+        to its large user base by providing a secure, trusted and intuitive trading
+        experience.\\r\\n\\r\\nAs the world\u2019s first social-infused digital assets
+        trading platform, XT.COM also supports social networking platform based transactions
+        to make our crypto services more accessible to users all over the world. Furthermore,
+        to ensure optimal data integrity and security, we see user security as our
+        top priority at XT.COM. \",\"url\":\"https://www.xt.com/\",\"image\":\"https://assets.coingecko.com/markets/images/404/small/logo400x400.png?1575881839\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":29,\"trade_volume_24h_btc\":7814.9453604013715,\"trade_volume_24h_btc_normalized\":7814.9453604013715},{\"id\":\"citex\",\"name\":\"CITEX\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"CITEX is a convenient platform to manage
+        cryptocurrencies, always committed to providing users with more secure, convenient,
+        intelligent and innovative cryptocurrency management services. CITEX offers
+        spot trading, mining, investment, incubation, OTC trading, earn, derivatives
+        and other products.\",\"url\":\"https://www.citex.io/\",\"image\":\"https://assets.coingecko.com/markets/images/390/small/CITEX-LOGO.png?1564028815\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":30,\"trade_volume_24h_btc\":5026.935116770329,\"trade_volume_24h_btc_normalized\":4753.752612611278},{\"id\":\"bitmax\",\"name\":\"AscendEX
+        (BitMax)\",\"year_established\":2018,\"country\":\"Singapore\",\"description\":\"AscendEX
+        (formerly BitMax) is a leading global digital asset financial platform founded
+        by a group of Wall Street quantitative trading veterans in 2018, building
+        on core value of \u201CEfficiency, Resilience and Transparency.\u201D \\r\\n
+        \\r\\nDriven by its continuous innovative product development and early-mover
+        advantage in strategic alignment with the leading projects from DeFi ecosystem,
+        AscendEX offers trading services across over 200 trading pairs across cash,
+        margin, and futures products, in particular margin trading of over 50 tokens
+        in cross-asset collateral mode and futures trading in both cross-asset and
+        isolated margin modes.\",\"url\":\"https://ascendex.com/en/global-digital-asset-platform\",\"image\":\"https://assets.coingecko.com/markets/images/277/small/%E5%8E%9F%E8%89%B2.png?1650557355\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":31,\"trade_volume_24h_btc\":6513.092021257058,\"trade_volume_24h_btc_normalized\":4249.953864998705},{\"id\":\"fastex\",\"name\":\"Fastex\",\"year_established\":null,\"country\":\"Lithuania\",\"description\":\"\",\"url\":\"https://exchange.fastex.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1091/small/fastex.png?1678776256\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":32,\"trade_volume_24h_btc\":3663.5948441490937,\"trade_volume_24h_btc_normalized\":3603.4165957905775},{\"id\":\"bigone\",\"name\":\"BigONE\",\"year_established\":2017,\"country\":\"Netherlands\",\"description\":\"\",\"url\":\"https://bigone.com\",\"image\":\"https://assets.coingecko.com/markets/images/100/small/qcFFufEY_400x400.jpg?1561103345\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":33,\"trade_volume_24h_btc\":2917.335815743162,\"trade_volume_24h_btc_normalized\":2917.335815743162},{\"id\":\"phemex\",\"name\":\"Phemex\",\"year_established\":2019,\"country\":\"Singapore\",\"description\":\"Launched
+        in 2019, Phemex is a Singapore-based cryptocurrency and derivatives trading
+        platform led by former Morgan Stanley executives. Serving around 5 million
+        active users in over 200 countries, Phemex supports 150+ trading pairs with
+        up to 100x leverage.\\r\\n\\r\\n-  Fee Structure: 0.1% for both maker and
+        taker\\r\\n-  Contract Fee Structure: 0.01% for maker and 0.06% for taker\\r\\n-
+        \ Up to $100 Welcome Bonus for new users\\r\\n-  Earn up to 8.5% APY interest
+        income on crypto assets\\r\\n-  Free academy with 450+ carefully curated articles
+        about crypto \\u0026 trading\\r\\n-  Security: Hierarchical Deterministic
+        Cold Wallet System with 2-level human scrutiny offline signatures.\",\"url\":\"https://phemex.com/\",\"image\":\"https://assets.coingecko.com/markets/images/564/small/phemex_logo.png?1701958981\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":34,\"trade_volume_24h_btc\":2497.0524509230117,\"trade_volume_24h_btc_normalized\":2273.225469848167},{\"id\":\"qmall\",\"name\":\"QMall\",\"year_established\":null,\"country\":\"Lithuania\",\"description\":\"\",\"url\":\"https://qmall.io/\",\"image\":\"https://assets.coingecko.com/markets/images/1108/small/qmall.jpeg?1680079189\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":35,\"trade_volume_24h_btc\":1994.620122021348,\"trade_volume_24h_btc_normalized\":1994.620122021348},{\"id\":\"pointpay\",\"name\":\"PointPay\",\"year_established\":2018,\"country\":\"Saint
+        Vincent and the Grenadines\",\"description\":\"\",\"url\":\"https://exchange.pointpay.io/\",\"image\":\"https://assets.coingecko.com/markets/images/1060/small/pointpay.png?1676882506\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":36,\"trade_volume_24h_btc\":1660.9405183499357,\"trade_volume_24h_btc_normalized\":1660.9405183499357},{\"id\":\"exmo\",\"name\":\"EXMO\",\"year_established\":2013,\"country\":\"United
+        Kingdom\",\"description\":\"\",\"url\":\"https://exmo.com/\",\"image\":\"https://assets.coingecko.com/markets/images/59/small/tt_ava.jpg?1669360697\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":37,\"trade_volume_24h_btc\":1507.7373187346523,\"trade_volume_24h_btc_normalized\":1507.7373187346523},{\"id\":\"coinex\",\"name\":\"CoinEx\",\"year_established\":2017,\"country\":\"Samoa\",\"description\":\"\",\"url\":\"https://www.coinex.com/\",\"image\":\"https://assets.coingecko.com/markets/images/135/small/coinex.jpg?1527737297\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":38,\"trade_volume_24h_btc\":950.4869490649962,\"trade_volume_24h_btc_normalized\":950.4869490649962},{\"id\":\"bitbank\",\"name\":\"Bitbank\",\"year_established\":2016,\"country\":\"Japan\",\"description\":\"\",\"url\":\"https://bitbank.cc/\",\"image\":\"https://assets.coingecko.com/markets/images/122/small/bitbank.jpg?1521186278\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":39,\"trade_volume_24h_btc\":766.3229146100759,\"trade_volume_24h_btc_normalized\":766.3229146100759},{\"id\":\"bitcastle\",\"name\":\"bitcastle\",\"year_established\":2019,\"country\":\"Lithuania\",\"description\":\"bitcastle
+        is all in one global platform including crypto trading, FX trading and binary
+        option trading first launched in July 2019.  In May 2022, bitcastle renewed
+        it's platform with a brand new user interface, new features and token listings.
+        With offices in Singapore, Vietnam and Japan, bitcastle maximizes the strengths
+        of the diverse team with various experiences to deliver the best financial
+        services for its users.  Notable features of the platform include 0% trading
+        fee for major currency pairs and High \\u0026 Low binary trading option. bitcastle
+        High \\u0026 Low option allows users to see return on their investment in
+        as little as 5 seconds, which is the fastest period in the world. bitcastle
+        aims to be a platform that can be enjoyed by both seasoned traders as well
+        as beginners.  CASTLE is bitcastle's native token. CASTLE can be used to reduce
+        transaction fees on the platform by up to 60%. At selected intervals, 20%
+        of bitcastle's profits will be used to buy back CASTLE tokens, and burn them.
+        \ The bitcastle apps is now available for both android and IOS, enabling users
+        to access it's platform.\",\"url\":\"https://bitcastle.io/en\",\"image\":\"https://assets.coingecko.com/markets/images/1341/small/bitcastle_logo.png?1699597604\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":40,\"trade_volume_24h_btc\":2588.196496233322,\"trade_volume_24h_btc_normalized\":543.6973000395891},{\"id\":\"max_maicoin\",\"name\":\"Max
+        Maicoin\",\"year_established\":null,\"country\":\"Taiwan\",\"description\":\"\",\"url\":\"https://max.maicoin.com\",\"image\":\"https://assets.coingecko.com/markets/images/218/small/max.jpg?1533888641\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":41,\"trade_volume_24h_btc\":404.19050641315073,\"trade_volume_24h_btc_normalized\":404.19050641315073},{\"id\":\"bitso\",\"name\":\"Bitso\",\"year_established\":2014,\"country\":\"Gibraltar\",\"description\":\"\",\"url\":\"https://bitso.com\",\"image\":\"https://assets.coingecko.com/markets/images/8/small/Bitso-icon-dark.png?1581909156\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":42,\"trade_volume_24h_btc\":262.621681228227,\"trade_volume_24h_btc_normalized\":262.621681228227},{\"id\":\"indodax\",\"name\":\"Indodax\",\"year_established\":2014,\"country\":\"Indonesia\",\"description\":\"\",\"url\":\"https://indodax.com\",\"image\":\"https://assets.coingecko.com/markets/images/3/small/logogram-Indodax-new-_JPG_format.jpg?1580974378\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":43,\"trade_volume_24h_btc\":248.17049995667696,\"trade_volume_24h_btc_normalized\":248.17049995667696},{\"id\":\"valr\",\"name\":\"VALR\",\"year_established\":2018,\"country\":\"South
+        Africa\",\"description\":\"\",\"url\":\"https://www.valr.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1036/small/valr.png?1674711237\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":44,\"trade_volume_24h_btc\":203.88114051581456,\"trade_volume_24h_btc_normalized\":203.88114051581456},{\"id\":\"xeggex\",\"name\":\"XeggeX\",\"year_established\":2021,\"country\":\"Seychelles\",\"description\":\"Founded
+        in 2021, XeggeX.com strives to provide its users with the best trading experience
+        and give small and medium market cap assets a reliable trading hub. Our goal
+        is to maintain a fast and user friendly system while also concentrating on
+        security to keep users, data, and assets safe. Security of our users' data
+        \\u0026 assets is always our top priority and we are focused on building an
+        easy to use digital asset trading platform for everyone to enjoy.\",\"url\":\"https://xeggex.com\",\"image\":\"https://assets.coingecko.com/markets/images/1299/small/XeggeX_Logo_200.png?1696411810\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":45,\"trade_volume_24h_btc\":70.31945015270004,\"trade_volume_24h_btc_normalized\":70.31945015270004},{\"id\":\"coinspro\",\"name\":\"Coins.ph\",\"year_established\":null,\"country\":\"Philippines\",\"description\":\"\",\"url\":\"https://coins.ph/about\",\"image\":\"https://assets.coingecko.com/markets/images/999/small/coinspro.png?1668488887\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":46,\"trade_volume_24h_btc\":25.780922613313706,\"trade_volume_24h_btc_normalized\":25.780922613313706},{\"id\":\"bitmex_spot\",\"name\":\"BitMEX\",\"year_established\":null,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.bitmex.com/spot/\",\"image\":\"https://assets.coingecko.com/markets/images/866/small/bitmex.jpeg?1652794708\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":47,\"trade_volume_24h_btc\":7.053885541619425,\"trade_volume_24h_btc_normalized\":7.053885541619425},{\"id\":\"nice_hash\",\"name\":\"NiceHash\",\"year_established\":null,\"country\":\"Slovenia\",\"description\":\"\",\"url\":\"https://www.nicehash.com\",\"image\":\"https://assets.coingecko.com/markets/images/546/small/logo_small_light.png?1637836622\",\"has_trading_incentive\":false,\"trust_score\":8,\"trust_score_rank\":48,\"trade_volume_24h_btc\":6.7249300001401044,\"trade_volume_24h_btc_normalized\":6.7249300001401044},{\"id\":\"coinsbit\",\"name\":\"Coinsbit\",\"year_established\":null,\"country\":\"Estonia\",\"description\":\"\",\"url\":\"https://coinsbit.io/\",\"image\":\"https://assets.coingecko.com/markets/images/267/small/Coinsbit.png?1605153697\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":49,\"trade_volume_24h_btc\":11142.56621729979,\"trade_volume_24h_btc_normalized\":11142.56621729979},{\"id\":\"pionex\",\"name\":\"Pionex\",\"year_established\":2019,\"country\":\"British
+        Virgin Islands\",\"description\":\"\",\"url\":\"https://www.pionex.com\",\"image\":\"https://assets.coingecko.com/markets/images/1026/small/pionex.png?1673508138\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":50,\"trade_volume_24h_btc\":13991.603086857067,\"trade_volume_24h_btc_normalized\":7860.234797440015},{\"id\":\"btse\",\"name\":\"BTSE\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"BTSE is a leading digital asset exchange
+        that empowers users by offering a simple and secure way to trade. Its growing
+        suite of financial services is designed to bridge traditional finance with
+        digital assets solutions. BTSE's innovative technology offers a set of digital
+        financial solutions featuring multi-currency spot and derivatives trading,
+        in addition to NFT and exchange white labels, over-the-counter (OTC) trading,
+        asset management, and payment gateways. Additionally, BTSE provides an all-in-one
+        order book, strict security protocols, an insurance fund, cold storage for
+        more than 99% of assets and no withdrawal limits on over 12 fiat currencies
+        and 100 cryptocurrencies.\",\"url\":\"https://www.btse.com/\",\"image\":\"https://assets.coingecko.com/markets/images/464/small/BTSE.jpg?1568012415\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":51,\"trade_volume_24h_btc\":19927.886836653015,\"trade_volume_24h_btc_normalized\":6698.277068331917},{\"id\":\"bitvenus_spot\",\"name\":\"BitVenus\",\"year_established\":2018,\"country\":\"British
+        Virgin Islands\",\"description\":\"Founded in May 2018, our exchange offers
+        reliable and efficient 24x7 spot and derivatives trading services. Our commitment
+        to continual innovation has allowed us to launch state-of-the-art features,
+        such as a copy trading function, which facilitates both novice and seasoned
+        traders. This persistent focus on enhancement, fueled by a team of seasoned
+        industry professionals, ensures that our product offerings remain top-tier,
+        competitive, and user-friendly. We highly prioritize customer service, boasting
+        a dedicated team ready to provide high-quality support whenever needed. Our
+        dedicated compliance team works meticulously to ensure our trading environment
+        is secure, adhering strictly to all regulatory requirements. All these efforts
+        come together to create a trading platform that offers security, support,
+        and innovative features that make trading both easy and rewarding.\",\"url\":\"https://www.bitvenus.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1253/small/BitVenus.png?1692847633\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":52,\"trade_volume_24h_btc\":7076.307506283634,\"trade_volume_24h_btc_normalized\":5923.484747508223},{\"id\":\"cointr\",\"name\":\"CoinTR
+        Pro\",\"year_established\":2022,\"country\":\"Lithuania\",\"description\":\"\",\"url\":\"https://www.cointr.pro/\",\"image\":\"https://assets.coingecko.com/markets/images/1028/small/cointr.png?1673681204\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":53,\"trade_volume_24h_btc\":5767.577890345829,\"trade_volume_24h_btc_normalized\":5767.577890345829},{\"id\":\"bitmake\",\"name\":\"BitMake\",\"year_established\":2020,\"country\":\"United
+        Arab Emirates\",\"description\":\"\",\"url\":\"https://www.bitmake.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1169/small/bitmake.jpeg?1687159763\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":54,\"trade_volume_24h_btc\":7767.496217999621,\"trade_volume_24h_btc_normalized\":4467.842100470499},{\"id\":\"coinstore\",\"name\":\"Coinstore\",\"year_established\":2020,\"country\":\"Singapore\",\"description\":\"Coinstore:
+        A Global Cryptocurrency Exchange Revolutionizing Crypto Finance\\r\\n\\r\\nCoinstore
+        is a leading global cryptocurrency exchange that brings together a team of
+        seasoned financial professionals and blockchain experts. With a strong presence
+        in 175 countries and a user base of 3.3 million registered traders, Coinstore
+        offers seamless and rapid trading services, along with derivatives, OTC, and
+        NFT solutions.\\r\\n\\r\\nWhat sets Coinstore apart is its exceptional trading
+        speed, operating at millisecond-level precision. The platform boasts a robust
+        server architecture, ensuring smooth and efficient transactions for users
+        worldwide. Security is a top priority, with Coinstore implementing bank-level
+        measures to safeguard user assets. A comprehensive risk control system and
+        real-time reconciliation further enhance the peace of mind for traders.\\r\\n\\r\\nCoinstore's
+        dedication to excellence has been recognized within the industry. It has been
+        crowned the best exchange in Asia by Crypto 306, while also earning the esteemed
+        title of best rising star from Crypto Expo. This recognition highlights Coinstore's
+        commitment to revolutionize the world of crypto finance.\\r\\n\\r\\nDiscover
+        the future of cryptocurrency trading and financial innovation with Coinstore.com.
+        Join our ever-growing community and experience the cutting-edge solutions
+        that are reshaping the crypto landscape.\\r\\n\\r\\n\",\"url\":\"https://www.coinstore.com/#/\",\"image\":\"https://assets.coingecko.com/markets/images/747/small/coinstore.jpeg?1639530357\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":55,\"trade_volume_24h_btc\":4610.14043733687,\"trade_volume_24h_btc_normalized\":2480.8743492352346},{\"id\":\"paribu\",\"name\":\"Paribu\",\"year_established\":null,\"country\":\"Turkey\",\"description\":null,\"url\":\"https://www.paribu.com/\",\"image\":\"https://assets.coingecko.com/markets/images/136/small/paribu.jpg?1527734779\",\"has_trading_incentive\":null,\"trust_score\":7,\"trust_score_rank\":56,\"trade_volume_24h_btc\":2315.6577680669943,\"trade_volume_24h_btc_normalized\":1771.9110815889221},{\"id\":\"probit\",\"name\":\"ProBit
+        Global\",\"year_established\":2017,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://www.probit.com/\",\"image\":\"https://assets.coingecko.com/markets/images/370/small/probit.png?1594886584\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":57,\"trade_volume_24h_btc\":3192.303272975585,\"trade_volume_24h_btc_normalized\":1690.5461562054886},{\"id\":\"bitflyer\",\"name\":\"bitFlyer\",\"year_established\":2014,\"country\":\"Japan\",\"description\":\"\",\"url\":\"https://bitflyer.com/en-eu/\",\"image\":\"https://assets.coingecko.com/markets/images/5/small/bitFlyer-logo.png?1643256033\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":58,\"trade_volume_24h_btc\":1530.5323706217027,\"trade_volume_24h_btc_normalized\":1530.5323706217027},{\"id\":\"btcturk\",\"name\":\"BtcTurk
+        | Kripto\",\"year_established\":2013,\"country\":\"Turkey\",\"description\":\"\",\"url\":\"https://kripto.btcturk.com/en\",\"image\":\"https://assets.coingecko.com/markets/images/223/small/btctrurk_kripto.png?1689655713\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":59,\"trade_volume_24h_btc\":2661.0989388722523,\"trade_volume_24h_btc_normalized\":1480.8140379856816},{\"id\":\"c_patex\",\"name\":\"C-Patex\",\"year_established\":null,\"country\":\"Argentina\",\"description\":\"\",\"url\":\"https://c-patex.com/\",\"image\":\"https://assets.coingecko.com/markets/images/246/small/Exchange.jpg?1681192003\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":60,\"trade_volume_24h_btc\":1342.3864962096288,\"trade_volume_24h_btc_normalized\":1342.3864962096288},{\"id\":\"cryptology\",\"name\":\"Cryptology\",\"year_established\":2018,\"country\":\"Lithuania\",\"description\":\"\",\"url\":\"https://cryptology.com/\",\"image\":\"https://assets.coingecko.com/markets/images/287/small/logo-symbol.png?1669975181\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":61,\"trade_volume_24h_btc\":923.7707330233209,\"trade_volume_24h_btc_normalized\":923.7707330233209},{\"id\":\"bitkub\",\"name\":\"Bitkub\",\"year_established\":2018,\"country\":\"Thailand\",\"description\":\"\",\"url\":\"https://www.bitkub.com\",\"image\":\"https://assets.coingecko.com/markets/images/249/small/bitkub.png?1537180687\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":62,\"trade_volume_24h_btc\":786.3037851067459,\"trade_volume_24h_btc_normalized\":786.3037851067459},{\"id\":\"bullish_com\",\"name\":\"Bullish\",\"year_established\":2021,\"country\":\"Gibraltar\",\"description\":\"\",\"url\":\"https://bullish.com/\",\"image\":\"https://assets.coingecko.com/markets/images/905/small/bullish_com.png?1655198360\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":63,\"trade_volume_24h_btc\":21413.463306114114,\"trade_volume_24h_btc_normalized\":419.8028166639822},{\"id\":\"bitopro\",\"name\":\"BitoPro\",\"year_established\":2018,\"country\":\"Taiwan\",\"description\":\"\",\"url\":\"https://www.bitopro.com/\",\"image\":\"https://assets.coingecko.com/markets/images/358/small/bitopro_coingecko_250x250_%281%29.png?1575884378\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":64,\"trade_volume_24h_btc\":366.02387375784946,\"trade_volume_24h_btc_normalized\":364.532290738248},{\"id\":\"koinbazar\",\"name\":\"Koinbx\",\"year_established\":2020,\"country\":\"India\",\"description\":\"A
+        global cryptocurrency exchange to buy, sell and trade cryptocurrencies anytime,
+        anywhere.\",\"url\":\"https://koinbx.com/coin-list\",\"image\":\"https://assets.coingecko.com/markets/images/751/small/photo_2023-02-19_12-57-51.jpg?1678415170\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":65,\"trade_volume_24h_btc\":261.17620840922405,\"trade_volume_24h_btc_normalized\":261.17620840922405},{\"id\":\"independent_reserve\",\"name\":\"Independent
+        Reserve\",\"year_established\":2013,\"country\":\"Australia\",\"description\":\"\",\"url\":\"https://www.independentreserve.com/\",\"image\":\"https://assets.coingecko.com/markets/images/389/small/x_V5Jquo_400x400.png?1556071437\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":66,\"trade_volume_24h_btc\":249.1557951753517,\"trade_volume_24h_btc_normalized\":200.9419717578578},{\"id\":\"luno\",\"name\":\"Luno\",\"year_established\":2013,\"country\":\"Singapore\",\"description\":\"\",\"url\":\"https://www.luno.com\",\"image\":\"https://assets.coingecko.com/markets/images/33/small/luno.jpg?1519996997\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":67,\"trade_volume_24h_btc\":163.78856270001756,\"trade_volume_24h_btc_normalized\":163.78856270001756},{\"id\":\"bitstorage\",\"name\":\"BitStorage\",\"year_established\":2018,\"country\":\"Seychelles\",\"description\":\"\",\"url\":\"https://bitstorage.finance\",\"image\":\"https://assets.coingecko.com/markets/images/394/small/Bitstorage.png?1704904118\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":68,\"trade_volume_24h_btc\":112.5737759693832,\"trade_volume_24h_btc_normalized\":112.5737759693832},{\"id\":\"bitcointry_exchange\",\"name\":\"Bitcointry
+        Exchange\",\"year_established\":2023,\"country\":\"Turkey\",\"description\":\"Bitcointry
+        Exchange is a semi-DEX hybrid exchange with web3 infrastructure. As with DEX
+        exchanges, users can connect to the application with web3 wallets and make
+        deposits. And as in CEX exchanges, they can create limit, market and stop
+        limit orders. They can transfer between chains with the bridge application.
+        It can also earn rewards by staking.  Bitcointry exchange is an official company
+        in Turkey. Users in Turkey can transfer Turkish lira to the application via
+        bank transfer. And can buy crypto money with Turkish lira.  Bitcointry exchange
+        has taken the best features of CEX and DEX exchanges. It has been developed
+        to provide users with a unique experience.\",\"url\":\"https://bitcointry.com\",\"image\":\"https://assets.coingecko.com/markets/images/1231/small/Bitcointry.jpg?1693215743\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":69,\"trade_volume_24h_btc\":81.74842854642957,\"trade_volume_24h_btc_normalized\":81.74842854642957},{\"id\":\"bitlo\",\"name\":\"Bitlo\",\"year_established\":2018,\"country\":\"Turkey\",\"description\":\"\",\"url\":\"https://www.bitlo.com/\",\"image\":\"https://assets.coingecko.com/markets/images/968/small/bitlo-logo-b.png?1677732049\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":70,\"trade_volume_24h_btc\":65.84853524358748,\"trade_volume_24h_btc_normalized\":65.84853524358748},{\"id\":\"cex\",\"name\":\"CEX.IO\",\"year_established\":2013,\"country\":\"United
+        Kingdom\",\"description\":\"\",\"url\":\"https://cex.io/\",\"image\":\"https://assets.coingecko.com/markets/images/56/small/main-icon.png?1617267530\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":71,\"trade_volume_24h_btc\":60.87932693916057,\"trade_volume_24h_btc_normalized\":60.87932693916057},{\"id\":\"kuna\",\"name\":\"Kuna
+        Exchange\",\"year_established\":null,\"country\":\"United Kingdom\",\"description\":\"\",\"url\":\"https://kuna.io/\",\"image\":\"https://assets.coingecko.com/markets/images/97/small/kuna_exchange.png?1545126178\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":72,\"trade_volume_24h_btc\":34.84126392945033,\"trade_volume_24h_btc_normalized\":34.84126392945033},{\"id\":\"nominex\",\"name\":\"Nominex\",\"year_established\":2019,\"country\":\"Seychelles\",\"description\":\"New
+        trading platform for convenient trading experience with low fees and numerous
+        instruments. \\r\\n\\r\\nAbsolutely unique affiliate program that allows to
+        earn from an infinite number of referral levels, compared to 2-3 levels at
+        all other exchanges. \\r\\n\\r\\nA unique model for the free 2 phases distribution
+        of the native NMX token.\\r\\n\\r\\nAdvanced Trading Instruments \u2013 using
+        Stop, Stop Limit, Trailing Stop, Scaled and other types of orders brings some
+        kind of trading automation without the need to develop a trading bot, which
+        allows to easily get more profit while trading.\",\"url\":\"https://www.nominex.io\",\"image\":\"https://assets.coingecko.com/markets/images/530/small/logo-200x200.png?1587543672\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":73,\"trade_volume_24h_btc\":14.311744773725948,\"trade_volume_24h_btc_normalized\":14.311744773725948},{\"id\":\"coin_metro\",\"name\":\"Coinmetro\",\"year_established\":2018,\"country\":\"Estonia\",\"description\":\"\",\"url\":\"https://coinmetro.com/\",\"image\":\"https://assets.coingecko.com/markets/images/386/small/Coinmetro_Exchange_Logo_%282%29.png?1646280101\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":74,\"trade_volume_24h_btc\":13.50396602002277,\"trade_volume_24h_btc_normalized\":13.50396602002277},{\"id\":\"emirex\",\"name\":\"Emirex\",\"year_established\":2014,\"country\":\"United
+        Arab Emirates\",\"description\":\"Emirex is a groundbreaking platform that
+        unites an exchange and a marketplace, providing users with the opportunity
+        to exchange various stores of value for digital assets. Our mission is to
+        harness the potential of digital assets and contribute to a world with greater
+        economic freedom through open, fair, and censorship-resistant networks that
+        serve humanity better.\\r\\n\\r\\nEstablished in Estonia, Emirex has expanded
+        its reach and now offers a professional trading platform that caters to the
+        needs of investors and issuers of digital assets in the Middle East, Africa,
+        Asia, and Europe. Our goal is to facilitate exposure to Middle Eastern wealth
+        and enable the free movement of value around the world, ultimately promoting
+        social welfare.\\r\\n\\r\\nAs a European licensed platform, Emirex is uniquely
+        positioned to bridge the gap between East and West. With operations anchored
+        in Estonia and a wider presence in the Czech Republic and Lithuania, we ensure
+        a tailored and localized service for our diverse users.\\r\\n\\r\\nEmirex.ee
+        vs. Emirex.com\\r\\nEmirex operates through two primary domains to cater to
+        the distinct regulatory requirements and preferences of our global user base:\\r\\n\\r\\n1.
+        Emirex.ee: Rooted in Estonia, this platform stands as a testament to our origins,
+        offering a secure and compliant trading environment under Estonia's, Czech,
+        and Canada's regulatory frameworks.\\r\\n\\r\\n2. Emirex.com: Our expansive
+        platform, regulated by the authorities of the Czech Republic and Lithuania,
+        is designed to meet the diverse standards and requirements of these jurisdictions.\\r\\n\\r\\nFor
+        clarity, any websites or platforms bearing the \\\"Emirex\\\" name or branding
+        outside of these two domains are not affiliated with or endorsed by Emirex.
+        We prioritize the trust and safety of our community and always encourage users
+        to verify domain names for authenticity.\\r\\n\\r\\nEmirex's journey is one
+        of continuous evolution. We pride ourselves on staying abreast of the latest
+        industry developments, ensuring full regulatory compliance, and nurturing
+        an ambitious roadmap for the future. Our team at Emirex is unwaveringly dedicated
+        to proactive engagement with the broader community of traders, investors,
+        issuers, and partners. We firmly believe that our platform's growth and success
+        hinge on the active participation of our diverse ecosystem members. By fostering
+        collaboration, innovation, and transparency, together, we can reshape the
+        digital economy's landscape.\\r\\n\\r\\nJoin Emirex as we lead the way in
+        connecting East and West, driven by the transformative power of digital assets
+        and pioneering blockchain technology.  \",\"url\":\"https://www.emirex.com/\",\"image\":\"https://assets.coingecko.com/markets/images/592/small/Emirex.png?1602067691\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":75,\"trade_volume_24h_btc\":19.18000116659857,\"trade_volume_24h_btc_normalized\":13.070921910174999},{\"id\":\"delta_spot\",\"name\":\"Delta
+        Exchange\",\"year_established\":null,\"country\":\"Jamaica\",\"description\":\"\",\"url\":\"https://www.delta.exchange/app/spot/trade/\",\"image\":\"https://assets.coingecko.com/markets/images/642/small/delta_spot.jpg?1617283005\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":76,\"trade_volume_24h_btc\":12.568597937615687,\"trade_volume_24h_btc_normalized\":12.568597937615687},{\"id\":\"blockchain_com\",\"name\":\"Blockchain.com\",\"year_established\":2012,\"country\":\"United
+        Kingdom\",\"description\":\"\",\"url\":\"https://www.blockchain.com/\",\"image\":\"https://assets.coingecko.com/markets/images/613/small/unnamedddd.png?1610503741\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":77,\"trade_volume_24h_btc\":4.91475879518437,\"trade_volume_24h_btc_normalized\":4.91475879518437},{\"id\":\"okcoin\",\"name\":\"Okcoin\",\"year_established\":2013,\"country\":\"United
+        States\",\"description\":\"Founded in 2013, Okcoin is a US-headquartered cryptocurrency
+        exchange serving 190+ countries and territories. The platform enables retail
+        and institutional investors to purchase digital assets using local currencies,
+        with a mission to make crypto easy for everyone, including first-time buyers.
+        Okcoin was the first centralized exchange to offer direct entry into decentralized
+        finance (DeFi) with Earn, a tool for earning APY through decentralized lending,
+        liquidity pools, staking, and more. In addition, Okcoin offers institutional
+        trading tools and APIs to asset managers, venture capital and hedge funds,
+        retail brokers, payment processors, and more. Follow Okcoin on Twitter at
+        @Okcoin and visit okcoin.com for more information.\",\"url\":\"https://www.okcoin.com/\",\"image\":\"https://assets.coingecko.com/markets/images/415/small/okcoin_Logomark_SatoshiBlack.png?1619574335\",\"has_trading_incentive\":false,\"trust_score\":7,\"trust_score_rank\":78,\"trade_volume_24h_btc\":1.181187981475077,\"trade_volume_24h_btc_normalized\":1.181187981475077},{\"id\":\"uniswap_v3\",\"name\":\"Uniswap
+        V3 (Ethereum)\",\"year_established\":2018,\"country\":null,\"description\":\"\",\"url\":\"https://app.uniswap.org/#/swap\",\"image\":\"https://assets.coingecko.com/markets/images/665/small/uniswap-v3.png?1620241698\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":79,\"trade_volume_24h_btc\":13608.700404877374,\"trade_volume_24h_btc_normalized\":13608.700404877374},{\"id\":\"p2pb2b\",\"name\":\"P2B\",\"year_established\":2018,\"country\":\"Lithuania\",\"description\":\"P2B
+        is a top crypto platform in Europe and has gotten into the TOP-3 Crypto Exchanges
+        by growth speed. It offers the best go-to-market experience to diverse crypto
+        startups. At the exchange, investors can find a wide variety of newly-launched
+        tokens.\\r\\n\\r\\n\\r\\nThe platform attracts new crypto projects due to
+        the high-level liquidity of the crypto exchange. One of the essential benefits
+        of the crypto exchange is the high-level security of every launch and operation.
+        It's in the TOP-15 in Cer.Live security rate. \\r\\n\\r\\n\\r\\nThe exchange
+        has 6-year-old experience in the crypto field and has presented more than
+        2,000 crypto projects\u02BC launches. The go-to-market team of the exchange
+        has designed a well-thought strategy for marketing and promoting newly-launched
+        projects to enhance their liquidity and involve new investors.\\r\\n\\r\\n\\r\\nP2B
+        offers a top-grade launchpad with extended functionality for newly-launched
+        crypto projects. The platform offers additional liquidity services to support
+        a token price after a listing stage and avoid a price drop. It doesn't have
+        limitations, a ticket system, and doesn't hold tokens. The total amount of
+        funds raised through launchpads is already more than $10 million, and the
+        top results from one launchpad are $2+ million.\\r\\n\\r\\n\\r\\nP2B is popular
+        among newly-launched crypto projects due to easy-to-go onboarding, a loyal
+        listing requirement for the 1st listing, expertise, and well-designed tools
+        for the project's promotion. The exchange also contributes to the development
+        of WEB 3.0 by creating the Fund of Rising Stars to support projects with high
+        potential and strong ideas.\\r\\n\\r\\n\\r\\nJoin the prosperous P2B community\u2014the
+        #1 place to be in crypto.\\r\\n\\r\\nGet your exciting trading experience
+        and earn fast and securely with 24/7 support.\\r\\n\\r\\n\",\"url\":\"https://p2pb2b.com/\",\"image\":\"https://assets.coingecko.com/markets/images/251/small/ow0xng56_400x400.jpeg?1664939403\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":80,\"trade_volume_24h_btc\":21055.501787358902,\"trade_volume_24h_btc_normalized\":11550.446541575555},{\"id\":\"hotcoin_global\",\"name\":\"Hotcoin
+        Global\",\"year_established\":2017,\"country\":\"Seychelles\",\"description\":\"Operating
+        out of Australia, Hotcoin Global is a digital asset trading platform. The
+        obtained two different licenses to conduct its operations from AUSTRAC: digital
+        currency trading and foreign currencies exchange. As of 2022, the centralized
+        cryptocurrency exchange (CEX) had an estimated 5 million active users, with
+        its daily transaction volume reaching billions of dollars.\",\"url\":\"https://www.hotcoin.com\",\"image\":\"https://assets.coingecko.com/markets/images/1345/small/logo3.png?1699264610\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":81,\"trade_volume_24h_btc\":21335.615347093215,\"trade_volume_24h_btc_normalized\":10818.425313681168},{\"id\":\"toobit\",\"name\":\"Toobit\",\"year_established\":2022,\"country\":\"Cayman
+        Islands\",\"description\":\"\",\"url\":\"https://www.toobit.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1139/small/Toobit_logo400X400.png?1686549566\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":82,\"trade_volume_24h_btc\":13875.454621612873,\"trade_volume_24h_btc_normalized\":8601.794498789068},{\"id\":\"pancakeswap-v3-bsc\",\"name\":\"Pancakeswap
+        V3 (BSC)\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://pancakeswap.finance/swap\",\"image\":\"https://assets.coingecko.com/markets/images/1111/small/pancakeswap.jpeg?1680396625\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":83,\"trade_volume_24h_btc\":6740.947357009485,\"trade_volume_24h_btc_normalized\":6740.947357009485},{\"id\":\"bithumb\",\"name\":\"Bithumb\",\"year_established\":2014,\"country\":\"South
+        Korea\",\"description\":\"\",\"url\":\"https://www.bithumb.com/\",\"image\":\"https://assets.coingecko.com/markets/images/6/small/bithumb_BI.png?1573104549\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":84,\"trade_volume_24h_btc\":20727.783034237415,\"trade_volume_24h_btc_normalized\":6107.702792137746},{\"id\":\"tapbit\",\"name\":\"Tapbit\",\"year_established\":2019,\"country\":\"United
+        States\",\"description\":\"Tapbit offers secure and stable trading services
+        for global investors in mainstream crypto assets such as BTC, ETH, SOL, and
+        USDC. The platform holds the MSB fiat currency business license issued by
+        the U.S. federal government, the MSB fiat currency business license issued
+        by the Canadian government, the NFA general financial license, and the crypto
+        and forex business license issued by SVGFSA. Additionally, we safeguard all
+        your assets on Tapbit through a multi-million-dollar insurance fund Tapbit
+        provides users with cutting-edge technology, featuring a core aggregation
+        engine that stands as one of the most advanced technological products in the
+        current market. With fault tolerance and exceptional processing speed, it
+        can address concurrent issues arising from instantaneous high volumes of transactions
+        and settlements. Our security measures include banking-grade SSL encryption,
+        multi-signature capabilities, and hot \\u0026 cold wallet separation technology,
+        all working together to rigorously protect the security of all user assets
+        \ Tapbit stands out as one of the safest and most reliable cryptocurrency
+        service platforms in the current market. Global investors can utilize and
+        benefit from the platform without worrying about potential risks associated
+        with the field, thanks to the application of advanced technology and innovative
+        algorithms.\",\"url\":\"https://www.tapbit.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1374/small/Tapbit-Logo.png?1702001709\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":85,\"trade_volume_24h_btc\":10223.015818982562,\"trade_volume_24h_btc_normalized\":5448.931136345722},{\"id\":\"uniswap_v3_arbitrum\",\"name\":\"Uniswap
+        V3 (Arbitrum One)\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://app.uniswap.org/#/swap\",\"image\":\"https://assets.coingecko.com/markets/images/702/small/uniswap-v3.png?1631616149\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":86,\"trade_volume_24h_btc\":5014.450398292074,\"trade_volume_24h_btc_normalized\":5014.450398292074},{\"id\":\"bitvavo\",\"name\":\"Bitvavo\",\"year_established\":2018,\"country\":\"Netherlands\",\"description\":\"\",\"url\":\"https://bitvavo.com/en\",\"image\":\"https://assets.coingecko.com/markets/images/714/small/bitvavo-mark-square-black.png?1633688872\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":87,\"trade_volume_24h_btc\":3763.9679121088143,\"trade_volume_24h_btc_normalized\":3763.9679121088143},{\"id\":\"uniswap_v2\",\"name\":\"Uniswap
+        V2 (Ethereum)\",\"year_established\":2018,\"country\":null,\"description\":\"\",\"url\":\"https://app.uniswap.org/#/swap?use=V2\",\"image\":\"https://assets.coingecko.com/markets/images/535/small/256x256_Black-1.png?1590893262\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":88,\"trade_volume_24h_btc\":2695.9105638319884,\"trade_volume_24h_btc_normalized\":2695.9105638319884},{\"id\":\"bydfi\",\"name\":\"BYDFi\",\"year_established\":2020,\"country\":null,\"description\":\"\",\"url\":\"https://www.bydfi.com/en\",\"image\":\"https://assets.coingecko.com/markets/images/1186/small/bydfi.jpg?1692841398\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":89,\"trade_volume_24h_btc\":3375.9334711982224,\"trade_volume_24h_btc_normalized\":1878.721281286521},{\"id\":\"bitci\",\"name\":\"Bitci
+        TR\",\"year_established\":2018,\"country\":\"Turkey\",\"description\":\"\",\"url\":\"https://www.bitci.com.tr/en\",\"image\":\"https://assets.coingecko.com/markets/images/450/small/Bitci.jpg?1564137859\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":90,\"trade_volume_24h_btc\":1710.1821724815286,\"trade_volume_24h_btc_normalized\":1710.1821724815286},{\"id\":\"uniswap_v3_polygon_pos\",\"name\":\"Uniswap
+        V3 (Polygon)\",\"year_established\":2021,\"country\":null,\"description\":\"\",\"url\":\"https://app.uniswap.org/#/swap\",\"image\":\"https://assets.coingecko.com/markets/images/752/small/uniswap-polygon.png?1640329417\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":91,\"trade_volume_24h_btc\":1379.3381397622875,\"trade_volume_24h_btc_normalized\":1379.3381397622875},{\"id\":\"bitdelta\",\"name\":\"BitDelta\",\"year_established\":2023,\"country\":\"Vanuatu\",\"description\":\"BitDelta
+        is a global trading platform servicing in 120+ countries with a mission to
+        revolutionize the financial landscape by empowering young individuals and
+        ambitious investors to ignite their trading journey. The platform offers a
+        comprehensive trading experience through a range of innovative features, like
+        Spot Trading, Card Crypto Purchases, Token Launchpad Services and more. Along
+        with these features, BitDelta users are able to diversify their portfolios
+        into a variety of assets, all while using a highly secure asset custodian.
+        With a steadfast commitment to making trading accessible for all, BitDelta
+        aims to create a sophisticated and engaging trading experience where every
+        trade counts.\",\"url\":\"https://bitdelta.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1317/small/BitDelta_Logo_200x200.png?1697427470\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":92,\"trade_volume_24h_btc\":1140.7854698054814,\"trade_volume_24h_btc_normalized\":1140.7854698054814},{\"id\":\"osmosis\",\"name\":\"Osmosis\",\"year_established\":2021,\"country\":null,\"description\":\"Osmosis
+        is an automated market maker (AMM) protocol built for liquidity providers.
+        It is built based on the Cosmos SDK and is the first dex for IBC tokens.\",\"url\":\"https://app.osmosis.zone/\",\"image\":\"https://assets.coingecko.com/markets/images/684/small/osmosis-dex.jpeg?1624850295\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":93,\"trade_volume_24h_btc\":946.3863543506767,\"trade_volume_24h_btc_normalized\":946.3863543506767},{\"id\":\"coinone\",\"name\":\"Coinone\",\"year_established\":2016,\"country\":\"South
+        Korea\",\"description\":\"\",\"url\":\"https://coinone.co.kr/\",\"image\":\"https://assets.coingecko.com/markets/images/20/small/coinone_circle_500x500.png?1606460853\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":94,\"trade_volume_24h_btc\":1151.4572079475997,\"trade_volume_24h_btc_normalized\":949.3293482046835},{\"id\":\"pancakeswap_new\",\"name\":\"PancakeSwap
+        (v2)\",\"year_established\":2020,\"country\":null,\"description\":\"\",\"url\":\"https://pancakeswap.finance\",\"image\":\"https://assets.coingecko.com/markets/images/687/small/pancakeswap.jpeg?1626060212\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":95,\"trade_volume_24h_btc\":864.737482682132,\"trade_volume_24h_btc_normalized\":864.737482682132},{\"id\":\"uniswap_v3_optimism\",\"name\":\"Uniswap
+        V3 (Optimism)\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://app.uniswap.org/#/swap\",\"image\":\"https://assets.coingecko.com/markets/images/725/small/uniswap-v3.png?1634896204\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":96,\"trade_volume_24h_btc\":817.1091582730181,\"trade_volume_24h_btc_normalized\":817.1091582730181},{\"id\":\"camelot-v3\",\"name\":\"Camelot
+        V3\",\"year_established\":null,\"country\":null,\"description\":\"\",\"url\":\"https://app.camelot.exchange/\",\"image\":\"https://assets.coingecko.com/markets/images/1119/small/camelot.jpeg?1681439700\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":97,\"trade_volume_24h_btc\":880.7471927315834,\"trade_volume_24h_btc_normalized\":778.5468951588862},{\"id\":\"pulsex\",\"name\":\"PulseX\",\"year_established\":2023,\"country\":\"Unknown
+        or Invalid Region\",\"description\":\"\",\"url\":\"https://app.pulsex.com/swap\",\"image\":\"https://assets.coingecko.com/markets/images/1148/small/pulsex.jpeg?1684462203\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":98,\"trade_volume_24h_btc\":740.0596242758814,\"trade_volume_24h_btc_normalized\":740.0596242758814},{\"id\":\"vertex-protocol-spot\",\"name\":\"Vertex
+        Protocol (Spot)\",\"year_established\":2022,\"country\":\"Singapore\",\"description\":\"Vertex
+        is a hybrid orderbook-AMM decentralized exchange (DEX) protocol with unified
+        cross-margin offering spot, perpetuals, and an integrated money market bundled
+        into one vertically integrated application on Arbitrum.\",\"url\":\"https://vertexprotocol.com/\",\"image\":\"https://assets.coingecko.com/markets/images/1293/small/vertex.png?1697934371\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":99,\"trade_volume_24h_btc\":513.9158313133936,\"trade_volume_24h_btc_normalized\":513.9158313133936},{\"id\":\"gmo_japan\",\"name\":\"GMO
+        Japan\",\"year_established\":null,\"country\":\"Japan\",\"description\":\"\",\"url\":\"https://coin.z.com/jp/\",\"image\":\"https://assets.coingecko.com/markets/images/430/small/gmo_z_com.png?1561112572\",\"has_trading_incentive\":false,\"trust_score\":6,\"trust_score_rank\":100,\"trade_volume_24h_btc\":394.5317379147347,\"trade_volume_24h_btc_normalized\":394.5317379147347}]"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845ce1faaec13fee-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 08:52:29 GMT
+      ETag:
+      - W/"130ba9db21fb0f4a021f4e4f9b71885b"
+      Link:
+      - <https://pro-api.coingecko.com/api/v3/exchanges?page=8>; rel="last", <https://pro-api.coingecko.com/api/v3/exchanges?page=2>;
+        rel="next"
+      Per-Page:
+      - '100'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=sudjo7qBxF8Z7U.oEFpgnYO5KPEgTzP4lvzJjcjN1aQ-1705308749-1-AYi+hEsM76yap0SPPRjVaJBWuj1gfEVgPgWp7j8oFmsYKkncOULe+tvuFQ0afbUrR0uzGotB2chPiygtkMtcERw=;
+        path=/; expires=Mon, 15-Jan-24 09:22:29 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Total:
+      - '721'
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 971a95ab-0902-4743-9f50-867015b7ac90
+      X-Runtime:
+      - '0.060769'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

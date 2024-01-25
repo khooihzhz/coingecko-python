@@ -1,0 +1,129 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/derivatives/exchanges/list
+  response:
+    body:
+      string: '[{"id":"binance_futures","name":"Binance (Futures)"},{"id":"bybit","name":"Bybit
+        (Futures)"},{"id":"ftx","name":"FTX (Derivatives)"},{"id":"deepcoin_derivatives","name":"Deepcoin
+        (Derivatives)"},{"id":"okex_swap","name":"OKX (Futures)"},{"id":"bitget_futures","name":"Bitget
+        Futures"},{"id":"bingx_futures","name":"BingX (Futures)"},{"id":"bitvenus","name":"BitVenus
+        Futures"},{"id":"deribit","name":"Deribit"},{"id":"kumex","name":"KuCoin Futures"},{"id":"blofin","name":"Blofin"},{"id":"bitmart_futures","name":"Bitmart
+        Futures"},{"id":"prime_xbt","name":"Prime XBT"},{"id":"toobit_derivatives","name":"Toobit
+        Futures"},{"id":"gate_futures","name":"Gate.io (Futures)"},{"id":"xt_derivatives","name":"XT.COM
+        (Derivatives)"},{"id":"phemex_futures","name":"Phemex (Futures)"},{"id":"mxc_futures","name":"MEXC
+        (Futures)"},{"id":"cointr_derivatives","name":"CoinTR Pro (Derivatives)"},{"id":"btse_futures","name":"BTSE
+        (Futures)"},{"id":"coincatch_derivatives","name":"CoinCatch Derivatives"},{"id":"btcex_futures","name":"BTCEX
+        (Futures)"},{"id":"whitebit_futures","name":"WhiteBIT Futures"},{"id":"bitunix_futures","name":"Bitunix
+        Futures"},{"id":"bitmex","name":"BitMEX (Derivative)"},{"id":"bitfinex_futures","name":"Bitfinex
+        (Futures)"},{"id":"dydx_perpetual","name":"dYdX Perpetual"},{"id":"kraken_futures","name":"Kraken
+        (Futures)"},{"id":"huobi_dm","name":"HTX Futures"},{"id":"bitmake_futures","name":"BitMake
+        Futures"},{"id":"bitforex_futures","name":"Bitforex (Futures)"},{"id":"aevo","name":"Aevo"},{"id":"crypto_com_futures","name":"Crypto.com
+        Exchange (Futures)"},{"id":"hyperliquid","name":"Hyperliquid"},{"id":"rabbitx","name":"RabbitX"},{"id":"apex_pro","name":"ApeX
+        Pro"},{"id":"gmx_arbitrum","name":"GMX Derivatives (Arbitrum)"},{"id":"drift_protocol","name":"Drift
+        Protocol"},{"id":"woo_network_futures","name":"WOO X (Futures)"},{"id":"coinex_futures","name":"CoinEx
+        (Futures)"},{"id":"mufex","name":"MUFEX"},{"id":"vertex_protocol_derivatives","name":"Vertex
+        Protocol (Derivatives)"},{"id":"opnx_derivatives","name":"OPNX Derivatives"},{"id":"gmx_avalanche","name":"GMX
+        Derivatives (Avalanche)"},{"id":"delta_futures","name":"Delta Exchange (Futures)"},{"id":"stormgain_futures","name":"Stormgain
+        Futures"},{"id":"orangex_futures","name":"OrangeX Futures"},{"id":"injective_futures","name":"Helix
+        (Futures)"},{"id":"hitbtc_derivatives","name":"HitBTC (Derivatives)"},{"id":"bitmax_futures","name":"AscendEX  (BitMax)
+        (Futures)"},{"id":"coinbase_international_derivatives","name":"Coinbase International
+        Exchange (Derivatives)"},{"id":"perpetual_protocol","name":"Perpetual Protocol"},{"id":"kine-protocol-derivatives","name":"Kine
+        Protocol (Derivatives)"},{"id":"zb_derivatives","name":"ZB (Derivatives)"},{"id":"poloniex_futures","name":"Poloniex
+        Futures"},{"id":"gemini_derivatives","name":"Gemini Derivatives"},{"id":"bigone_futures","name":"BigONE
+        Futures"},{"id":"synfutures","name":"SynFutures"},{"id":"paradex","name":"Paradex"},{"id":"levana-perps-osmosis","name":"Levana
+        Perps (Osmosis)"},{"id":"orderly_network_derivatives_evm","name":"Orderly
+        Network (Derivatives)"},{"id":"holdstation-defutures","name":"Holdstation
+        DeFutures"},{"id":"aqx_derivatives","name":"Flipster"},{"id":"powertrade_derivatives","name":"Powertrade
+        (Derivatives)"},{"id":"demex_derivatives","name":"Demex (Derivatives)"},{"id":"c_trade","name":"C-Trade"},{"id":"btcmex","name":"BTCMEX"},{"id":"bibox_futures","name":"Bibox
+        (Futures)"},{"id":"fmex","name":"FMex"},{"id":"vertex-protocol","name":"Vertex
+        Protocol"},{"id":"coincall","name":"Coincall"},{"id":"fameex_futures","name":"FameEX
+        Futures"},{"id":"acdx_futures","name":"ACDX Futures"},{"id":"leverj","name":"Leverj"},{"id":"futureswap","name":"Futureswap"},{"id":"bullish_futures","name":"Bullish
+        Futures"},{"id":"biki_futures","name":"Biki (Futures)"},{"id":"gmo_japan_futures","name":"GMO
+        Japan (Futures)"},{"id":"bithumb_futures","name":"Bithumb (Futures)"},{"id":"hbtc_futures","name":"BHEX
+        (Futures)"},{"id":"dydx_perpetual_l1","name":"dYdX Perpetual (L1)"},{"id":"aax_futures","name":"AAX
+        Futures"},{"id":"equos_perpetual","name":"EQONEX (Perpetual)"},{"id":"fairdesk_derivatives","name":"Fairdesk
+        Derivatives"},{"id":"orderly_network_derivatives","name":"Orderly Network
+        (Derivatives) (Near)"},{"id":"ktx_finance_bsc_derivatives","name":"KTX.Finance
+        (BSC)"},{"id":"kwenta_derivatives","name":"Kwenta Derivatives"},{"id":"globe_exchange_derivatives","name":"Globe
+        (Derivatives)"},{"id":"mcdex_bsc","name":"MCDEX (BSC)"},{"id":"bitz_futures","name":"BitZ
+        (Futures)"},{"id":"jex_futures","name":"Binance JEX (Futures)"},{"id":"bitflyer_futures","name":"Bitflyer
+        (Futures)"},{"id":"cme_futures","name":"CME Group"},{"id":"cointiger_futures","name":"CoinTiger
+        (Futures)"},{"id":"bitrue_futures","name":"Bitrue (Futures)"},{"id":"bit_com_futures","name":"BIT
+        (Futures)"},{"id":"liquid_derivatives","name":"Liquid Perpetuals"},{"id":"duedex","name":"DueDEX"},{"id":"coinflex_futures","name":"CoinFLEX
+        (Futures)"},{"id":"mango_markets_derivatives","name":"Mango Markets (Derivatives)"},{"id":"zbg_futures","name":"ZBG
+        Futures"},{"id":"bakkt","name":"Bakkt"},{"id":"hopex","name":"Hopex"},{"id":"ktx_finance_mantle_derivatives","name":"KTX.Finance
+        (Mantle)"},{"id":"basefex","name":"BaseFEX"},{"id":"btcc_futures","name":"BTCC
+        Futures"},{"id":"alpha_five","name":"Alpha5"},{"id":"mcdex","name":"MCDEX
+        (Arbitrum)"},{"id":"mycoinstory","name":"MCS"}]'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84255ebfba7f44a2-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 08 Jan 2024 15:10:56 GMT
+      ETag:
+      - W/"5a5e949b981fc178219e1fccc78451b3"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=QnWrxH68KMOheEmDMhS5_cCLDYj8GtSdGd98M.4ctdM-1704726656-1-AbiloErirCDdNsnqvk0hVBU7ButsHzlNsHNHNAngyGorMP14h0WEY69AblHOjhjfeqvFR2GYwNcv8wwQsZbQZfA=;
+        path=/; expires=Mon, 08-Jan-24 15:40:56 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 27a64069-3294-43ed-8ce3-c2cbdbcc3580
+      X-Runtime:
+      - '0.061714'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

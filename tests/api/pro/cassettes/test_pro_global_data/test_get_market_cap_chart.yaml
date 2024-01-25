@@ -1,0 +1,78 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/global/market_cap_chart?vs_currency=usd&days=1
+  response:
+    body:
+      string: '{"market_cap_chart":{"market_cap":[[1704708002413,1700223157685.2305],[1704711604636,1715972363572.7373],[1704715202534,1731089274719.2656],[1704718804560,1747138778443.861],[1704722409780,1746476289233.7407],[1704726006096,1742681436537.9893],[1704729603269,1749079893548.6484],[1704733221845,1747251713427.8762],[1704736800876,1765226070258.2607],[1704740405021,1812632475776.042],[1704744006582,1817887373641.8574],[1704747603389,1805650130086.6025],[1704751202517,1812731503710.6677],[1704754805152,1813283591679.6038],[1704758407120,1811372935229.5808],[1704762008609,1798807555667.0205],[1704765603430,1794848280024.395],[1704769201754,1801540356438.4229],[1704772802643,1806220922805.9375],[1704776408348,1807396441417.9531],[1704780009580,1803434492665.2712],[1704783604559,1804455698713.6362],[1704787203131,1806206283997.3225],[1704790802811,1796289315354.228]],"volume":[[1704708002413,84633270697.24922],[1704711604636,80833703377.34166],[1704715202534,110123853235.28885],[1704718804560,118554389405.32552],[1704722409780,120751056711.91856],[1704726006096,121694958998.45389],[1704729603269,124379061840.32227],[1704733221845,125187167581.13116],[1704736800876,127677011258.23978],[1704740405021,139453480582.26028],[1704744006582,146108588050.71283],[1704747603389,148172569506.4947],[1704751202517,151697892194.11908],[1704754805152,150705822796.32193],[1704758407120,120554927811.72072],[1704762008609,121812392052.27383],[1704765603430,121210323340.35257],[1704769201754,119060881596.68454],[1704772802643,115793146120.95424],[1704776408348,115514633230.47511],[1704780009580,115505315804.4597],[1704783604559,111968527098.86809],[1704787203131,110667304845.56793],[1704790802811,110240767588.43929]]}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 842bc3cdda404090-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 09 Jan 2024 09:48:30 GMT
+      ETag:
+      - W/"0742ee1a625152e86c4736004c211bff"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=GHDDjLAbNaD4dIOhXBHYNxBD0.ifoKertnL2O7akAI4-1704793710-1-ASVV9NhGnby8CfYmZZcSmMYMCM2PE0qL2ROjA9KX69OROKNDdFlXZvqNNsBKdgz2F5j+mjAmpWXshzz6zVGkD+E=;
+        path=/; expires=Tue, 09-Jan-24 10:18:30 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 5db7ebe9-e8a7-4320-8013-9e81be55dc1f
+      X-Runtime:
+      - '0.009884'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

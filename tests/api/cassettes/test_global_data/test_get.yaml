@@ -1,0 +1,78 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/global
+  response:
+    body:
+      string: '{"data":{"active_cryptocurrencies":12190,"upcoming_icos":0,"ongoing_icos":49,"ended_icos":3376,"markets":974,"total_market_cap":{"btc":41281988.62378241,"eth":700907786.241728,"ltc":24847222208.268055,"bch":6996271718.688733,"bnb":5590034065.155844,"eos":2271495901279.9365,"xrp":3050893483235.8955,"xlm":14770353988544.414,"link":113053991437.1098,"dot":232932401094.74426,"yfi":223215282.4666682,"usd":1760551687555.1335,"aed":6466330293221.238,"ars":1436698178221093.8,"aud":2638491279243.3164,"bdt":193134863419094.5,"bhd":663698056829.5991,"bmd":1760551687555.1335,"brl":8550471380949.037,"cad":2359950875651.8438,"chf":1501342141493.0183,"clp":1.602489357046437e+15,"cny":12518402774360.785,"czk":39698817325712.37,"dkk":11980070082098.61,"eur":1606494612135.6233,"gbp":1381321811849.011,"gel":4713877143428.857,"hkd":13770329318829.547,"huf":609961297525790.2,"idr":2.7384960705179644e+16,"ils":6575220415096.556,"inr":145896365534464.34,"jpy":255977466594916.28,"krw":2324668002589131.5,"kwd":540968238138.44147,"lkr":567201852639950.2,"mmk":3.695315265614984e+15,"mxn":29669398020736.04,"myr":8214734174132.246,"ngn":1685957112553422.8,"nok":18134277448288.273,"nzd":2837995235925.3794,"php":98208865350198.19,"pkr":487856733484813.5,"pln":7012680537868.542,"rub":154841837813136.34,"sar":6602632204871.767,"sek":18071922228618.457,"sgd":2346054841181.9727,"thb":61399240103485.28,"try":52992081151006.6,"twd":55013722653826.29,"uah":66604346378775.81,"vef":176284040474.89572,"vnd":4.3092691834547176e+16,"zar":32822581304181.047,"xdr":1318533496464.042,"xag":75594233855.42184,"xau":855487276.0167899,"bits":41281988623782.414,"sats":4.128198862378241e+15},"total_volume":{"btc":1631603.8537719534,"eth":27702246.991850235,"ltc":982046283.6711019,"bch":276516327.7931829,"bnb":220937058.20582387,"eos":89777202840.96059,"xrp":120581632102.57036,"xlm":583774360022.023,"link":4468276220.754137,"dot":9206276537.647017,"yfi":8822223.134948427,"usd":69582958911.1611,"aed":255571249784.8032,"ars":56783172575708.734,"aud":104282101780.26662,"bdt":7633343207472.693,"bhd":26231592599.206337,"bmd":69582958911.1611,"brl":337943556543.8369,"cad":93273242685.014,"chf":59338120704.75312,"clp":63335800860117.2,"cny":494769629337.8114,"czk":1569031567958.5684,"dkk":473492900076.7509,"eur":63494102091.64003,"gbp":54594511229.861496,"gel":186308372484.6334,"hkd":544250001836.5789,"huf":24107734071741.89,"idr":1082346294631354.4,"ils":259874955793.45978,"inr":5766317955918.836,"jpy":10117095491238.955,"krw":91878744174152.45,"kwd":21380894950.550316,"lkr":22417736148030.105,"mmk":146051361120871.1,"mxn":1172634985947.329,"myr":324674086279.4775,"ngn":66634728942095.22,"nok":716727995825.0715,"nzd":112167173101.1206,"php":3881546614439.0557,"pkr":19281748602194.324,"pln":277164859840.7452,"rub":6119873284289.887,"sar":260958362463.70566,"sek":714263506586.3566,"sgd":92724024390.32828,"thb":2426705692026.7437,"try":2094426327504.1929,"twd":2174328439221.8843,"uah":2632429101706.771,"vef":6967341675.77457,"vnd":1703168970550728.2,"zar":1297259457016.3975,"xdr":52112904583.25374,"xag":2987739868.965249,"xau":33811751.39411138,"bits":1631603853771.9534,"sats":163160385377195.34},"market_cap_percentage":{"btc":47.47639504146603,"eth":17.158198836023804,"usdt":5.388994376993935,"bnb":2.7556078163089035,"sol":2.3388420962206786,"xrp":1.7787896043538538,"usdc":1.4458685616411666,"steth":1.3297585641056497,"ada":1.0696834781694953,"avax":0.752251057343904},"market_cap_change_percentage_24h_usd":-0.611620316804155,"updated_at":1705308813}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845cf0be1bc84088-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 09:02:33 GMT
+      ETag:
+      - W/"f9d801a43d15217749ac3c9757767c3a"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=N3Kmh2igSEnq.oh_rbtDP8rOHarM3ilw7civ.rGxe_o-1705309353-1-AedHrIS60JRLxHLJXCIiw1LYnUkLZMOaTnhKMKdBps52EKNvcXFTov7vUrEAH6MUjzFlrtiVc8aZKTmyeSGUKmQ=;
+        path=/; expires=Mon, 15-Jan-24 09:32:33 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 2e331bed-a4d6-4e64-b5e5-c96f379df5a4
+      X-Runtime:
+      - '0.014031'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

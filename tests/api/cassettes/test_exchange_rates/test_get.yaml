@@ -1,0 +1,128 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/exchange_rates
+  response:
+    body:
+      string: "{\"rates\":{\"btc\":{\"name\":\"Bitcoin\",\"unit\":\"BTC\",\"value\":1.0,\"type\":\"crypto\"},\"eth\":{\"name\":\"Ether\",\"unit\":\"ETH\",\"value\":16.98,\"type\":\"crypto\"},\"ltc\":{\"name\":\"Litecoin\",\"unit\":\"LTC\",\"value\":601.335,\"type\":\"crypto\"},\"bch\":{\"name\":\"Bitcoin
+        Cash\",\"unit\":\"BCH\",\"value\":167.555,\"type\":\"crypto\"},\"bnb\":{\"name\":\"Binance
+        Coin\",\"unit\":\"BNB\",\"value\":135.56,\"type\":\"crypto\"},\"eos\":{\"name\":\"EOS\",\"unit\":\"EOS\",\"value\":54721.726,\"type\":\"crypto\"},\"xrp\":{\"name\":\"XRP\",\"unit\":\"XRP\",\"value\":73744.355,\"type\":\"crypto\"},\"xlm\":{\"name\":\"Lumens\",\"unit\":\"XLM\",\"value\":357612.115,\"type\":\"crypto\"},\"link\":{\"name\":\"Chainlink\",\"unit\":\"LINK\",\"value\":2735.779,\"type\":\"crypto\"},\"dot\":{\"name\":\"Polkadot\",\"unit\":\"DOT\",\"value\":5639.478,\"type\":\"crypto\"},\"yfi\":{\"name\":\"Yearn.finance\",\"unit\":\"YFI\",\"value\":5.392,\"type\":\"crypto\"},\"usd\":{\"name\":\"US
+        Dollar\",\"unit\":\"$\",\"value\":42639.076,\"type\":\"fiat\"},\"aed\":{\"name\":\"United
+        Arab Emirates Dirham\",\"unit\":\"DH\",\"value\":156609.064,\"type\":\"fiat\"},\"ars\":{\"name\":\"Argentine
+        Peso\",\"unit\":\"$\",\"value\":34796221.697,\"type\":\"fiat\"},\"aud\":{\"name\":\"Australian
+        Dollar\",\"unit\":\"A$\",\"value\":63940.066,\"type\":\"fiat\"},\"bdt\":{\"name\":\"Bangladeshi
+        Taka\",\"unit\":\"\u09F3\",\"value\":4677563.452,\"type\":\"fiat\"},\"bhd\":{\"name\":\"Bahraini
+        Dinar\",\"unit\":\"BD\",\"value\":16074.207,\"type\":\"fiat\"},\"bmd\":{\"name\":\"Bermudian
+        Dollar\",\"unit\":\"$\",\"value\":42639.076,\"type\":\"fiat\"},\"brl\":{\"name\":\"Brazil
+        Real\",\"unit\":\"R$\",\"value\":207076.675,\"type\":\"fiat\"},\"cad\":{\"name\":\"Canadian
+        Dollar\",\"unit\":\"CA$\",\"value\":57170.729,\"type\":\"fiat\"},\"chf\":{\"name\":\"Swiss
+        Franc\",\"unit\":\"Fr.\",\"value\":36357.956,\"type\":\"fiat\"},\"clp\":{\"name\":\"Chilean
+        Peso\",\"unit\":\"CLP$\",\"value\":38810940.28,\"type\":\"fiat\"},\"cny\":{\"name\":\"Chinese
+        Yuan\",\"unit\":\"\xA5\",\"value\":303185.153,\"type\":\"fiat\"},\"czk\":{\"name\":\"Czech
+        Koruna\",\"unit\":\"K\u010D\",\"value\":961562.343,\"type\":\"fiat\"},\"dkk\":{\"name\":\"Danish
+        Krone\",\"unit\":\"kr.\",\"value\":290167.657,\"type\":\"fiat\"},\"eur\":{\"name\":\"Euro\",\"unit\":\"\u20AC\",\"value\":38910.502,\"type\":\"fiat\"},\"gbp\":{\"name\":\"British
+        Pound Sterling\",\"unit\":\"\xA3\",\"value\":33470.651,\"type\":\"fiat\"},\"gel\":{\"name\":\"Georgian
+        Lari\",\"unit\":\"\u20BE\",\"value\":114166.127,\"type\":\"fiat\"},\"hkd\":{\"name\":\"Hong
+        Kong Dollar\",\"unit\":\"HK$\",\"value\":333519.872,\"type\":\"fiat\"},\"huf\":{\"name\":\"Hungarian
+        Forint\",\"unit\":\"Ft\",\"value\":14771333.35,\"type\":\"fiat\"},\"idr\":{\"name\":\"Indonesian
+        Rupiah\",\"unit\":\"Rp\",\"value\":663288752.762,\"type\":\"fiat\"},\"ils\":{\"name\":\"Israeli
+        New Shekel\",\"unit\":\"\u20AA\",\"value\":159329.437,\"type\":\"fiat\"},\"inr\":{\"name\":\"Indian
+        Rupee\",\"unit\":\"\u20B9\",\"value\":3533184.107,\"type\":\"fiat\"},\"jpy\":{\"name\":\"Japanese
+        Yen\",\"unit\":\"\xA5\",\"value\":6201498.362,\"type\":\"fiat\"},\"krw\":{\"name\":\"South
+        Korean Won\",\"unit\":\"\u20A9\",\"value\":56312639.567,\"type\":\"fiat\"},\"kwd\":{\"name\":\"Kuwaiti
+        Dinar\",\"unit\":\"KD\",\"value\":13101.794,\"type\":\"fiat\"},\"lkr\":{\"name\":\"Sri
+        Lankan Rupee\",\"unit\":\"Rs\",\"value\":13737150.348,\"type\":\"fiat\"},\"mmk\":{\"name\":\"Burmese
+        Kyat\",\"unit\":\"K\",\"value\":89497418.164,\"type\":\"fiat\"},\"mxn\":{\"name\":\"Mexican
+        Peso\",\"unit\":\"MX$\",\"value\":718806.013,\"type\":\"fiat\"},\"myr\":{\"name\":\"Malaysian
+        Ringgit\",\"unit\":\"RM\",\"value\":199017.889,\"type\":\"fiat\"},\"ngn\":{\"name\":\"Nigerian
+        Naira\",\"unit\":\"\u20A6\",\"value\":40832458.901,\"type\":\"fiat\"},\"nok\":{\"name\":\"Norwegian
+        Krone\",\"unit\":\"kr\",\"value\":439623.803,\"type\":\"fiat\"},\"nzd\":{\"name\":\"New
+        Zealand Dollar\",\"unit\":\"NZ$\",\"value\":68762.162,\"type\":\"fiat\"},\"php\":{\"name\":\"Philippine
+        Peso\",\"unit\":\"\u20B1\",\"value\":2378450.458,\"type\":\"fiat\"},\"pkr\":{\"name\":\"Pakistani
+        Rupee\",\"unit\":\"\u20A8\",\"value\":11815478.502,\"type\":\"fiat\"},\"pln\":{\"name\":\"Polish
+        Zloty\",\"unit\":\"z\u0142\",\"value\":169887.341,\"type\":\"fiat\"},\"rub\":{\"name\":\"Russian
+        Ruble\",\"unit\":\"\u20BD\",\"value\":3746843.275,\"type\":\"fiat\"},\"sar\":{\"name\":\"Saudi
+        Riyal\",\"unit\":\"SR\",\"value\":159910.181,\"type\":\"fiat\"},\"sek\":{\"name\":\"Swedish
+        Krona\",\"unit\":\"kr\",\"value\":437871.209,\"type\":\"fiat\"},\"sgd\":{\"name\":\"Singapore
+        Dollar\",\"unit\":\"S$\",\"value\":56837.547,\"type\":\"fiat\"},\"thb\":{\"name\":\"Thai
+        Baht\",\"unit\":\"\u0E3F\",\"value\":1487293.63,\"type\":\"fiat\"},\"try\":{\"name\":\"Turkish
+        Lira\",\"unit\":\"\u20BA\",\"value\":1283439.36,\"type\":\"fiat\"},\"twd\":{\"name\":\"New
+        Taiwan Dollar\",\"unit\":\"NT$\",\"value\":1332247.33,\"type\":\"fiat\"},\"uah\":{\"name\":\"Ukrainian
+        hryvnia\",\"unit\":\"\u20B4\",\"value\":1613101.078,\"type\":\"fiat\"},\"vef\":{\"name\":\"Venezuelan
+        bol\xEDvar fuerte\",\"unit\":\"Bs.F\",\"value\":4269.45,\"type\":\"fiat\"},\"vnd\":{\"name\":\"Vietnamese
+        \u0111\u1ED3ng\",\"unit\":\"\u20AB\",\"value\":1043668640.899,\"type\":\"fiat\"},\"zar\":{\"name\":\"South
+        African Rand\",\"unit\":\"R\",\"value\":795108.3,\"type\":\"fiat\"},\"xdr\":{\"name\":\"IMF
+        Special Drawing Rights\",\"unit\":\"XDR\",\"value\":31933.768,\"type\":\"fiat\"},\"xag\":{\"name\":\"Silver
+        - Troy Ounce\",\"unit\":\"XAG\",\"value\":1834.412,\"type\":\"commodity\"},\"xau\":{\"name\":\"Gold
+        - Troy Ounce\",\"unit\":\"XAU\",\"value\":20.732,\"type\":\"commodity\"},\"bits\":{\"name\":\"Bits\",\"unit\":\"\u03BCBTC\",\"value\":1000000.0,\"type\":\"crypto\"},\"sats\":{\"name\":\"Satoshi\",\"unit\":\"sats\",\"value\":100000000.0,\"type\":\"crypto\"}}}"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 845cf0b05df344ad-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Jan 2024 09:02:32 GMT
+      ETag:
+      - W/"eca8b8a71a3ab04892571a2ee5eeedd4"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=y6fU9uvMkRmjqMYqLTu8qiyySxC_CAVQ9SYcF0NS69w-1705309352-1-AUtcH5QjP8ZHhPnlwX6GDRpWnytVF50YbIzZPHEV9PXH2wUnk9hwS2blYscGpP2kScY/QIyxHfhlGwIpHx0x7U8=;
+        path=/; expires=Mon, 15-Jan-24 09:32:32 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - c58306b0-e58a-4acc-86fd-28e02c7a04e2
+      X-Runtime:
+      - '0.268185'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
