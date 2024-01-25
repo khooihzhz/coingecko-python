@@ -5,15 +5,14 @@ with open('README.md') as f:
 
 setup(
     name='coingecko',
-    version='0.10',
+    version='0.11',
     description='Python wrapper for the CoinGecko API',
     long_description=description,
     long_description_content_type='text/markdown',
-    package_dir={'': 'coingecko'},
     packages=find_packages(),
     url="https://github.com/khooihzhz/coingecko-python",
     author='khooihzhz',
-    email='khooihongzhe@gmail.com',
+    author_email='khooihongzhe@gmail.com',
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
