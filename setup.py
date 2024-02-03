@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='coingecko',
-    version='0.11.1',
+    version='0.12',
     description='Python wrapper for the CoinGecko API',
     long_description=description,
     long_description_content_type='text/markdown',
