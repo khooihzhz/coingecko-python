@@ -1,3 +1,5 @@
+![PyPI](https://img.shields.io/pypi/v/coingecko?label=coingecko-python)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/coingecko)
 # Python API wrapper for CoinGecko API
 This CoinGecko Python library provides convenient access to CoinGecko API.
 ## Requirements
