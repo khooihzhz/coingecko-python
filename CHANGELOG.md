@@ -1,4 +1,4 @@
-## 0.12 0 - 2924-02-01
+## 0.12 0 - 2024-02-01
 * Add Onchain endpoints
 * Add Examples
 * Add custom User-Agent
