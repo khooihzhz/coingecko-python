@@ -1,0 +1,82 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/onchain/networks/eth/pools/multi/0x60594a405d53811d3bc4766596efd80fd545a270,0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640
+  response:
+    body:
+      string: '{"data":[{"id":"eth_0x60594a405d53811d3bc4766596efd80fd545a270","type":"pool","attributes":{"base_token_price_usd":"1.00070950532377","base_token_price_native_currency":"0.0004345196076323","quote_token_price_usd":"2308.66792869639","quote_token_price_native_currency":"1.0","base_token_price_quote_token":"0.00043452","quote_token_price_base_token":"2301.39","address":"0x60594a405d53811d3bc4766596efd80fd545a270","name":"DAI
+        / WETH 0.05%","pool_created_at":null,"fdv_usd":"3713252897","market_cap_usd":"5221700606.57148","price_change_percentage":{"h1":"0.13","h24":"0.09"},"transactions":{"h1":{"buys":13,"sells":12,"buyers":13,"sellers":8},"h24":{"buys":530,"sells":572,"buyers":355,"sellers":313}},"volume_usd":{"h1":"56222.151324707426","h24":"8819279.77243827852930659686"},"reserve_in_usd":"5379548.4152"},"relationships":{"base_token":{"data":{"id":"eth_0x6b175474e89094c44da98b954eedeac495271d0f","type":"token"}},"quote_token":{"data":{"id":"eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","type":"token"}},"dex":{"data":{"id":"uniswap_v3","type":"dex"}}}},{"id":"eth_0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640","type":"pool","attributes":{"base_token_price_usd":"2308.66792869639","base_token_price_native_currency":"1.0","quote_token_price_usd":"1.00045523122193","quote_token_price_native_currency":"0.000433355611203679","base_token_price_quote_token":"2307.57","quote_token_price_base_token":"0.00043336","address":"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640","name":"WETH
+        / USDC 0.05%","pool_created_at":null,"fdv_usd":"7559824731","market_cap_usd":null,"price_change_percentage":{"h1":"0.01","h24":"2.11"},"transactions":{"h1":{"buys":89,"sells":98,"buyers":77,"sellers":92},"h24":{"buys":2350,"sells":3035,"buyers":1498,"sellers":2153}},"volume_usd":{"h1":"3025911.39655038027293","h24":"145842773.8984195376655102"},"reserve_in_usd":"139695737.8527"},"relationships":{"base_token":{"data":{"id":"eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","type":"token"}},"quote_token":{"data":{"id":"eth_0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48","type":"token"}},"dex":{"data":{"id":"uniswap_v3","type":"dex"}}}}]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84d8805a2e8e9fb0-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 30 Jan 2024 08:56:23 GMT
+      ETag:
+      - W/"9987bfad693ad026a1bf1b9ea06f39cb"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=BvoE2nnHImUPTgffGQ9.C76Yu93F.X4P1ubEZ6QJFNQ-1706604983-1-ATtqLXb0Ss+0QMXRMCCscTKoFwyiV8eODxLOgxIjhOlWCE924BU0xKblaph4KsTsu/59+/kc55bY61/wfRUGYH0=;
+        path=/; expires=Tue, 30-Jan-24 09:26:23 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 5cb14e63-8674-4b21-92cc-cc6e75288540
+      X-Runtime:
+      - '0.059923'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

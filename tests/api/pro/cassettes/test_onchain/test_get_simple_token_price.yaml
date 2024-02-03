@@ -13,10 +13,10 @@ interactions:
       User-Agent:
       - python-requests/2.31.0
     method: GET
-    uri: https://pro-api.coingecko.com/api/v3/simple/supported_vs_currencies
+    uri: https://pro-api.coingecko.com/api/v3/onchain/simple/networks/eth/token_price/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2,0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48?network=eth&contract_addresses=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2%2C0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
   response:
     body:
-      string: '["btc","eth","ltc","bch","bnb","eos","xrp","xlm","link","dot","yfi","usd","aed","ars","aud","bdt","bhd","bmd","brl","cad","chf","clp","cny","czk","dkk","eur","gbp","gel","hkd","huf","idr","ils","inr","jpy","krw","kwd","lkr","mmk","mxn","myr","ngn","nok","nzd","php","pkr","pln","rub","sar","sek","sgd","thb","try","twd","uah","vef","vnd","zar","xdr","xag","xau","bits","sats"]'
+      string: '{"data":{"id":"ff9bff0f-015e-4ca2-83a0-a28ea7f88864","type":"simple_token_price","attributes":{"token_prices":{"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48":"1.00055136391121","0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2":"2224.75608258162"}}}}'
     headers:
       Access-Control-Allow-Headers:
       - Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -33,7 +33,7 @@ interactions:
       CF-Cache-Status:
       - MISS
       CF-RAY:
-      - 84b67a3c1db02ee3-SIN
+      - 84b680a8896b3fd7-SIN
       Cache-Control:
       - max-age=30, public, must-revalidate, s-maxage=60
       Connection:
@@ -43,16 +43,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 26 Jan 2024 05:50:17 GMT
+      - Fri, 26 Jan 2024 05:54:42 GMT
       ETag:
-      - W/"d49a567f35c48f8919f66d20675204c2"
+      - W/"419d60907ab7b2e164e2792812f3ecda"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - cloudflare
       Set-Cookie:
-      - __cf_bm=BhRB1A1C_r8Z6tx_nVJx0eWt.dyPdQfsrWIOzcoLLm8-1706248217-1-AaVPuvsZs4sBOa1EELXG5Yxgy2JDEsxGO+w4QGNafnVE5tpaGRemk9hcPPNYuEHYri2UztGDFnOpum8c5hbmNaw=;
-        path=/; expires=Fri, 26-Jan-24 06:20:17 GMT; domain=.pro-api.coingecko.com;
+      - __cf_bm=6xwkwhGXoe97nBsbFmtqI6KTvzP5P5bAjxnfayMsTFg-1706248482-1-ATOU6qMsrvwdUJZdS427M9yTbSAFb7pcD+C5/wAc84U89zkKhxerqOEXGVJsGuYP3QGvqGKmEwNzh1lsYWYp57c=;
+        path=/; expires=Fri, 26-Jan-24 06:24:42 GMT; domain=.pro-api.coingecko.com;
         HttpOnly; Secure; SameSite=None
       Strict-Transport-Security:
       - max-age=15724800; includeSubdomains
@@ -69,9 +69,9 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - bbb1a231-2cfc-470a-a15b-461a10c7dc33
+      - 89a6e21f-3bfe-41c1-8ab9-31cc6d0f373d
       X-Runtime:
-      - '0.009511'
+      - '1.781061'
       X-XSS-Protection:
       - '0'
     status:

@@ -17,7 +17,7 @@ class CoinGeckoAPI:
 
     def get_data(self, endpoint, params=None):
         url = f'{self.base_url}/{endpoint}'
-        headers = {'Content-Type': 'application/json', f'{self.api_key_header}': self.api_key}
+        headers = {'Content-Type': 'application/json', f'{self.api_key_header}': self.api_key, 'User-Agent': 'coingecko/python'}
 
         response = self.session.get(url, headers=headers, params=params)
         logging.info(f"GET {url} : {response.status_code}")

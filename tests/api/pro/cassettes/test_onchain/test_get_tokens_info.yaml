@@ -13,10 +13,11 @@ interactions:
       User-Agent:
       - python-requests/2.31.0
     method: GET
-    uri: https://pro-api.coingecko.com/api/v3/simple/supported_vs_currencies
+    uri: https://pro-api.coingecko.com/api/v3/onchain/networks/eth/tokens/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
   response:
     body:
-      string: '["btc","eth","ltc","bch","bnb","eos","xrp","xlm","link","dot","yfi","usd","aed","ars","aud","bdt","bhd","bmd","brl","cad","chf","clp","cny","czk","dkk","eur","gbp","gel","hkd","huf","idr","ils","inr","jpy","krw","kwd","lkr","mmk","mxn","myr","ngn","nok","nzd","php","pkr","pln","rub","sar","sek","sgd","thb","try","twd","uah","vef","vnd","zar","xdr","xag","xau","bits","sats"]'
+      string: '{"data":{"id":"eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","type":"token","attributes":{"address":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","name":"Wrapped
+        Ether","symbol":"WETH","coingecko_coin_id":"weth","decimals":18,"total_supply":"3275625054937015346398805.0","price_usd":"2308.68","fdv_usd":"7559876886","total_reserve_in_usd":"1869441549.35408698333021269161036973008","volume_usd":{"h24":"827972691.21062069561597130447693641757"},"market_cap_usd":null},"relationships":{"top_pools":{"data":[{"id":"eth_0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640","type":"pool"},{"id":"eth_0xcbcdf9626bc03e24f779434178a73a0b4bad62ed","type":"pool"},{"id":"eth_0x4585fe77225b41b697c938b018e2ac67ac5a20c0","type":"pool"}]}}}}'
     headers:
       Access-Control-Allow-Headers:
       - Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -33,7 +34,7 @@ interactions:
       CF-Cache-Status:
       - MISS
       CF-RAY:
-      - 84b67a3c1db02ee3-SIN
+      - 84d8a471ecb03db1-SIN
       Cache-Control:
       - max-age=30, public, must-revalidate, s-maxage=60
       Connection:
@@ -43,16 +44,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 26 Jan 2024 05:50:17 GMT
+      - Tue, 30 Jan 2024 09:21:02 GMT
       ETag:
-      - W/"d49a567f35c48f8919f66d20675204c2"
+      - W/"8f0cfdf029ddce6cf909cc7dd1037863"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - cloudflare
       Set-Cookie:
-      - __cf_bm=BhRB1A1C_r8Z6tx_nVJx0eWt.dyPdQfsrWIOzcoLLm8-1706248217-1-AaVPuvsZs4sBOa1EELXG5Yxgy2JDEsxGO+w4QGNafnVE5tpaGRemk9hcPPNYuEHYri2UztGDFnOpum8c5hbmNaw=;
-        path=/; expires=Fri, 26-Jan-24 06:20:17 GMT; domain=.pro-api.coingecko.com;
+      - __cf_bm=LNnU2WilkytikxtE.w7c2M4bCnYuq.cSZuKCk4i010M-1706606462-1-Acoo4F8/YHJWbRjiqYe1enRU//qd9JCGFXpbKGzqRwgVj/MMp3/ZPcZWgyGXODpf93Djfqis2gMdoiVPrjhWbtM=;
+        path=/; expires=Tue, 30-Jan-24 09:51:02 GMT; domain=.pro-api.coingecko.com;
         HttpOnly; Secure; SameSite=None
       Strict-Transport-Security:
       - max-age=15724800; includeSubdomains
@@ -69,9 +70,9 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - bbb1a231-2cfc-470a-a15b-461a10c7dc33
+      - 7eca8f0a-a197-4c85-83e7-b39c8369fcf5
       X-Runtime:
-      - '0.009511'
+      - '0.056007'
       X-XSS-Protection:
       - '0'
     status:

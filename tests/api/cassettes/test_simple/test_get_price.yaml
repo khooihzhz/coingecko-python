@@ -13,10 +13,10 @@ interactions:
       User-Agent:
       - python-requests/2.31.0
     method: GET
-    uri: https://pro-api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_vol=False&include_24hr_change=False&include_last_updated_at=False
+    uri: https://pro-api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_market_cap=False&include_24hr_vol=False&include_24hr_change=False&include_last_updated_at=False
   response:
     body:
-      string: '{"bitcoin":{"usd":45135}}'
+      string: '{"bitcoin":{"usd":40108}}'
     headers:
       Access-Control-Allow-Headers:
       - Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -33,7 +33,7 @@ interactions:
       CF-Cache-Status:
       - MISS
       CF-RAY:
-      - 842591b65c483e61-SIN
+      - 84b67a346cd65f51-SIN
       Cache-Control:
       - max-age=30, public, must-revalidate, s-maxage=30
       Connection:
@@ -43,17 +43,19 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 08 Jan 2024 15:45:43 GMT
+      - Fri, 26 Jan 2024 05:50:16 GMT
       ETag:
-      - W/"836edfd5f72c97f197af502b2f74c09b"
+      - W/"d55a0ae196f1cce77aca2d3e3d175bcb"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - cloudflare
       Set-Cookie:
-      - __cf_bm=b21_XxofOvMdPeUVZSPPjk5VS7QgutSkyzoZ2PIRBBw-1704728743-1-AaQ0C5ixPWSZ37SAT1eRH5y0NU0amI8syD6WTdgL/Yrk1QmsmEwBK08I+AyFoNdsOfrjWIElm+mp+p+SO/xY8Vo=;
-        path=/; expires=Mon, 08-Jan-24 16:15:43 GMT; domain=.pro-api.coingecko.com;
+      - __cf_bm=r.Zg1wqDduxeUeOzJN2w59_tsoGpiTLuMVI7sUoS7k8-1706248216-1-AVRQ0dBY19EsMn+FrpcGaUcPkgMf+F2lYuME8xWHGHrNpTi/ZetLEhJUL9ArF2OLhBPH/3xrj/IpINEVxiN8a3o=;
+        path=/; expires=Fri, 26-Jan-24 06:20:16 GMT; domain=.pro-api.coingecko.com;
         HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
       Transfer-Encoding:
       - chunked
       Vary:
@@ -67,9 +69,9 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 2633dc20-59d4-4ccc-aab7-88cad02acefe
+      - df9ed3d2-5c83-47de-bb66-8e9eb1443d30
       X-Runtime:
-      - '0.029677'
+      - '0.017690'
       X-XSS-Protection:
       - '0'
     status:

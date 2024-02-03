@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/onchain/networks/eth/pools/0x60594a405d53811d3bc4766596efd80fd545a270
+  response:
+    body:
+      string: '{"data":{"id":"eth_0x60594a405d53811d3bc4766596efd80fd545a270","type":"pool","attributes":{"base_token_price_usd":"1.00031738169937","base_token_price_native_currency":"0.0004345196076323","quote_token_price_usd":"2308.66792869639","quote_token_price_native_currency":"1.0","base_token_price_quote_token":"0.00043452","quote_token_price_base_token":"2301.39","address":"0x60594a405d53811d3bc4766596efd80fd545a270","name":"DAI
+        / WETH 0.05%","pool_created_at":null,"fdv_usd":"3711797875","market_cap_usd":"5221700606.57148","price_change_percentage":{"h1":"-0.05","h24":"-0.08"},"transactions":{"h1":{"buys":14,"sells":13,"buyers":14,"sellers":9},"h24":{"buys":530,"sells":575,"buyers":355,"sellers":313}},"volume_usd":{"h1":"60198.663369912755","h24":"8820357.83975200060946659686"},"reserve_in_usd":"5379568.0678"},"relationships":{"base_token":{"data":{"id":"eth_0x6b175474e89094c44da98b954eedeac495271d0f","type":"token"}},"quote_token":{"data":{"id":"eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2","type":"token"}},"dex":{"data":{"id":"uniswap_v3","type":"dex"}}}}}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84d8793c4e5f3f70-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 30 Jan 2024 08:51:32 GMT
+      ETag:
+      - W/"9b4a8bb0ef06e5ab95f914083cf4b2d2"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=AJ6xGsoZs9K2aF7L01Cty6JQSoC2XJUtCzkILaXeZUE-1706604692-1-AYsZ0/o5uYhCgV8e9T+T1IRIOm/u6/HmXetBo6TXzmbQZdjz2HNEg2+hzkzh/E+b5vqir3PC6ZId3KqmrFRqcBM=;
+        path=/; expires=Tue, 30-Jan-24 09:21:32 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 2c4c48cc-7bae-475a-860b-6d990f89686c
+      X-Runtime:
+      - '0.089156'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

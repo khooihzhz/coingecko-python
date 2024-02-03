@@ -13,10 +13,10 @@ interactions:
       User-Agent:
       - python-requests/2.31.0
     method: GET
-    uri: https://pro-api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_vol=False&include_24hr_change=False&include_last_updated_at=False&precision=2
+    uri: https://pro-api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_market_cap=False&include_24hr_vol=False&include_24hr_change=False&include_last_updated_at=False&precision=2
   response:
     body:
-      string: '{"bitcoin":{"usd":45020.51}}'
+      string: '{"bitcoin":{"usd":40107.57}}'
     headers:
       Access-Control-Allow-Headers:
       - Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -33,7 +33,7 @@ interactions:
       CF-Cache-Status:
       - MISS
       CF-RAY:
-      - 8425929899606c09-SIN
+      - 84b67a36ac624727-SIN
       Cache-Control:
       - max-age=30, public, must-revalidate, s-maxage=30
       Connection:
@@ -43,17 +43,19 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 08 Jan 2024 15:46:19 GMT
+      - Fri, 26 Jan 2024 05:50:16 GMT
       ETag:
-      - W/"ca50acba07e5ab4a2639ae47d12d55f2"
+      - W/"090b53cab4d3d0a128f90b9a5fb5258d"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - cloudflare
       Set-Cookie:
-      - __cf_bm=.vQOaKLKiJHPZ1TS8lHNNhtHA3Kuj2f.D3qhFiqrDHg-1704728779-1-AZ/BX0HKPtQBfcvcx9hnuBLtrXnrlsaaSSbARQ5k58kBBrbFhYheVooDJF+0w2UEbAht0MTFhjX5T5qoqJVatj8=;
-        path=/; expires=Mon, 08-Jan-24 16:16:19 GMT; domain=.pro-api.coingecko.com;
+      - __cf_bm=gwyHmglofCQfyETg0h2hRTFcYOIzcZVFgjCiwBPcrEU-1706248216-1-AdeE+mm2j61t6SFR0t0clpMyqUE0BM8iHhhuLHdtUxNKRpuIgzo8SeB7bcF+XBsS90fcj7zXWzl8Thb1F+qnDAg=;
+        path=/; expires=Fri, 26-Jan-24 06:20:16 GMT; domain=.pro-api.coingecko.com;
         HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
       Transfer-Encoding:
       - chunked
       Vary:
@@ -67,9 +69,9 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - aa2d581d-dd6f-4886-9b95-5ba74f315ffd
+      - 59b6c853-3b22-4eb2-937c-f7d37a6b2c1a
       X-Runtime:
-      - '0.010790'
+      - '0.016745'
       X-XSS-Protection:
       - '0'
     status:

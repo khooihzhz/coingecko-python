@@ -4,6 +4,7 @@ from coingecko.api.pro.global_data import ProGlobalData
 from coingecko.api.pro.exchanges import ProExchanges
 from coingecko.api.pro.nfts import ProNfts
 from coingecko.api.pro.token_lists import TokenLists
+from coingecko.api.pro.onchain import Onchain
 
 class CoinGeckoProClient(CoinGeckoClient):
     def __init__(self, api_key: str):
@@ -13,7 +14,7 @@ class CoinGeckoProClient(CoinGeckoClient):
         self._nfts = None
         self._exchanges = None
         self._token_lists = None
-
+        self._onchain = None
 
     @property
     def coins(self):
@@ -44,3 +45,9 @@ class CoinGeckoProClient(CoinGeckoClient):
         if self._token_lists is None:
             self._token_lists = TokenLists(api_key=self.api_key, pro=self.pro, session=self.session)
         return self._token_lists
+
+    @property
+    def onchain(self):
+        if self._onchain is None:
+            self._onchain = Onchain(api_key=self.api_key, pro=self.pro, session=self.session)
+        return self._onchain

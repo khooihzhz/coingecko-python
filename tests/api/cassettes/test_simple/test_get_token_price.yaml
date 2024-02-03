@@ -13,10 +13,10 @@ interactions:
       User-Agent:
       - python-requests/2.31.0
     method: GET
-    uri: https://pro-api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=0xdac17f958d2ee523a2206206994597c13d831ec7&vs_currencies=usd&include_24hr_vol=False&include_24hr_change=False&include_last_updated_at=False
+    uri: https://pro-api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses=0xdac17f958d2ee523a2206206994597c13d831ec7&vs_currencies=usd&include_market_cap=False&include_24hr_vol=False&include_24hr_change=False&include_last_updated_at=False
   response:
     body:
-      string: '{"0xdac17f958d2ee523a2206206994597c13d831ec7":{"usd":1.004}}'
+      string: '{"0xdac17f958d2ee523a2206206994597c13d831ec7":{"usd":0.999473}}'
     headers:
       Access-Control-Allow-Headers:
       - Origin, X-Requested-With, Content-Type, Accept, Authorization
@@ -33,7 +33,7 @@ interactions:
       CF-Cache-Status:
       - MISS
       CF-RAY:
-      - 8425929bf9ecab47-SIN
+      - 84b67a3998fa3e06-SIN
       Cache-Control:
       - max-age=30, public, must-revalidate, s-maxage=30
       Connection:
@@ -43,17 +43,19 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 08 Jan 2024 15:46:20 GMT
+      - Fri, 26 Jan 2024 05:50:16 GMT
       ETag:
-      - W/"16318056753f9c866e065a38a035c88e"
+      - W/"068a6a65fd6068141492deab9cd556bc"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - cloudflare
       Set-Cookie:
-      - __cf_bm=7pRTRM3_4Zr8PCVRLZYjfzdIxaC60jShHrDY.yQWqs4-1704728780-1-AaPsTnP+qKFvbJUExlrpXnFLafq3LHXTdtK2Qq5/IFJurAPfxa8RTa4gdqmGg8pqT8KGReSwnQEDhz3Gh/wJAbI=;
-        path=/; expires=Mon, 08-Jan-24 16:16:20 GMT; domain=.pro-api.coingecko.com;
+      - __cf_bm=Da3bHdACxrJ8BQqOh7vbPOC1.dA.a9syNBfh4Es4A68-1706248216-1-AValyobXK3qjERWt6NIU/kEJZ0s8/XSsKax+PHN1UEB4xNoXNaI17muDVPFYkI1T9agKNXUxl8tN/giBnsBfGJs=;
+        path=/; expires=Fri, 26-Jan-24 06:20:16 GMT; domain=.pro-api.coingecko.com;
         HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
       Transfer-Encoding:
       - chunked
       Vary:
@@ -67,9 +69,9 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - d00d5ac8-48cb-4c2e-b5b9-a7e91c930146
+      - c1baba55-29c6-4ede-9346-62522acff4c6
       X-Runtime:
-      - '0.051568'
+      - '0.055311'
       X-XSS-Protection:
       - '0'
     status:

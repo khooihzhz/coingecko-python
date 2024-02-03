@@ -1,0 +1,137 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/onchain/networks/eth/pools/0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852/info
+  response:
+    body:
+      string: "{\"data\":[{\"id\":\"eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\",\"type\":\"token\",\"attributes\":{\"address\":\"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\",\"name\":\"Wrapped
+        Ether\",\"symbol\":\"WETH\",\"coingecko_coin_id\":\"weth\",\"image_url\":\"https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332\",\"websites\":[\"https://weth.io/\"],\"description\":\"What
+        is WETH (Wrapped ETH)?\\r\\nWETH is the tokenized/packaged form of ETH that
+        you use to pay for items when you interact with Ethereum dApps. WETH follows
+        the ERC-20 token standards, enabling it to achieve interoperability with other
+        ERC-20 tokens.\_\\r\\n\\r\\nThis offers more utility to holders as they can
+        use it across networks and dApps. You can stake, yield farm, lend, and provide
+        liquidity to various liquidity pools with WETH.\_\\r\\n\\r\\nAlso, unlike
+        ETH, which doesn\u2019t conform to its own ERC-20 standard and thus has lower
+        interoperability as it can\u2019t be used on other chains besides Ethereum,
+        WETH can be used on cheaper and high throughput alternatives like Binance,
+        Polygon, Solana, and Cardano.\\r\\n\\r\\nThe price of WETH will always be
+        the same as ETH because it maintains a 1:1 wrapping ratio.\\r\\n\\r\\nHow
+        to Wrap ETH?\\r\\nCustodians wrap and unwrap ETH. To wrap ETH, you send ETH
+        to a custodian. This can be a multi-sig wallet, a Decentralized Autonomous
+        Organization (DAO), or a smart contract. After connecting your web3 wallet
+        to a DeFi exchange, you enter the amount of ETH you wish to wrap and click
+        the swap function. Once the transaction is confirmed, you will receive WETH
+        tokens equivalent to the ETH that you\u2019ve swapped.\\r\\n\\r\\nOn a centralized
+        exchange, the exchange burns the deposited ETH and mints a wrapped form for
+        you. And when you want to unwrap it, the exchange will burn the wrapped version
+        and mint the ETH on your behalf.\\r\\n\\r\\nWhat\u2019s Next for WETH?\\r\\nAccording
+        to the developers, hopefully there will be no future for WETH. According to
+        the website, steps are being taken to update ETH to make it compliant with
+        its own ERC-20 standards.\_\",\"gt_score\":100.0,\"discord_url\":null,\"telegram_handle\":null,\"twitter_handle\":null}},{\"id\":\"eth_0xdac17f958d2ee523a2206206994597c13d831ec7\",\"type\":\"token\",\"attributes\":{\"address\":\"0xdac17f958d2ee523a2206206994597c13d831ec7\",\"name\":\"Tether
+        USD\",\"symbol\":\"USDT\",\"coingecko_coin_id\":\"tether\",\"image_url\":\"https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661\",\"websites\":[\"https://tether.to/\"],\"description\":\"Tether
+        (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S.
+        dollar. The idea was to create a stable cryptocurrency that can be used like
+        digital dollars. Coins that serve this purpose of being a stable dollar substitute
+        are called \u201Cstable coins.\u201D Tether is the most popular stable coin
+        and even acts as a dollar replacement on many popular exchanges! According
+        to their site, Tether converts cash into digital currency, to anchor or \u201Ctether\u201D
+        the value of the coin to the price of national currencies like the US dollar,
+        the Euro, and the Yen. Like other cryptos it uses blockchain. Unlike other
+        cryptos, it is [according to the official Tether site] \u201C100% backed by
+        USD\u201D (USD is held in reserve). The primary use of Tether is that it offers
+        some stability to the otherwise volatile crypto space and offers liquidity
+        to exchanges who can\u2019t deal in dollars and with banks (for example to
+        the sometimes controversial but leading exchange \\u003ca href=\\\"https://www.coingecko.com/en/exchanges/bitfinex\\\"\\u003eBitfinex\\u003c/a\\u003e).\\r\\n\\r\\nThe
+        digital coins are issued by a company called Tether Limited that is governed
+        by the laws of the British Virgin Islands, according to the legal part of
+        its website. It is incorporated in Hong Kong. It has emerged that Jan Ludovicus
+        van der Velde is the CEO of cryptocurrency exchange Bitfinex, which has been
+        accused of being involved in the price manipulation of bitcoin, as well as
+        tether. Many people trading on exchanges, including Bitfinex, will use tether
+        to buy other cryptocurrencies like bitcoin. Tether Limited argues that using
+        this method to buy virtual currencies allows users to move fiat in and out
+        of an exchange more quickly and cheaply. Also, exchanges typically have rocky
+        relationships with banks, and using Tether is a way to circumvent that.\\r\\n\\r\\nUSDT
+        is fairly simple to use. Once on exchanges like \\u003ca href=\\\"https://www.coingecko.com/en/exchanges/poloniex\\\"\\u003ePoloniex\\u003c/a\\u003e
+        or Bittrex, it can be used to purchase Bitcoin and other cryptocurrencies.
+        It can be easily transferred from an exchange to any Omni Layer enabled wallet.
+        Tether has no transaction fees, although external wallets and exchanges may
+        charge one. In order to convert USDT to USD and vise versa through the Tether.to
+        Platform, users must pay a small fee. Buying and selling Tether for Bitcoin
+        can be done through a variety of exchanges like the ones mentioned previously
+        or through the Tether.to platform, which also allows the conversion between
+        USD to and from your bank account.\",\"gt_score\":100.0,\"discord_url\":null,\"telegram_handle\":null,\"twitter_handle\":\"Tether_to\"}}]}"
+    headers:
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Access-Control-Allow-Methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - link, per-page, total
+      Access-Control-Request-Method:
+      - '*'
+      Alternate-Protocol:
+      - 443:npn-spdy/2
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 84d8a81c8fee5fd2-SIN
+      Cache-Control:
+      - max-age=30, public, must-revalidate, s-maxage=60
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 30 Jan 2024 09:23:32 GMT
+      ETag:
+      - W/"cd7381358ffcc0b4a61e02dd7a7b5945"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=a8KFvqUT3otfW2TyLsYOQKJ8P4g24595tO1kgu9UJig-1706606612-1-AYnL9/J8jKK/k/V6gu/C/YVBVRUuVVzqgTSOgfl2Teb82JlXDRD8ctEW9Sx4Omk43p8TqGMr1T1r7wDxTxxaV9c=;
+        path=/; expires=Tue, 30-Jan-24 09:53:32 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubdomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - d6563c58-267b-4900-b715-04690a2c201f
+      X-Runtime:
+      - '0.114469'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
