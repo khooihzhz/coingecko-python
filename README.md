@@ -29,9 +29,7 @@ response = client.ping.get()
 ```
 
 ## Documentation
-For the list of endpoints, visit [CoinGecko API Documentation](https://docs.coingecko.com/)
-
-For more informations, visit [CoinGecko API Guide](https://apiguide.coingecko.com/getting-started/introduction)
+For the list of endpoints and information, visit [CoinGecko API Documentation](https://docs.coingecko.com/)
 
 ## Examples
 The default values and parameter namings for each endpoints follows the official [documentation](https://docs.coingecko.com/).
