@@ -1,4 +1,8 @@
-## 0.12 0 - 2024-02-01
+## 0.13 - 2024-03-25
+* New endpoint to check credit balance!
+* Updated links for new API documenation page
+
+## 0.12 - 2024-02-01
 * Add Onchain endpoints
 * Add Examples
 * Add custom User-Agent

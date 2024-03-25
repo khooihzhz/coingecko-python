@@ -1,0 +1,80 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - coingecko/python
+    method: GET
+    uri: https://pro-api.coingecko.com/api/v3/key
+  response:
+    body:
+      string: '{"plan":"Other","rate_limit_request_per_minute":500,"monthly_call_credit":1000,"current_total_monthly_calls":4,"current_remaining_monthly_calls":996}'
+    headers:
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 869d48152fa740f7-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 25 Mar 2024 07:45:28 GMT
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cf_bm=iCdREdtsWypx73JELD65sJH7UGF89ya1X0isFVvgdD4-1711352728-1.0.1.1-rCiQI28wrSWjmLEQocl1zAGVCF7Ck7bN8uAFoLrgioSekhg3jkyInzs08xV5sHZvLhBULi6qp_mOS4rQYBEy2A;
+        path=/; expires=Mon, 25-Mar-24 08:15:28 GMT; domain=.pro-api.coingecko.com;
+        HttpOnly; Secure; SameSite=None
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      access-control-allow-methods:
+      - POST, PUT, DELETE, GET, OPTIONS
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - link, per-page, total
+      access-control-request-method:
+      - '*'
+      alternate-protocol:
+      - 443:npn-spdy/2
+      etag:
+      - W/"ba05b399466175ce02427813c88ed1d5"
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      strict-transport-security:
+      - max-age=15724800; includeSubdomains
+      vary:
+      - Accept-Encoding, Origin
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 0bbea3f8-903b-41c2-8513-c069939b28e0
+      x-runtime:
+      - '0.102139'
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
