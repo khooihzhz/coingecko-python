@@ -2,6 +2,7 @@ import requests
 import logging
 from coingecko.api.error import CoinGeckoAPIErrorHandler
 
+logger = logging.getLogger('coingecko-python')
 class CoinGeckoAPI:
     __PRO_API_BASE_URL = 'https://pro-api.coingecko.com/api/v3'
     __API_BASE_URL = 'https://api.coingecko.com/api/v3'
@@ -20,7 +21,7 @@ class CoinGeckoAPI:
         headers = {'Content-Type': 'application/json', f'{self.api_key_header}': self.api_key, 'User-Agent': 'coingecko/python'}
 
         response = self.session.get(url, headers=headers, params=params)
-        logging.info(f"GET {url} : {response.status_code}")
+        logger.info(f"GET {url} : {response.status_code}")
 
         if response.status_code == 200:
             return response.json()
