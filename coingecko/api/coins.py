@@ -129,7 +129,8 @@ class Coins(CoinGeckoAPI):
         params = {
             'vs_currency': vs_currency,
             'days': days,
-            'interval': interval
+            'interval': interval,
+            'precision': precision
         }
 
         return self.get_data(endpoint, params=params)
@@ -144,7 +145,7 @@ class Coins(CoinGeckoAPI):
     @process_function_args
     def get_market_chart_by_contract_address(self, id: str, contract_address: str, vs_currency: str,
                                                  days: Union[str, int], interval: str = None,
-                                                 precision: [str, int] = None) -> dict:
+                                                 precision: Union[str, int] = None) -> dict:
         """Get historical market data include price, market cap, and 24h volume (granularity auto) from a contract address"""
         endpoint = f'coins/{id}/contract/{contract_address}/market_chart'
 

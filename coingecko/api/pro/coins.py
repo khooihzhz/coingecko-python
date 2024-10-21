@@ -1,4 +1,5 @@
 from coingecko.api.coins import Coins
+from coingecko.api.utils import process_function_args
 from typing import Union
 
 class ProCoins(Coins):
@@ -60,6 +61,33 @@ class ProCoins(Coins):
         params = {
             'from': from_timestamp,
             'to': to_timestamp
+        }
+
+        return self.get_data(endpoint, params=params)
+
+    @process_function_args
+    def get_list(self, include_platform: bool = False, status: str = 'active') -> list:
+        """List all supported coins id, name and symbol (no pagination required)"""
+        endpoint = 'coins/list'
+
+        params = {
+            'include_platform': include_platform,
+            'status': status
+        }
+
+        return self.get_data(endpoint, params=params)
+
+    def get_ohlc_range(self, id: str, vs_currency: str, from_timestamp: Union[str, int],
+                            to_timestamp: Union[str, int], interval: str = None, precision: Union[str, int] = None) -> list:
+        """Get the OHLC chart (Open, High, Low, Close) of a coin within a range of timestamp based on particular coin id"""
+        endpoint = f'coins/{id}/ohlc/range'
+
+        params = {
+            'vs_currency': vs_currency,
+            'from': from_timestamp,
+            'to': to_timestamp,
+            'interval': interval,
+            'precision': precision
         }
 
         return self.get_data(endpoint, params=params)

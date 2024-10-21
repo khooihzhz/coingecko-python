@@ -1,3 +1,9 @@
+## 0.14 - 2024-10-21
+* New exclusive endpoint for Pro users - ohlc/range
+* Query inactive coins using coins/list (Pro)
+* Use namespace for logging
+* Fix missing precision parameter on ohlc endpoint
+
 ## 0.13 - 2024-03-25
 * New endpoint to check credit balance!
 * Updated links for new API documenation page

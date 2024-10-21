@@ -62,3 +62,15 @@ def test_get_market_chart_range_by_contract_address_5_minutely(client):
     response = client.coins.get_market_chart_range_by_contract_address(id="ethereum", contract_address="0x1f9840a85d5af5bf1d1762f925bdaddc4201f984", vs_currency="usd", from_timestamp=1704119444, to_timestamp=1704724250, interval="5m")
 
     assert len(response["prices"]) > 0
+
+@pytest.mark.vcr
+def test_get_list_with_inactive(client):
+    response = client.coins.get_list(status='inactive')
+
+    assert len(response) > 0
+
+@pytest.mark.vcr
+def test_get_ohlc_range(client):
+    response = client.coins.get_ohlc_range(id="ethereum", vs_currency="usd", from_timestamp=1704119444, to_timestamp=1704724250, interval="hourly")
+
+    assert len(response) > 0
